@@ -4,6 +4,7 @@ const fsPomise = require('fs').promises;
 const fs = require('fs')
 const ejs = require('ejs');
 const path = require('path');
+const { log } = require('console');
 
 
 const mockKeyMapByName = {
@@ -31,17 +32,49 @@ function checkDirExists() {
       console.log('文件夹已存在');
       resolve()
     }).catch(async err => {
-     await fs.mkdir(dirName);
+      await fs.mkdir(dirName);
       resolve()
     });
   })
 }
 
+function createMockFile(mockObj) {
+  const obj = {}
+  checkDirExists().then(_ => {
+    for (const key in mockObj) {
+      if (Object.prototype.hasOwnProperty.call(mockObj, key)) {
+        const element = mockObj[key];
+        if (element.apikey) {
+          mockColumns(element.apikey)
+          const itemObj = {}
+          element.columns.forEach(item => {
+            const mockKey = mockKeyMapByName[item.title] || '@natural(1, 999)'
+            itemObj[item.dataIndex] = mockKey
+          })
+          obj[element.apikey] = itemObj
+        }
+      }
+    }
 
-function mockColumns(apikey, columnsData) {
+
+    fs.writeFileSync(path.join('mock.ts'), `export const MOCK_DATA = ${JSON.stringify(obj)}`, (err) => {
+      if (err) {
+        console.error('写入文件失败:', err);
+        return;
+      }
+    });
+
+  })
+
+
+}
+
+
+function mockColumns(apikey) {
+  console.log(apikey, 'apikey')
   checkDirExists().then(res => {
     const template = fs.readFileSync('template.ejs', 'utf-8');
-    const rendered = ejs.render(template, {});
+    const rendered = ejs.render(template, { apikey });
     fs.writeFileSync(path.join(dirName, apikey + '.ts'), rendered, (err) => {
       if (err) {
         console.error('写入文件失败:', err);
@@ -52,4 +85,6 @@ function mockColumns(apikey, columnsData) {
 }
 
 
-mockColumns()
+
+
+exports.createMockFile = createMockFile

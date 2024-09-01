@@ -1,5 +1,7 @@
 const apiData = require('./data').default
 
+const createMockFile = require('./mock').createMockFile;
+
 
 function toLowerCaseFirstLetter(str) {
   if (!str) return str; // 如果字符串为空，直接返回
@@ -60,4 +62,7 @@ for (const key in apiData) {
   }
 }
 
+
+
 console.log(seriApiObj, 'seriApiObj');
+createMockFile(apiData)

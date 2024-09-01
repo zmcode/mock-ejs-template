@@ -1,6 +1,6 @@
 const apiData = {
   '商品-商品管理-商品列表': {
-    apiKey: 'commodityMangerList',
+    apikey: 'commodityMangerList',
     columns: [
       {
         title: '商品编码',

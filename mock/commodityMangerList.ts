@@ -8,6 +8,6 @@ export default eventHandler((event) => {
     return useResponseError('UnauthorizedException', 'Unauthorized Exception');
   }
 
-  const data = Mock.mock(MOCK_DATA.<%= apikey %>);
+  const data = Mock.mock(MOCK_DATA.commodityMangerList);
   return useResponseSuccess(data);
 });
