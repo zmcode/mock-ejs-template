@@ -32,9 +32,14 @@ for (const key in apiData) {
           label: item.title,
           width: item.width,
           prop: item.dataIndex,
-          fixed: item.fixed
         }
         clearEmptyProperties(object)
+
+        if (item.fixed) {
+          object.tableColumnProps = {
+            fixed: item.fixed,
+          }
+        }
         return object
       }),
       formData: element.formData.map(item => {

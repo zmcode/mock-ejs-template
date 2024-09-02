@@ -4,7 +4,6 @@ const fsPomise = require('fs').promises;
 const fs = require('fs')
 const ejs = require('ejs');
 const path = require('path');
-const { log } = require('console');
 
 
 const mockKeyMapByName = {
@@ -21,7 +20,25 @@ const mockKeyMapByName = {
   '硬度': `@pick(['HRC25', 'HRC26', 'HRC27', 'HRC28', 'HRC29', 'HRC30', 'HRC31', 'HRC32', 'HRC33', 'HRC34','HRC35' ])`,
   '钢印': `@pick(['有印', '无印'])`,
   '等级': `@pick(['一级品', '二级品','三级品','四级品','五级品', ])`,
-  '细分名称': `@pick(['圆管', '旗杆管', '围栏管', '制品管', '不锈钢管'])`
+  '细分名称': `@pick(['圆管', '旗杆管', '围栏管', '制品管', '不锈钢管'])`,
+  '规格格式': `@pick(['外经 * 壁厚 * 长度（mm）'])`,
+  '密度值': `@pick(['7.85 g/cm³'])`,
+  '计量方式': `@pick(['记数', '理记', '抄码'])`,
+  '数量单位':  `@pick(['支','个','张','卷','根','条','批','台','套','箱','块'])`,
+  '重量单位': `@pick(['千克（kg）', '克（g）', '吨（t）'])`,
+  '计价单位': `@pick(['千克（kg）', '克（g）', '吨（t）'])`,
+  '税率': `@pick(['13%', '9%', '0%'])`,
+  '创建人': `@pick(['系统管理员'])`,
+  '更新人': `@pick(['钢材信息专家'])`,
+  '更新时间': `@date('yyyy-MM-dd hh:mm:ss')`,
+  '商品备注': `@pick(['-'])`,
+  '发票税务编码': `@pick(['-'])`,
+  '协议日期': `@date('yyyy-MM-dd')`,
+  '协议编号': `@pick(['ABFF01', '01FEA2', '0AF303', '82FF04'])`,
+  '客户':`@cname()`,
+  '业务员': `@cname()`,
+  '类别编码': `@pick(['ABFF01', '01FEA2', '0AF303', '82FF04'])`,
+  '类别': `@pick(['不锈钢/不锈钢管/圆管', '不锈钢/不锈钢管/方管', '不锈钢/不锈钢管/矩管', '不锈钢/不锈钢管/异形管'])`
 }
 
 
@@ -57,7 +74,7 @@ function createMockFile(mockObj) {
     }
 
 
-    fs.writeFileSync(path.join('mock.ts'), `export const MOCK_DATA = ${JSON.stringify(obj)}`, (err) => {
+    fs.writeFileSync(path.join('mock.ts'), `export const MOCK_DATA = ${ JSON.stringify(obj)}`, (err) => {
       if (err) {
         console.error('写入文件失败:', err);
         return;

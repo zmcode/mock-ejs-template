@@ -8,6 +8,9 @@ export default eventHandler((event) => {
     return useResponseError('UnauthorizedException', 'Unauthorized Exception');
   }
 
-  const data = Mock.mock(MOCK_DATA.commodityMangerList);
+  const data = Mock.mock({
+    'list|20': [MOCK_DATA.commodityMangerList],
+    total: 20
+  });
   return useResponseSuccess(data);
 });

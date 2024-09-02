@@ -161,6 +161,8 @@ const apiData = {
     ]
   },
   '商品-商品设置-商品资料库': {
+    apikey: 'commoditySettingInfo',
+
     columns: [
       {
         title: '类别编码',
