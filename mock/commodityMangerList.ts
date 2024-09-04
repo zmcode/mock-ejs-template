@@ -10,7 +10,7 @@ export default eventHandler((event) => {
 
   const data = Mock.mock({
     'list|20': [MOCK_DATA.commodityMangerList],
-    total: 20
+    total: 20,
   });
   return useResponseSuccess(data);
 });

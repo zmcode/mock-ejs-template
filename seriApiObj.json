@@ -1,0 +1,298 @@
+const seriApiObj = {
+  "商品-商品管理-商品列表": {
+    "columns": [
+      {
+        "label": "商品编码",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "商品类别",
+        "width": 180,
+        "prop": "demo1"
+      },
+      {
+        "label": "商品名称",
+        "width": 160,
+        "prop": "demo2"
+      },
+      {
+        "label": "细分名称",
+        "width": 140,
+        "prop": "demo3"
+      },
+      {
+        "label": "材质",
+        "width": 80,
+        "prop": "demo4"
+      },
+      {
+        "label": "规格",
+        "width": 140,
+        "prop": "demo5"
+      },
+      {
+        "label": "产地",
+        "width": 100,
+        "prop": "demo6"
+      },
+      {
+        "label": "工艺",
+        "width": 140,
+        "prop": "demo7"
+      },
+      {
+        "label": "形状",
+        "width": 80,
+        "prop": "demo8"
+      },
+      {
+        "label": "表面",
+        "width": 100,
+        "prop": "demo9"
+      },
+      {
+        "label": "硬度",
+        "width": 100,
+        "prop": "demo10"
+      },
+      {
+        "label": "钢印",
+        "width": 80,
+        "prop": "demo11"
+      },
+      {
+        "label": "等级",
+        "width": 80,
+        "prop": "demo12"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field5",
+        "label": "创建日期",
+        "fieldProps": {
+          "type": "daterange"
+        },
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "field6",
+        "label": "状态",
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field5": "",
+      "field6": ""
+    }
+  },
+  "商品-商品管理-商品列表-新增": {
+    "columns": [
+      {
+        "label": "商品类别",
+        "width": 100,
+        "prop": "name",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "类别编码",
+        "prop": "name"
+      },
+      {
+        "label": "商品名称",
+        "prop": "address"
+      },
+      {
+        "label": "细分名称",
+        "prop": "beginTime"
+      },
+      {
+        "label": "助记码",
+        "prop": "endTime"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品编号",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品名称",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "细分名称",
+        "valueType": "input"
+      },
+      {
+        "prop": "field4",
+        "label": "助记码",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": ""
+    }
+  },
+  "商品-商品设置-商品资料库": {
+    "columns": [
+      {
+        "label": "类别编码",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "类别",
+        "width": 180,
+        "prop": "demo1"
+      },
+      {
+        "label": "商品名称",
+        "width": 160,
+        "prop": "demo2"
+      },
+      {
+        "label": "细分名称",
+        "width": 120,
+        "prop": "demo3"
+      },
+      {
+        "label": "助记码",
+        "width": 160,
+        "prop": "demo4"
+      },
+      {
+        "label": "规格格式",
+        "width": 220,
+        "prop": "demo5"
+      },
+      {
+        "label": "密度值",
+        "width": 120,
+        "prop": "demo6"
+      },
+      {
+        "label": "计量方式",
+        "width": 100,
+        "prop": "demo7"
+      },
+      {
+        "label": "数量单位",
+        "width": 100,
+        "prop": "demo8"
+      },
+      {
+        "label": "重量单位",
+        "width": 100,
+        "prop": "demo9"
+      },
+      {
+        "label": "计价单位",
+        "width": 100,
+        "prop": "demo10"
+      },
+      {
+        "label": "税率",
+        "width": 100,
+        "prop": "demo11"
+      },
+      {
+        "label": "属性数量",
+        "width": 100,
+        "prop": "demo12"
+      },
+      {
+        "label": "创建人",
+        "width": 100,
+        "prop": "demo13"
+      },
+      {
+        "label": "更新人",
+        "width": 100,
+        "prop": "demo14"
+      },
+      {
+        "label": "更新时间",
+        "width": 160,
+        "prop": "demo15"
+      },
+      {
+        "label": "商品备注",
+        "width": 100,
+        "prop": "demo16"
+      },
+      {
+        "label": "发票税务编码",
+        "width": 120,
+        "prop": "demo17"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field5",
+        "label": "商品编号",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field4": "",
+      "field5": ""
+    }
+  }
+}

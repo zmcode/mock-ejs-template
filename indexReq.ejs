@@ -1,0 +1,6 @@
+<% fileNameArr.forEach(function(filename){ -%>
+export * from './<%= filename %>';
+<% }); -%>
+<% if (other) { -%>
+<%- other -%>
+<% } %>

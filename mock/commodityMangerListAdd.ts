@@ -9,7 +9,7 @@ export default eventHandler((event) => {
   }
 
   const data = Mock.mock({
-    'list|20': [MOCK_DATA.<%= apikey %>],
+    'list|20': [MOCK_DATA.commodityMangerListAdd],
     total: 20,
   });
   return useResponseSuccess(data);

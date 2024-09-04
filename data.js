@@ -1,6 +1,8 @@
 const apiData = {
   '商品-商品管理-商品列表': {
     apikey: 'commodityMangerList',
+    apiFolder: 'commodityManger',
+    apiFileName: 'list',
     columns: [
       {
         title: '商品编码',
@@ -160,9 +162,85 @@ const apiData = {
       },
     ]
   },
+  '商品-商品管理-商品列表-新增': {
+    apikey: 'commodityMangerListAdd',
+    apiFolder: 'commodityManger',
+    apiFileName: 'list',
+    columns: [
+      {
+        title: '商品类别',
+        fixed: 'left',
+        dataIndex: 'name',
+        width: 100,
+      },
+      {
+        title: '类别编码',
+        dataIndex: 'name',
+      },
+      {
+        title: '商品名称',
+        dataIndex: 'address',
+      },
+      {
+        title: '细分名称',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '助记码',
+        dataIndex: 'endTime',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品编号',
+        colProps: {
+          span: 12,
+        },
+        componentProps: {
+          placeholder: '请选择商品编号',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品名称',
+        colProps: {
+          span: 12,
+        },
+        componentProps: {
+          placeholder: '请输入商品名称',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Input',
+        label: '细分名称',
+        colProps: {
+          span: 12,
+        },
+        componentProps: {
+          placeholder: '请输入细分名称',
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Input',
+        label: '助记码',
+        colProps: {
+          span: 12,
+        },
+        componentProps: {
+          placeholder: '请输入助记码',
+        },
+      },
+    ]
+  },
   '商品-商品设置-商品资料库': {
     apikey: 'commoditySettingInfo',
-
+    apiFileName: 'info',
+    apiFolder: 'commoditySet',
     columns: [
       {
         title: '类别编码',

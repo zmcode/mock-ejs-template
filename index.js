@@ -1,4 +1,6 @@
 const apiData = require('./data').default
+const fs = require('fs')
+const path = require('path');
 
 const createMockFile = require('./mock').createMockFile;
 
@@ -10,13 +12,13 @@ function toLowerCaseFirstLetter(str) {
 
 function clearEmptyProperties(obj) {
   for (const key in obj) {
-      // 检查属性是否为空
-      if (obj[key] === null || 
-          obj[key] === undefined || 
-          (typeof obj[key] === 'string' && obj[key].trim() === '') || 
-          (Array.isArray(obj[key]) && obj[key].length === 0)) {
-          delete obj[key]; // 删除空属性
-      }
+    // 检查属性是否为空
+    if (obj[key] === null ||
+      obj[key] === undefined ||
+      (typeof obj[key] === 'string' && obj[key].trim() === '') ||
+      (Array.isArray(obj[key]) && obj[key].length === 0)) {
+      delete obj[key]; // 删除空属性
+    }
   }
 }
 
@@ -57,7 +59,7 @@ for (const key in apiData) {
             type: 'daterange'
           }
         }
-        
+
         formValues[item.field] = ''
         object.valueType = toLowerCaseFirstLetter(item.component)
         return object
@@ -68,6 +70,11 @@ for (const key in apiData) {
 }
 
 
+fs.writeFileSync(path.join('seriApiObj.json'), `${JSON.stringify(seriApiObj)}`, (err) => {
+  if (err) {
+    console.error('写入文件失败:', err);
+    return;
+  }
+});
 
-console.log(seriApiObj, 'seriApiObj');
 createMockFile(apiData)
