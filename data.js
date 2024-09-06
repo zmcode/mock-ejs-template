@@ -381,6 +381,1008 @@ const apiData = {
         },
       },
     ]
+  },
+  '商品-基础与加价': {
+    apikey: 'commodityBaseList',
+    apiFileName: 'list',
+    apiFolder: 'commodityBase',
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '产地',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入产地',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '仓库',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择仓库',
+          options: [
+            {
+              value: 1,
+              label: '仓库1',
+            },
+            {
+              value: 0,
+              label: '仓库2',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+    ],
+    columns: [
+      {
+        title: '商品类别',
+        dataIndex: 'id',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '产地',
+        dataIndex: 'name',
+        helpMessage: '我是姓名啊啊啊',
+      },
+      {
+        title: '仓库',
+        dataIndex: 'address',
+      },
+      {
+        title: '基价',
+        dataIndex: 'no',
+        defaultHidden: true,
+      },
+      {
+        title: '开始时间',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '结束时间',
+    
+        dataIndex: 'endTime',
+      },
+    ]
+  },
+  '库存-库存统计-库存查询': {
+    apikey: 'stockInfoList',
+    apiFolder: 'stockInfo',
+    apiFileName: 'list',
+    columns:[
+      {
+        title: '类别',
+        dataIndex: 'id',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '材质',
+        dataIndex: 'name',
+        helpMessage: '我是姓名啊啊啊',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+      {
+        title: '产地',
+        dataIndex: 'no',
+        defaultHidden: true,
+      },
+      {
+        title: '仓库',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '库存数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '冻结数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '冻结重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '可售数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '可售重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '累计可售重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存均价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货主',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货权类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'endTime',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
+  },
+  '库存-库存统计-批次库存': {
+    apikey: 'stockInfoLot',
+    apiFolder: 'stockInfo',
+    apiFileName: 'lot',
+    columns:[
+      {
+        title: '商品编码',
+        dataIndex: 'id',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '商品类别',
+        dataIndex: 'name',
+        helpMessage: '我是姓名啊啊啊',
+      },
+      {
+        title: '材质',
+        dataIndex: 'address',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+      {
+        title: '产地',
+        dataIndex: 'no',
+        defaultHidden: true,
+      },
+      {
+        title: '仓库',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '计量方式',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '加工品类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '冻结数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '冻结重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '可售数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '可售重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '含税入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '不含税入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '调整入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '实际入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '含税库存成本',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '不含税库存成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '调整库存成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '不含税入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '实际库存成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '渠道售价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '两票费用单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '两票成本',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '入库单价（包含两票）',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存成本（包含两票）',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '捆包号',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '货位号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '单据类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '单据编号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '批号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '工程项目',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '所属部门',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '货源',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '供应商',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货主',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货权类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '单件重',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '税率',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库日期',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '采购订单号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '来货车船号',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '数量单位',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '计价单位',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '批次备注',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '锁定状态',
+        dataIndex: 'endTime1',
+        fixed: 'right',
+        checked1: false,
+      },
+      {
+        title: '隐藏状态',
+        dataIndex: 'endTime2',
+        fixed: 'right',
+        checked: true,
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
+  },
+  '库存-库存统计-库存流水': {
+    apikey: 'stockInfoFlow',
+    apiFolder: 'stockInfo',
+    apiFileName: 'flow',
+    columns: [
+      {
+        title: '交易日期',
+        dataIndex: 'endTime',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '单据类型',
+        dataIndex: 'name',
+        helpMessage: '我是姓名啊啊啊',
+      },
+      {
+        title: '出入库方向',
+        dataIndex: 'address',
+      },
+      {
+        title: '单据编号',
+        dataIndex: 'no',
+        defaultHidden: true,
+      },
+      {
+        title: '商品编码',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '商品名称',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '商品类别',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '材质',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '规格',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '产地',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '仓库',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '计量方式',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '交易数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '交易重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '捆包号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '工程项目',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '供应商',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '客户',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '货主',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货权类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '采购订单号',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '销售订单号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '批号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '数量单位',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'endTime',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
+  },
+  '库存-库存统计-库存查询': {
+    apikey: 'stockInfoSearch',
+    apiFolder: 'stockInfo',
+    apiFileName: 'search',
+    columns: [
+      {
+        title: '商品名称',
+        dataIndex: 'id',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '商品类别',
+        dataIndex: 'name',
+        helpMessage: '我是姓名啊啊啊',
+      },
+      {
+        title: '材质',
+        dataIndex: 'address',
+      },
+      {
+        title: '规格',
+        dataIndex: 'no',
+        defaultHidden: true,
+      },
+      {
+        title: '产地',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '仓库',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '期初数量',
+        dataIndex: 'switch',
+      },
+      {
+        title: '期初重量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '期初库存单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '期初库存金额',
+        dataIndex: 'switch',
+      },
+      {
+        title: '入库数量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '入库金额',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库均价',
+        dataIndex: 'switch',
+      },
+      {
+        title: '入库重量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '出库数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '出库金额',
+        dataIndex: 'switch',
+      },
+    
+      {
+        title: '出库均价',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '出库重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存调整数量',
+        dataIndex: 'switch',
+      },
+      {
+        title: '库存调整重量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '库存调拨数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存调拨重量',
+        dataIndex: 'switch',
+      },
+    
+      {
+        title: '加工数量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '期末数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '期末库存单价',
+        dataIndex: 'switch',
+      },
+      {
+        title: '期末库存单价',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'endTime',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
   }
 }
 exports.default = apiData

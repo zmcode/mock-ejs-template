@@ -170,10 +170,17 @@ function createMockFile(mockObj) {
         if (element.apikey) {
           mockColumns(element.apikey)
           const itemObj = {}
-          element.columns.forEach(item => {
-            const mockKey = mockKeyMapByName[item.title] || '@natural(1, 999)'
-            itemObj[item.dataIndex] = mockKey
+          element.columns.forEach((item, index) => {
+            let mockKey = ''
+            if (item.title.includes('时间') || item.title.includes('日期')) {
+              mockKey = `@date('yyyy-MM-dd')`
+            } else {
+              mockKey = mockKeyMapByName[item.title] || '@natural(1, 999)'
+            }
+
+            itemObj[`demo${index}`] = mockKey
           })
+          itemObj['id'] = '@natural(1, 99999)' // 随机分配一个id, 作为表格的id
           obj[element.apikey] = itemObj
 
           if (element.apiFolder && element.apiFileName) {

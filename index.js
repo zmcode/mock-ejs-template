@@ -29,11 +29,11 @@ for (const key in apiData) {
     const element = apiData[key];
     const formValues = {}
     seriApiObj[key] = {
-      columns: element.columns.map(item => {
+      columns: element.columns.map  ((item, index) => {
         const object = {
           label: item.title,
           width: item.width,
-          prop: item.dataIndex,
+          prop: 'demo' + index,
         }
         clearEmptyProperties(object)
 
