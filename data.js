@@ -469,7 +469,7 @@ const apiData = {
       },
       {
         title: '结束时间',
-    
+
         dataIndex: 'endTime',
       },
     ]
@@ -478,7 +478,7 @@ const apiData = {
     apikey: 'stockInfoList',
     apiFolder: 'stockInfo',
     apiFileName: 'list',
-    columns:[
+    columns: [
       {
         title: '类别',
         dataIndex: 'id',
@@ -653,7 +653,7 @@ const apiData = {
     apikey: 'stockInfoLot',
     apiFolder: 'stockInfo',
     apiFileName: 'lot',
-    columns:[
+    columns: [
       {
         title: '商品编码',
         dataIndex: 'id',
@@ -742,7 +742,7 @@ const apiData = {
         title: '含税库存成本',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '不含税库存成本',
         dataIndex: 'endTime',
@@ -771,7 +771,7 @@ const apiData = {
         title: '两票成本',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '入库单价（包含两票）',
         dataIndex: 'endTime',
@@ -784,7 +784,7 @@ const apiData = {
         title: '捆包号',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '货位号',
         dataIndex: 'endTime',
@@ -813,12 +813,12 @@ const apiData = {
         title: '所属部门',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '货源',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '供应商',
         dataIndex: 'endTime',
@@ -851,7 +851,7 @@ const apiData = {
         title: '来货车船号',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '数量单位',
         dataIndex: 'endTime',
@@ -1055,7 +1055,7 @@ const apiData = {
         title: '客户',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '货主',
         dataIndex: 'endTime',
@@ -1068,7 +1068,7 @@ const apiData = {
         title: '采购订单号',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '销售订单号',
         dataIndex: 'endTime',
@@ -1175,7 +1175,7 @@ const apiData = {
       },
     ]
   },
-  '库存-库存统计-库存查询': {
+  '库存-库存统计-进销存查询': {
     apikey: 'stockInfoSearch',
     apiFolder: 'stockInfo',
     apiFileName: 'search',
@@ -1248,7 +1248,7 @@ const apiData = {
         title: '出库金额',
         dataIndex: 'switch',
       },
-    
+
       {
         title: '出库均价',
         dataIndex: 'beginTime',
@@ -1273,7 +1273,7 @@ const apiData = {
         title: '库存调拨重量',
         dataIndex: 'switch',
       },
-    
+
       {
         title: '加工数量',
         dataIndex: 'beginTime',
@@ -1383,6 +1383,338 @@ const apiData = {
         },
       },
     ]
+  },
+  '库存-库存管理-库存调整': {
+    apikey: 'stockMangeAdjust',
+    apiFolder: 'stockMange',
+    apiFileName: 'adjust',
+    columns: [
+      {
+        title: '库存调整日期',
+        dataIndex: 'beginTime',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '仓库',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '单据编号',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '调整原因',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '调整数量',
+        dataIndex: 'switch',
+      },
+      {
+        title: '调整重量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '调整成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'switch',
+      },
+      {
+        title: '货主',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '业务员',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '来源销售单号',
+        dataIndex: 'switch',
+      },
+
+      {
+        title: '来源单据类型',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '来源单据编号',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '操作人',
+        dataIndex: 'switch',
+      },
+      {
+        title: '创建时间',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '更新时间',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'switch',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
+  },
+  "库存-库存管理-库存调整-新建库存调整": {
+    virtual: true,
+    columns: [
+      {
+        title: '商品编号',
+        dataIndex: 'address',
+        fixed: 'left',
+      },
+      {
+        title: '商品名称',
+        dataIndex: 'address',
+      },
+      {
+        title: '材质',
+        dataIndex: 'address',
+      },
+      {
+        title: '产地',
+        dataIndex: 'address',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+      {
+        title: '实际厚度',
+        dataIndex: 'width1',
+      },
+      {
+        title: '计量方式',
+        dataIndex: 'width2',
+      },
+      {
+        title: '调整数量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '调整重量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '单件重',
+        dataIndex: 'width1',
+      },
+      {
+        title: '入库单价',
+        dataIndex: 'width1',
+      },
+      {
+        title: '入库成本',
+        dataIndex: 'width1',
+      },
+      {
+        title: '捆包号',
+        dataIndex: 'width1',
+      },
+      {
+        title: '货位号',
+        dataIndex: 'width1',
+      },
+      {
+        title: '计价单位',
+        dataIndex: 'width1',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'width1',
+      },
+      {
+        title: '数量单位',
+        dataIndex: 'width1',
+      },
+      {
+        title: '供应商',
+        dataIndex: 'width1',
+      },
+      {
+        title: '批号',
+        dataIndex: 'width1',
+      },
+      {
+        title: '自编号',
+        dataIndex: 'width1',
+      },
+      {
+        title: '长度',
+        dataIndex: 'width1',
+      },
+      {
+        title: '密度值',
+        dataIndex: 'width1',
+      },
+    ],
+    formData:[]
+  },
+  '库存-库存管理-库存调拨': {
+    apikey: 'stockMangeAllot',
+    apiFolder: 'stockMange',
+    apiFileName: 'allot',
+    columns: [
+      {
+        title: '库存调拨日期',
+        dataIndex: 'beginTime',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '调出仓库',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '调入仓库',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '调出公司',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '调入公司',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '单据编号',
+        dataIndex: 'switch',
+      },
+      {
+        title: '总重量',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '总金额（元）',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '调拨费用金额（元）',
+        dataIndex: 'switch',
+      },
+      {
+        title: '业务员',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '操作人',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '创建时间',
+        dataIndex: 'endTime',
+      },
+    
+      {
+        title: '更新时间',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'endTime',
+      },
+    ],
+    formData:[]
   }
 }
 exports.default = apiData

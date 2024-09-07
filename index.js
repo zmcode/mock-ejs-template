@@ -29,11 +29,12 @@ for (const key in apiData) {
     const element = apiData[key];
     const formValues = {}
     seriApiObj[key] = {
-      columns: element.columns.map  ((item, index) => {
+      columns: element.columns.map((item, index) => {
+        const prop = 'demo' + index
         const object = {
           label: item.title,
           width: item.width,
-          prop: 'demo' + index,
+          prop
         }
         clearEmptyProperties(object)
 
@@ -42,6 +43,17 @@ for (const key in apiData) {
             fixed: item.fixed,
           }
         }
+
+
+        if (element.virtual) {
+          object.dataKey = prop
+          object.key = prop
+          object.title = item.title
+          if (item.fixed) {
+            object.fixed = item.fixed
+          }
+        }
+
         return object
       }),
       formData: element.formData.map(item => {

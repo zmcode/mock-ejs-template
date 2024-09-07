@@ -180,6 +180,9 @@ function createMockFile(mockObj) {
 
             itemObj[`demo${index}`] = mockKey
           })
+
+
+
           itemObj['id'] = '@natural(1, 99999)' // 随机分配一个id, 作为表格的id
           obj[element.apikey] = itemObj
 
