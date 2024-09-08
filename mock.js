@@ -199,7 +199,7 @@ function createMockFile(mockObj) {
         }
       }
     }
-    const mockFolderPath = 'F:/gangtie-next/gangtie-next/apps/backend-mock/api/mock' // 替换你的目录
+    const mockFolderPath = 'E:/gangtie-next/gangtie-next/apps/backend-mock/api/mock' // 替换你的目录
     copyDirectory('mock', mockFolderPath);
 
 
@@ -210,7 +210,7 @@ function createMockFile(mockObj) {
         return;
       }
     });
-    const mockDataFilePath = 'F:/gangtie-next/gangtie-next/apps/backend-mock/utils/mock.ts' // 替换你的目录
+    const mockDataFilePath = 'E:/gangtie-next/gangtie-next/apps/backend-mock/utils/mock.ts' // 替换你的目录
     copyFile(path.join('mock.ts'), mockDataFilePath);
 
 
@@ -246,7 +246,7 @@ function createMockFile(mockObj) {
     })
     createIndexFileByPath('api')
 
-    const apiFolderPath = 'F:/gangtie-next/gangtie-next/apps/web-ele/src/api' // 替换你的目录
+    const apiFolderPath = 'E:/gangtie-next/gangtie-next/apps/web-ele/src/api' // 替换你的目录
     copyDirectory('api', apiFolderPath);
 
   })

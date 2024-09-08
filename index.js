@@ -52,6 +52,8 @@ for (const key in apiData) {
           if (item.fixed) {
             object.fixed = item.fixed
           }
+          object.width = item.width || 150
+
         }
 
         return object
@@ -71,6 +73,20 @@ for (const key in apiData) {
             type: 'daterange'
           }
         }
+
+        if (item.component === 'datePicker') {
+          item.component = 'date-picker'
+        }
+
+
+        if (item.component === 'CheckboxGroup') {
+          item.component = 'checkbox'
+          if (item.componentProps && item.componentProps.options) {
+            object.options = item.componentProps.options
+          }
+        }
+
+
 
         formValues[item.field] = ''
         object.valueType = toLowerCaseFirstLetter(item.component)

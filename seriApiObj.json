@@ -1184,154 +1184,176 @@
         "dataKey": "demo0",
         "key": "demo0",
         "title": "商品编号",
-        "fixed": "left"
+        "fixed": "left",
+        "width": 150
       },
       {
         "label": "商品名称",
         "prop": "demo1",
         "dataKey": "demo1",
         "key": "demo1",
-        "title": "商品名称"
+        "title": "商品名称",
+        "width": 150
       },
       {
         "label": "材质",
         "prop": "demo2",
         "dataKey": "demo2",
         "key": "demo2",
-        "title": "材质"
+        "title": "材质",
+        "width": 150
       },
       {
         "label": "产地",
         "prop": "demo3",
         "dataKey": "demo3",
         "key": "demo3",
-        "title": "产地"
+        "title": "产地",
+        "width": 150
       },
       {
         "label": "规格",
         "prop": "demo4",
         "dataKey": "demo4",
         "key": "demo4",
-        "title": "规格"
+        "title": "规格",
+        "width": 150
       },
       {
         "label": "实际厚度",
         "prop": "demo5",
         "dataKey": "demo5",
         "key": "demo5",
-        "title": "实际厚度"
+        "title": "实际厚度",
+        "width": 150
       },
       {
         "label": "计量方式",
         "prop": "demo6",
         "dataKey": "demo6",
         "key": "demo6",
-        "title": "计量方式"
+        "title": "计量方式",
+        "width": 150
       },
       {
         "label": "调整数量",
         "prop": "demo7",
         "dataKey": "demo7",
         "key": "demo7",
-        "title": "调整数量"
+        "title": "调整数量",
+        "width": 150
       },
       {
         "label": "调整重量",
         "prop": "demo8",
         "dataKey": "demo8",
         "key": "demo8",
-        "title": "调整重量"
+        "title": "调整重量",
+        "width": 150
       },
       {
         "label": "单件重",
         "prop": "demo9",
         "dataKey": "demo9",
         "key": "demo9",
-        "title": "单件重"
+        "title": "单件重",
+        "width": 150
       },
       {
         "label": "入库单价",
         "prop": "demo10",
         "dataKey": "demo10",
         "key": "demo10",
-        "title": "入库单价"
+        "title": "入库单价",
+        "width": 150
       },
       {
         "label": "入库成本",
         "prop": "demo11",
         "dataKey": "demo11",
         "key": "demo11",
-        "title": "入库成本"
+        "title": "入库成本",
+        "width": 150
       },
       {
         "label": "捆包号",
         "prop": "demo12",
         "dataKey": "demo12",
         "key": "demo12",
-        "title": "捆包号"
+        "title": "捆包号",
+        "width": 150
       },
       {
         "label": "货位号",
         "prop": "demo13",
         "dataKey": "demo13",
         "key": "demo13",
-        "title": "货位号"
+        "title": "货位号",
+        "width": 150
       },
       {
         "label": "计价单位",
         "prop": "demo14",
         "dataKey": "demo14",
         "key": "demo14",
-        "title": "计价单位"
+        "title": "计价单位",
+        "width": 150
       },
       {
         "label": "重量单位",
         "prop": "demo15",
         "dataKey": "demo15",
         "key": "demo15",
-        "title": "重量单位"
+        "title": "重量单位",
+        "width": 150
       },
       {
         "label": "数量单位",
         "prop": "demo16",
         "dataKey": "demo16",
         "key": "demo16",
-        "title": "数量单位"
+        "title": "数量单位",
+        "width": 150
       },
       {
         "label": "供应商",
         "prop": "demo17",
         "dataKey": "demo17",
         "key": "demo17",
-        "title": "供应商"
+        "title": "供应商",
+        "width": 150
       },
       {
         "label": "批号",
         "prop": "demo18",
         "dataKey": "demo18",
         "key": "demo18",
-        "title": "批号"
+        "title": "批号",
+        "width": 150
       },
       {
         "label": "自编号",
         "prop": "demo19",
         "dataKey": "demo19",
         "key": "demo19",
-        "title": "自编号"
+        "title": "自编号",
+        "width": 150
       },
       {
         "label": "长度",
         "prop": "demo20",
         "dataKey": "demo20",
         "key": "demo20",
-        "title": "长度"
+        "title": "长度",
+        "width": 150
       },
       {
         "label": "密度值",
         "prop": "demo21",
         "dataKey": "demo21",
         "key": "demo21",
-        "title": "密度值"
+        "title": "密度值",
+        "width": 150
       }
     ],
     "formData": [],
@@ -1398,6 +1420,296 @@
       {
         "label": "重量单位",
         "prop": "demo13"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "库存-库存管理-库存调拨-基本信息": {
+    "columns": [],
+    "formData": [
+      {
+        "prop": "name111",
+        "label": "调拨类型",
+        "options": [
+          {
+            "value": "0",
+            "label": "公司内调拨"
+          },
+          {
+            "value": "1",
+            "label": "跨公司调拨"
+          }
+        ],
+        "valueType": "checkbox"
+      },
+      {
+        "prop": "name",
+        "label": "调出公司",
+        "valueType": "select"
+      },
+      {
+        "prop": "name2555",
+        "label": "调出仓库",
+        "valueType": "select"
+      },
+      {
+        "prop": "name344",
+        "label": "调拨日期",
+        "valueType": "datePicker"
+      },
+      {
+        "prop": "name33",
+        "label": "调入公司",
+        "valueType": "select"
+      },
+      {
+        "prop": "name222",
+        "label": "调入仓库",
+        "valueType": "select"
+      },
+      {
+        "prop": "name2",
+        "label": "业务员",
+        "valueType": "input"
+      },
+      {
+        "prop": "name21",
+        "label": "备注",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "name111": "",
+      "name": "",
+      "name2555": "",
+      "name344": "",
+      "name33": "",
+      "name222": "",
+      "name2": "",
+      "name21": ""
+    }
+  },
+  "库存-库存管理-库存调拨-调拨提货涵": {
+    "columns": [],
+    "formData": [
+      {
+        "prop": "name111",
+        "label": "提货涵",
+        "options": [
+          {
+            "value": "0",
+            "label": "需要"
+          },
+          {
+            "value": "1",
+            "label": "不需要"
+          }
+        ],
+        "valueType": "checkbox"
+      },
+      {
+        "prop": ""
+      },
+      {
+        "prop": "name",
+        "label": "提货人",
+        "valueType": "input"
+      },
+      {
+        "prop": "name2555",
+        "label": "联系手机号",
+        "valueType": "input"
+      },
+      {
+        "prop": "name344",
+        "label": "身份证号码",
+        "valueType": "input"
+      },
+      {
+        "prop": "name33",
+        "label": "车牌号码",
+        "valueType": "input"
+      },
+      {
+        "prop": "name222",
+        "label": "车队名称",
+        "valueType": "input"
+      },
+      {
+        "prop": "name21",
+        "label": "留言",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "name111": "",
+      "": "",
+      "name": "",
+      "name2555": "",
+      "name344": "",
+      "name33": "",
+      "name222": "",
+      "name21": ""
+    }
+  },
+  "库存-库存管理-库存调拨-调出商品明细": {
+    "columns": [
+      {
+        "label": "商品编号",
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        },
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品编号",
+        "fixed": "left",
+        "width": 150
+      },
+      {
+        "label": "商品类别",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "商品类别",
+        "width": 150
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "商品名称",
+        "width": 150
+      },
+      {
+        "label": "材质",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "规格",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "规格",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "产地",
+        "width": 150
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "调整数量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "调整数量",
+        "width": 150
+      },
+      {
+        "label": "调整重量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "调整重量",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "批号",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "批号",
+        "width": 150
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "本方公司",
+        "width": 150
+      },
+      {
+        "label": "仓库",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "仓库",
+        "width": 150
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "重量单位",
+        "width": 150
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "数量单位",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "计价单位",
+        "width": 150
+      },
+      {
+        "label": "自编号",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "自编号",
+        "width": 150
+      },
+      {
+        "label": "长度",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "长度",
+        "width": 150
       }
     ],
     "formData": [],

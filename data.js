@@ -1715,6 +1715,357 @@ const apiData = {
       },
     ],
     formData:[]
+  },
+  '库存-库存管理-库存调拨-基本信息': {
+    columns: [],
+    formData: [
+      {
+        field: 'name111',
+        component: 'CheckboxGroup',
+        label: '调拨类型',
+        colProps: {
+          span: 24,
+        },
+        itemProps: {
+          labelCol: {
+            xl: {
+              span: 2,
+            },
+            xxl: {
+              span: 1,
+            },
+            style: {
+              'min-width': '5.5%',
+            },
+          },
+          wrapperCol: {
+            span: 18,
+          },
+        },
+        componentProps: {
+          options: [
+            {
+              value: '0',
+              label: '公司内调拨',
+            },
+            {
+              value: '1',
+              label: '跨公司调拨',
+            },
+          ],
+        },
+      },
+      {
+        field: 'name',
+        component: 'Select',
+        label: '调出公司',
+        colProps: {
+          span: 6,
+        },
+        itemProps: {
+          // 'validate-status': 'validating',
+          hasFeedback: true,
+        },
+        componentProps: {
+          placeholder: '请选择调出公司',
+        },
+      },
+      {
+        field: 'name2555',
+        component: 'Select',
+        label: '调出仓库',
+        colProps: {
+          span: 6,
+          push: 1,
+        },
+        componentProps: {
+          placeholder: '请选择调出仓库',
+        },
+      },
+      {
+        field: 'name344',
+        component: 'DatePicker',
+        label: '调拨日期',
+        colProps: {
+          push: 2,
+          span: 10,
+        },
+        componentProps: {
+          placeholder: '请选择调拨日期',
+        },
+      },
+    
+      {
+        field: 'name33',
+        component: 'Select',
+        label: '调入公司',
+        colProps: {
+          span: 6,
+        },
+        itemProps: {
+          // 'validate-status': 'validating',
+          hasFeedback: true,
+        },
+        componentProps: {
+          placeholder: '请选择调入公司',
+        },
+      },
+      {
+        field: 'name222',
+        component: 'Select',
+        label: '调入仓库',
+        colProps: {
+          span: 6,
+          push: 1,
+        },
+        componentProps: {
+          placeholder: '请选择调入仓库',
+        },
+      },
+      {
+        field: 'name2',
+        component: 'Input',
+        label: '业务员',
+        colProps: {
+          push: 2,
+          span: 10,
+        },
+        componentProps: {
+          placeholder: '请输入业务员',
+        },
+      },
+      {
+        field: 'name21',
+        component: 'Input',
+        label: '备注',
+        colProps: {
+          span: 6,
+        },
+        componentProps: {
+          placeholder: '请输入备注',
+        },
+      },
+    ]
+  },
+  '库存-库存管理-库存调拨-调拨提货涵': {
+    columns: [],
+    formData: [
+      {
+        field: 'name111',
+        component: 'CheckboxGroup',
+        label: '提货涵',
+        colProps: {
+          span: 24,
+        },
+        itemProps: {
+          labelCol: {
+            xl: {
+              span: 2,
+            },
+            xxl: {
+              span: 1,
+            },
+            style: {
+              'min-width': '5.5%',
+            },
+          },
+          wrapperCol: {
+            span: 18,
+          },
+        },
+        componentProps: {
+          options: [
+            {
+              value: '0',
+              label: '需要',
+            },
+            {
+              value: '1',
+              label: '不需要',
+            },
+          ],
+        },
+      },
+      {
+        field: '',
+        colProps: {
+          span: 24,
+        },
+        render: ({ model, field }, { disabled }) => {
+          return h('div', { class: 'color-#B0B7C3' }, '提货信息')
+        },
+      },
+      {
+        field: 'name',
+        component: 'Input',
+        label: '提货人',
+        colProps: {
+          span: 6,
+        },
+        itemProps: {
+          // 'validate-status': 'validating',
+          hasFeedback: true,
+        },
+        componentProps: {
+          placeholder: '请输入提货人',
+        },
+      },
+      {
+        field: 'name2555',
+        component: 'Input',
+        label: '联系手机号',
+        colProps: {
+          span: 6,
+          push: 1,
+        },
+        componentProps: {
+          placeholder: '请输入联系手机号',
+        },
+      },
+      {
+        field: 'name344',
+        component: 'Input',
+        label: '身份证号码',
+        colProps: {
+          push: 2,
+          span: 10,
+        },
+        componentProps: {
+          placeholder: '请输入身份证号码',
+        },
+      },
+    
+      {
+        field: 'name33',
+        component: 'Input',
+        label: '车牌号码',
+        colProps: {
+          span: 6,
+        },
+        componentProps: {
+          placeholder: '请输入车牌号码',
+        },
+      },
+      {
+        field: 'name222',
+        component: 'Input',
+        label: '车队名称',
+        colProps: {
+          span: 14,
+          push: 1,
+        },
+        itemProps: {
+          wrapperCol: {
+            span: 9,
+         
+          },
+        },
+        componentProps: {
+          placeholder: '请输入车队名称',
+        },
+      },
+      {
+        field: 'name21',
+        component: 'Input',
+        label: '留言',
+        colProps: {
+          span: 6,
+        },
+        componentProps: {
+          placeholder: '请输入留言',
+        },
+      },
+    ]
+  },
+  '库存-库存管理-库存调拨-调出商品明细': {
+    virtual: true,
+    apikey: 'stockMangeAllotAddDetailInTable',
+    apiFolder: 'stockMange',
+    apiFileName: 'allot',
+    columns:  [
+      {
+        title: '商品编号',
+        dataIndex: 'address',
+        fixed: 'left',
+      },
+      {
+        title: '商品类别',
+        dataIndex: 'address',
+      },
+      {
+        title: '商品名称',
+        dataIndex: 'address',
+      },
+      {
+        title: '材质',
+        dataIndex: 'address',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '产地',
+        dataIndex: 'address',
+      },
+      {
+        title: '计量方式',
+        dataIndex: 'address',
+      },
+      {
+        title: '调整数量',
+        dataIndex: 'address',
+      },
+      {
+        title: '调整重量',
+        dataIndex: 'address',
+      },
+      {
+        title: '单件重',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '捆包号',
+        dataIndex: 'address',
+      },
+      {
+        title: '批号',
+        dataIndex: 'address',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '仓库',
+        dataIndex: 'address',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'address',
+      },
+      {
+        title: '数量单位',
+        dataIndex: 'address',
+      },
+      {
+        title: '计价单位',
+        dataIndex: 'address',
+      },
+      {
+        title: '自编号',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '长度',
+        dataIndex: 'address',
+      },
+    ],
+    formData:[]
   }
 }
 exports.default = apiData
