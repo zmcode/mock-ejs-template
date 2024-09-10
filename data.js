@@ -1647,7 +1647,7 @@ const apiData = {
         dataIndex: 'width1',
       },
     ],
-    formData:[]
+    formData: []
   },
   '库存-库存管理-库存调拨': {
     apikey: 'stockMangeAllot',
@@ -1704,7 +1704,7 @@ const apiData = {
         title: '创建时间',
         dataIndex: 'endTime',
       },
-    
+
       {
         title: '更新时间',
         dataIndex: 'beginTime',
@@ -1714,7 +1714,7 @@ const apiData = {
         dataIndex: 'endTime',
       },
     ],
-    formData:[]
+    formData: []
   },
   '库存-库存管理-库存调拨-基本信息': {
     columns: [],
@@ -1794,7 +1794,7 @@ const apiData = {
           placeholder: '请选择调拨日期',
         },
       },
-    
+
       {
         field: 'name33',
         component: 'Select',
@@ -1934,7 +1934,7 @@ const apiData = {
           placeholder: '请输入身份证号码',
         },
       },
-    
+
       {
         field: 'name33',
         component: 'Input',
@@ -1957,7 +1957,7 @@ const apiData = {
         itemProps: {
           wrapperCol: {
             span: 9,
-         
+
           },
         },
         componentProps: {
@@ -1982,7 +1982,7 @@ const apiData = {
     apikey: 'stockMangeAllotAddDetailInTable',
     apiFolder: 'stockMange',
     apiFileName: 'allot',
-    columns:  [
+    columns: [
       {
         title: '商品编号',
         dataIndex: 'address',
@@ -2065,7 +2065,793 @@ const apiData = {
         dataIndex: 'address',
       },
     ],
-    formData:[]
+    formData: []
+  },
+  '库存-库存管理-库存调拨-调入商品明细': {
+    apikey: 'allotAddDetailOutTable',
+    apiFolder: 'stockMange',
+    apiFileName: 'allot',
+    columns: [
+      {
+        title: '商品编号',
+        dataIndex: 'address',
+        fixed: 'left',
+      },
+      {
+        title: '商品类别',
+        dataIndex: 'address',
+      },
+      {
+        title: '商品名称',
+        dataIndex: 'address',
+      },
+      {
+        title: '材质',
+        dataIndex: 'address',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '产地',
+        dataIndex: 'address',
+      },
+      {
+        title: '计量方式',
+        dataIndex: 'address',
+      },
+      {
+        title: '调整数量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '调整重量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '单件重',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '捆包号',
+        dataIndex: 'address',
+      },
+      {
+        title: '批号',
+        dataIndex: 'address',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '仓库',
+        dataIndex: 'address',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'address',
+      },
+      {
+        title: '数量单位',
+        dataIndex: 'address',
+      },
+      {
+        title: '计价单位',
+        dataIndex: 'address',
+      },
+      {
+        title: '自编号',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '长度',
+        dataIndex: 'address',
+      },
+    ],
+    formData: []
+  },
+  "库存-库存管理-库存预警": {
+    apikey: 'stockWarnList',
+    apiFolder: 'stockWarn',
+    apiFileName: 'warn',
+    columns: [
+      {
+        title: '类别',
+        dataIndex: 'id',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '材质',
+        dataIndex: 'name',
+        helpMessage: '我是姓名啊啊啊',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+      {
+        title: '产地',
+        dataIndex: 'no',
+        defaultHidden: true,
+      },
+      {
+        title: '仓库',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '库存数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '冻结数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '冻结重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '可售数量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '可售重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '累计可售重量',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库单价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '入库成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存均价',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '库存成本',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货主',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '货权类型',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'endTime',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
+  },
+  "库存-库存管理-仓库设置": {
+    apikey: 'stockRepSetList',
+    apiFolder: 'stockRepSet',
+    apiFileName: 'repSet',
+    columns: [
+      {
+        title: '仓库名称',
+        dataIndex: 'beginTime',
+        fixed: 'left',
+        width: 100,
+      },
+      {
+        title: '仓库简称',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '是否支持加工 ',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '助记码',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '仓库类型',
+        dataIndex: 'switch',
+      },
+      {
+        title: '所在省',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '所在市',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '创建人',
+        dataIndex: 'switch',
+      },
+    
+      {
+        title: '更新人',
+        dataIndex: 'beginTime',
+      },
+      {
+        title: '更新时间',
+        dataIndex: 'endTime',
+      },
+      {
+        title: '备注',
+        dataIndex: 'switch',
+      },
+      {
+        title: '启用状态',
+        dataIndex: 'beginTime',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '仓库名称',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择仓库名称',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '所属公司',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入所属公司',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '状态',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '联系人',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择联系人',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '所在市',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入所在市',
+        },
+      },
+    
+    ]
+  },
+  "销售-销售管理-销售协议-订单视图": {
+    apikey: 'sellMangeAgreemnetoOrderList',
+    apiFolder: 'sellMange',
+    apiFileName: 'agreement',
+    columns: [
+      {
+        title: '协议日期',
+        fixed: 'left',
+        dataIndex: 'demo0',
+      },
+      {
+        title: '协议编号',
+        dataIndex: 'demo1',
+      },
+      {
+        title: '客户',
+        dataIndex: 'demo2',
+      },
+      {
+        title: '业务员',
+        dataIndex: 'demo3',
+      },
+      {
+        title: '协议状态',
+        dataIndex: 'demo4',
+      },
+      {
+        title: '盖章审批状态',
+        dataIndex: 'demo5',
+      },
+      {
+        title: '协议金额',
+        dataIndex: 'demo6',
+      },
+      {
+        title: '协议保证金额',
+        dataIndex: 'demo7',
+      },
+      {
+        title: '协议已收金额',
+        dataIndex: 'demo8',
+      },
+      {
+        title: '协议待收金额',
+        dataIndex: 'demo9',
+      },
+      {
+        title: '协议重量',
+        dataIndex: 'demo10',
+      },
+      {
+        title: '协议剩余重量',
+        dataIndex: 'demo11',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'demo13',
+      },
+      {
+        title: '外部协议编号',
+        dataIndex: 'demo14',
+      },
+      {
+        title: '预警状态',
+        dataIndex: 'demo15',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'demo16',
+      },
+      {
+        title: '操作人',
+        dataIndex: 'demo17',
+      },
+      {
+        title: '创建时间',
+        dataIndex: 'demo18',
+      },
+      {
+        title: '更新时间',
+        dataIndex: 'demo19',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
+  },
+  "销售-销售管理-销售协议-商品视图": {
+    apikey: 'sellMangeAgreemnetoComList',
+    apiFolder: 'sellMange',
+    apiFileName: 'agreement',
+    columns: [
+      {
+        title: '协议日期',
+        fixed: 'left',
+        dataIndex: 'demo0',
+      },
+      {
+        title: '协议编号',
+        dataIndex: 'demo1',
+      },
+      {
+        title: '客户',
+        dataIndex: 'demo2',
+      },
+      {
+        title: '业务员',
+        dataIndex: 'demo3',
+      },
+      {
+        title: '商品名称',
+        dataIndex: 'demo4',
+      },
+      {
+        title: '材质',
+        dataIndex: 'demo5',
+      },
+      {
+        title: '规格',
+        width: 140,
+        dataIndex: 'demo6',
+      },
+      {
+        title: '产地',
+        width: 100,
+        dataIndex: 'demo7',
+      },
+      {
+        title: '单件标重',
+        dataIndex: 'demo8',
+      },
+      {
+        title: '计量方式',
+        width: 100,
+        dataIndex: 'demo9',
+      },
+      {
+        title: '商品协议重量',
+        dataIndex: 'demo10',
+      },
+      {
+        title: '商品协议数量',
+        dataIndex: 'demo11',
+      },
+      {
+        title: '商品剩余协议重量',
+        dataIndex: 'demo12',
+      },
+      {
+        title: '商品已开单重量',
+        dataIndex: 'demo13',
+      },
+      {
+        title: '协议基价',
+        dataIndex: 'demo14',
+      },
+      {
+        title: '销售金额',
+        dataIndex: 'demo15',
+      },
+      {
+        title: '外部协议编号',
+        dataIndex: 'demo16',
+      },
+      {
+        title: '计价单位',
+        width: 100,
+        dataIndex: 'demo17',
+      },
+      {
+        title: '明细备注',
+        dataIndex: 'demo18',
+      },
+      {
+        title: '协议状态',
+        dataIndex: 'demo19',
+      },
+      {
+        title: '盖章审批状态',
+        dataIndex: 'demo20',
+      },
+      {
+        title: '协议金额',
+        dataIndex: 'demo21',
+      },
+      {
+        title: '协议保证金额',
+        dataIndex: 'demo22',
+      },
+      {
+        title: '协议已收金额',
+        dataIndex: 'demo23',
+      },
+      {
+        title: '协议待收金额',
+        dataIndex: 'demo24',
+      },
+      {
+        title: '协议重量',
+        dataIndex: 'demo25',
+      },
+      {
+        title: '协议剩余重量',
+        dataIndex: 'demo26',
+      },
+      {
+        title: '本方公司',
+        dataIndex: 'demo27',
+      },
+      {
+        title: '外部协议编号',
+        dataIndex: 'demo28',
+      },
+      {
+        title: '预警状态',
+        dataIndex: 'demo29',
+      },
+      {
+        title: '重量单位',
+        dataIndex: 'demo30',
+      },
+    ],
+    formData: [
+      {
+        field: 'field1',
+        component: 'Cascader',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择类目',
+        },
+      },
+      {
+        field: 'field2',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field3',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+      {
+        field: 'field4',
+        component: 'Select',
+        label: '商品类别',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择商品类别',
+        },
+      },
+      {
+        field: 'field44',
+        component: 'Input',
+        label: '商品编号',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请输入商品编号',
+        },
+      },
+      {
+        field: 'field55',
+        component: 'Select',
+        label: '是否启用',
+        colProps: {
+          span: 8,
+        },
+        componentProps: {
+          placeholder: '请选择启用状态',
+          options: [
+            {
+              value: 1,
+              label: '是',
+            },
+            {
+              value: 0,
+              label: '否',
+            },
+          ],
+        },
+      },
+    ]
   }
 }
 exports.default = apiData

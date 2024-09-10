@@ -8,3 +8,7 @@ export async function getStockMangeAllot() {
 export async function getStockMangeAllotAddDetailInTable() {
   return requestClient.get('/mock/stockMangeAllotAddDetailInTable');
 }
+
+export async function getAllotAddDetailOutTable() {
+  return requestClient.get('/mock/allotAddDetailOutTable');
+}
