@@ -74,16 +74,35 @@ for (const key in apiData) {
           }
         }
 
-        if (item.component === 'datePicker') {
+        if (item.component === 'DatePicker') {
           item.component = 'date-picker'
         }
 
-
         if (item.component === 'CheckboxGroup') {
           item.component = 'checkbox'
-          if (item.componentProps && item.componentProps.options) {
-            object.options = item.componentProps.options
-          }
+        }
+
+        if (item.component === 'InputNumber') {
+          item.component = 'input-number'
+        }
+
+        if  (item.component === 'ApiRadioGroup') {
+          item.component = 'radio'
+          
+        }
+
+        if (item.component === 'inputTextArea') {
+          item.component = 'input'
+          object.fieldProps = { type: 'textarea' }
+        }
+
+
+        if (item.component === 'Select') {
+          object.fieldProps = { teleported: false }
+        }
+
+        if (item.componentProps && item.componentProps.options) {
+          object.options = item.componentProps.options
         }
 
 

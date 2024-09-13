@@ -2333,7 +2333,7 @@ const apiData = {
   },
   "库存-库存管理-仓库设置": {
     apikey: 'stockRepSetList',
-    apiFolder: 'stockRepSet',
+    apiFolder: 'stockRepset',
     apiFileName: 'repSet',
     columns: [
       {
@@ -2851,6 +2851,347 @@ const apiData = {
           ],
         },
       },
+    ]
+  },
+  "销售-销售管理-销售协议-新增销售协议": {
+    apikey: 'sellMangeListAdd',
+    apiFolder: 'sellMange',
+    apiFileName: 'addAgreement',
+    virtual: true,
+    columns: [
+      {
+        title: '商品名称',
+        dataIndex: 'address',
+      },
+      {
+        title: '材质',
+        dataIndex: 'address',
+      },
+      {
+        title: '产地',
+        dataIndex: 'address',
+      },
+      {
+        title: '规格',
+        dataIndex: 'address',
+      },
+
+      {
+        title: '实际厚度',
+        dataIndex: 'width1',
+      },
+
+      {
+        title: '单件重',
+        dataIndex: 'width1',
+      },
+      {
+        title: '协议数量',
+        dataIndex: 'width2',
+      },
+      {
+        title: '协议重量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '商品剩余协议重量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '商品已开单重量',
+        dataIndex: 'width1',
+      },
+      {
+        title: '协议基价',
+        dataIndex: 'width1',
+      },
+      {
+        title: '销售金额',
+        dataIndex: 'width1',
+      },
+
+      {
+        title: '计价单位',
+        dataIndex: 'width1',
+      },
+
+      {
+        title: '备注',
+        dataIndex: 'width1',
+      },
+      {
+        title: '自编号',
+        dataIndex: 'width1',
+      },
+      {
+        title: '长度',
+        dataIndex: 'width1',
+      },
+      {
+        title: '密度',
+        dataIndex: 'width1',
+      },
+      {
+        title: '外部物料编号',
+        dataIndex: 'width1',
+      },
+    ],
+    formData: [
+      {
+        field: 'name',
+        component: 'Select',
+        label: '本方公司',
+        colProps: {
+          span: 6,
+        },
+        componentProps: {
+          placeholder: '请选择调整类型',
+        },
+        required: true,
+      },
+      {
+        field: 'name2555',
+        component: 'Input',
+        label: '客户',
+        colProps: {
+          span: 6,
+        },
+        componentProps: {
+          placeholder: '请输入客户',
+        },
+        required: true,
+      },
+      {
+        field: 'name344',
+        component: 'DatePicker',
+        label: '协议日期',
+        colProps: {
+          span: 6,
+          offset: 6,
+          pull: 6,
+        },
+        componentProps: {
+          placeholder: '请选择协议日期',
+        },
+        required: true,
+      },
+    
+      {
+        field: 'name33',
+        component: 'DatePicker',
+        label: '协议月份',
+        colProps: {
+          span: 6,
+        },
+        itemProps: {
+          hasFeedback: true,
+        },
+        componentProps: {
+          placeholder: '请选择协议月份',
+          picker: 'month',
+        },
+      },
+      {
+        field: 'name22',
+        component: 'Select',
+        label: '业务模式',
+        colProps: {
+          span: 6,
+        },
+        componentProps: {
+          placeholder: '请选择业务模式',
+        },
+        required: true,
+      },
+      {
+        field: 'name23',
+        component: 'Input',
+        label: '外部协议编号',
+        colProps: {
+          span: 6,
+          offset: 6,
+          pull: 6,
+        },
+        componentProps: {
+          placeholder: '请输入外部协议编号',
+        },
+      },
+    
+      {
+        field: 'name33',
+        component: 'InputNumber',
+        label: '协议金额',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name22',
+        component: 'InputNumber',
+        label: '保证金比例（%）',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name23',
+        component: 'Input',
+        label: '保证金金额',
+        helpMessage: '12121',
+        colProps: {
+          span: 6,
+          offset: 6,
+          pull: 6,
+        },
+      },
+    
+      {
+        field: 'name23',
+        component: 'Input',
+        label: '协议预收款',
+        helpMessage: '12121',
+        colProps: {
+          span: 6,
+          offset: 18,
+          pull: 18,
+        },
+      },
+    
+      {
+        field: 'name33',
+        component: 'InputNumber',
+        label: '协议重量',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name22',
+        component: 'InputNumber',
+        label: '剩余协议重量',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name23',
+        component: 'InputNumber',
+        label: '已开单重量',
+    
+        colProps: {
+          span: 6,
+          offset: 6,
+          pull: 6,
+        },
+      },
+    
+      {
+        field: 'name33',
+        component: 'Select',
+        label: '重量单位',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name22',
+        component: 'Select',
+        label: '交货方式',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name23',
+        component: 'DatePicker',
+        label: '最晚交货日期',
+        colProps: {
+          span: 6,
+          offset: 6,
+          pull: 6,
+        },
+      },
+    
+    
+      {
+        field: 'name22',
+        component: 'Input',
+        label: '业务员',
+        colProps: {
+          span: 6,
+        },
+      },
+      {
+        field: 'name23',
+        component: 'Input',
+        label: '签约地点',
+        colProps: {
+          span: 6,
+          offset: 12,
+          pull: 12,
+        },
+      },
+    
+    
+      {
+        field: 'name23',
+        component: 'ApiRadioGroup',
+        label: '协议完结方式',
+        componentProps: {
+          options: [
+            {
+              value: '0',
+              label: '手动完结'
+            },
+            {
+              value: '1',
+              label: '剩余协议重量为 0 自动完结'
+            },
+            {
+              value: '2',
+              label: '协议到期自动完结'
+            }
+          ]
+        },
+        colProps: {
+          span: 12
+        },
+      },
+      {
+        field: 'name22',
+        component: 'Select',
+        label: '付款方式',
+        colProps: {
+          span: 6,
+          offset: 6,
+          pull: 6,
+        },
+      },
+    
+    
+      {
+        field: 'name22',
+        component: 'Input',
+        label: '备注',
+        colProps: {
+          span: 12,
+          offset: 12,
+          pull: 12,
+        },
+      },
+    
+    
+      {
+        field: 'name22',
+        component: 'InputTextArea',
+        label: '协议条款',
+        colProps: {
+          span: 12,
+          offset: 12,
+          pull: 12,
+        },
+      },
+    
     ]
   }
 }
