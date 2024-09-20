@@ -1,4 +1,5 @@
 const apiData = require('./data').default
+const { name } = require('ejs');
 const fs = require('fs')
 const path = require('path');
 
@@ -29,35 +30,7 @@ for (const key in apiData) {
     const element = apiData[key];
     const formValues = {}
     seriApiObj[key] = {
-      columns: element.columns.map((item, index) => {
-        const prop = 'demo' + index
-        const object = {
-          label: item.title,
-          width: item.width,
-          prop
-        }
-        clearEmptyProperties(object)
-
-        if (item.fixed) {
-          object.tableColumnProps = {
-            fixed: item.fixed,
-          }
-        }
-
-
-        if (element.virtual) {
-          object.dataKey = prop
-          object.key = prop
-          object.title = item.title
-          if (item.fixed) {
-            object.fixed = item.fixed
-          }
-          object.width = item.width || 150
-
-        }
-
-        return object
-      }),
+      columns: [],
       formData: element.formData.map(item => {
         let object = {
           prop: item.field,
@@ -86,9 +59,9 @@ for (const key in apiData) {
           item.component = 'input-number'
         }
 
-        if  (item.component === 'ApiRadioGroup') {
+        if (item.component === 'ApiRadioGroup') {
           item.component = 'radio'
-          
+
         }
 
         if (item.component === 'inputTextArea') {
@@ -112,6 +85,55 @@ for (const key in apiData) {
         return object
       }),
     };
+    if (Array.isArray(element.columns)) {
+      seriApiObj[key].columns = element.columns.map((item, index) => {
+        const prop = 'demo' + index
+        const object = {
+          label: item.title,
+          width: item.width,
+          prop
+        }
+        clearEmptyProperties(object)
+
+        if (item.fixed) {
+          object.tableColumnProps = {
+            fixed: item.fixed,
+          }
+        }
+
+
+        if (element.virtual) {
+          object.dataKey = prop
+          object.key = prop
+          object.title = item.title
+          if (item.fixed) {
+            object.fixed = item.fixed
+          }
+          object.width = item.width || 150
+
+        }
+
+        return object
+      })
+    } else {
+      seriApiObj[key].columns = element.columns.split(',').filter(item => item).map(label => {
+        const prop = 'demo' + index
+        const object = {
+          label: name,
+          prop
+        }
+        if (element.virtual) {
+          object.dataKey = prop
+          object.key = prop
+          object.title = item.title
+          if (item.fixed) {
+            object.fixed = item.fixed
+          }
+          object.width = item.width || 150
+        }
+        return object
+      })
+    }
     seriApiObj[key].formValues = formValues
   }
 }
