@@ -3,7 +3,7 @@ const fsPomise = require('fs').promises;
 const fs = require('fs')
 const ejs = require('ejs');
 const path = require('path');
-const { log } = require('console');
+const { title } = require('process');
 
 
 const mockKeyMapByName = {
@@ -157,6 +157,20 @@ function createIndexFileByPath(path) {
   processCreateIndexFileByPath(path, renderer)
 }
 
+function processMockkey(columns) {
+  const itemObj = {}
+  columns.forEach((item, index) => {
+    let mockKey = ''
+    if (item.title.includes('时间') || item.title.includes('日期')) {
+      mockKey = `@date('yyyy-MM-dd')`
+    } else {
+      mockKey = mockKeyMapByName[item.title] || '@natural(1, 999)'
+    }
+    itemObj[`demo${index}`] = mockKey
+  })
+  return itemObj
+}
+
 function createMockFile(mockObj) {
   const obj = {}
   const folderObj = {}
@@ -169,19 +183,12 @@ function createMockFile(mockObj) {
 
         if (element.apikey) {
           mockColumns(element.apikey)
-          const itemObj = {}
-          element.columns.forEach((item, index) => {
-            let mockKey = ''
-            if (item.title.includes('时间') || item.title.includes('日期')) {
-              mockKey = `@date('yyyy-MM-dd')`
-            } else {
-              mockKey = mockKeyMapByName[item.title] || '@natural(1, 999)'
-            }
-
-            itemObj[`demo${index}`] = mockKey
-          })
-
-
+          let itemObj = {}
+          if (Array.isArray(element.columns)) {
+            itemObj = processMockkey(element.columns)
+          } else {
+            itemObj = processMockkey((element.columns.split(',').map(label => ({ title: label }))))
+          }
 
           itemObj['id'] = '@natural(1, 99999)' // 随机分配一个id, 作为表格的id
           obj[element.apikey] = itemObj

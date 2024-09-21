@@ -29,11 +29,14 @@ for (const key in apiData) {
   if (Object.hasOwnProperty.call(apiData, key)) {
     const element = apiData[key];
     const formValues = {}
+    if (!element.formData) {
+      element.formData = []
+    }
     seriApiObj[key] = {
       columns: [],
-      formData: element.formData.map(item => {
+      formData: element.formData.map((item, index) => {
         let object = {
-          prop: item.field,
+          prop: item.field || 'prop' + index,
           label: item.label,
         }
         if (item.component === 'ApiCascader') {
@@ -78,9 +81,11 @@ for (const key in apiData) {
           object.options = item.componentProps.options
         }
 
+        if (!item.component) {
+          item.component = 'input'
+        }
 
-
-        formValues[item.field] = ''
+        formValues[object.prop] = ''
         object.valueType = toLowerCaseFirstLetter(item.component)
         return object
       }),
@@ -116,20 +121,17 @@ for (const key in apiData) {
         return object
       })
     } else {
-      seriApiObj[key].columns = element.columns.split(',').filter(item => item).map(label => {
+      seriApiObj[key].columns = element.columns.split(',').filter(item => item).map((label, index) => {
         const prop = 'demo' + index
         const object = {
-          label: name,
+          label,
           prop
         }
         if (element.virtual) {
           object.dataKey = prop
           object.key = prop
-          object.title = item.title
-          if (item.fixed) {
-            object.fixed = item.fixed
-          }
-          object.width = item.width || 150
+          object.title = label
+          object.width = 150
         }
         return object
       })
