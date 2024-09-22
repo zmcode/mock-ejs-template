@@ -2,5 +2,5 @@ import { requestClient } from '#/api/request';
 
 
 export async function getStockRepSetList() {
-  return requestClient.get('/mock/stockRepSetList');
+  return requestClient.get('/mock/repSetstockRepSetList');
 }

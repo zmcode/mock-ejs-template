@@ -182,7 +182,7 @@ function createMockFile(mockObj) {
         const element = mockObj[key];
 
         if (element.apikey) {
-          mockColumns(element.apikey)
+          mockColumns(element.apiFileName + element.apikey)
           let itemObj = {}
           if (Array.isArray(element.columns)) {
             itemObj = processMockkey(element.columns)
@@ -191,7 +191,7 @@ function createMockFile(mockObj) {
           }
 
           itemObj['id'] = '@natural(1, 99999)' // 随机分配一个id, 作为表格的id
-          obj[element.apikey] = itemObj
+          obj[element.apiFileName + element.apikey] = itemObj
 
           if (element.apiFolder && element.apiFileName) {
             // 初始化 folderObj[element.apiFolder] 如果不存在
@@ -201,12 +201,12 @@ function createMockFile(mockObj) {
             folderObj[element.apiFolder][element.apiFileName] = folderObj[element.apiFolder][element.apiFileName] || [];
 
             // 添加 apikey
-            folderObj[element.apiFolder][element.apiFileName].push(element.apikey);
+            folderObj[element.apiFolder][element.apiFileName].push(element.apiFileName + '-' +  element.apikey);
           }
         }
       }
     }
-    const mockFolderPath = 'F:/gangtie-next/gangtie-next/apps/backend-mock/api/mock' // 替换你的目录
+    const mockFolderPath = 'E:/gangtie-next/apps/backend-mock/api/mock' // 替换你的目录
     copyDirectory('mock', mockFolderPath);
 
 
@@ -217,7 +217,7 @@ function createMockFile(mockObj) {
         return;
       }
     });
-    const mockDataFilePath = 'F:/gangtie-next/gangtie-next/apps/backend-mock/utils/mock.ts' // 替换你的目录
+    const mockDataFilePath = 'E:/gangtie-next/apps/backend-mock/utils/mock.ts' // 替换你的目录
     copyFile(path.join('mock.ts'), mockDataFilePath);
 
 
@@ -234,9 +234,9 @@ function createMockFile(mockObj) {
 
         /* 最后的时候, 创建文件 */
         if (index === folderKeyArr.length) {
-          const fileNameArr = []
+          // const fileNameArr = []
           Object.keys(folderObj[folderKey]).forEach(fileName => {
-            fileNameArr.push(fileName)
+            // fileNameArr.push(fileName)
             const apiKeyArr = folderObj[folderKey][fileName];
             const template = fs.readFileSync('api.ejs', 'utf-8');
             const rendered = ejs.render(template, { apikeyArr: apiKeyArr, ohter: '' });
@@ -253,7 +253,7 @@ function createMockFile(mockObj) {
     })
     createIndexFileByPath('api')
 
-    const apiFolderPath = 'F:/gangtie-next/gangtie-next/apps/web-ele/src/api' // 替换你的目录
+    const apiFolderPath = 'E:/gangtie-next/apps/web-ele/src/api' // 替换你的目录
     copyDirectory('api', apiFolderPath);
 
   })
