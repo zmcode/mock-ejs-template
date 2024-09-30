@@ -8,3 +8,7 @@ export async function getOrderList() {
 export async function getCommodityList() {
   return requestClient.get('/mock/takeGoodscommodityList');
 }
+
+export async function getDeliveryTableList() {
+  return requestClient.get('/mock/takeGoodsdeliveryTableList');
+}

@@ -24,6 +24,7 @@ function clearEmptyProperties(obj) {
 }
 
 const seriApiObj = {}
+const longWidthLabel = ['规格', '产地', '重量单位', '商品名称', '计价单位']
 
 for (const key in apiData) {
   if (Object.hasOwnProperty.call(apiData, key)) {
@@ -118,6 +119,10 @@ for (const key in apiData) {
 
         }
 
+        if (item.title.length >= 5 || item.title.includes('日期') || item.title.includes('时间')|| longWidthLabel.includes(item.title)) {
+          object.width = 140
+        }
+
         return object
       })
     } else {
@@ -133,6 +138,11 @@ for (const key in apiData) {
           object.title = label
           object.width = 150
         }
+
+        if (label.length >= 5 || label.includes('日期') || label.includes('时间') || longWidthLabel.includes(label)) {
+          object.width = 140
+        }
+
         return object
       })
     }

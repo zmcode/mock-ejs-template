@@ -2370,7 +2370,7 @@ const apiData = {
         title: '创建人',
         dataIndex: 'switch',
       },
-    
+
       {
         title: '更新人',
         dataIndex: 'beginTime',
@@ -2454,7 +2454,7 @@ const apiData = {
           placeholder: '请输入所在市',
         },
       },
-    
+
     ]
   },
   "销售-销售管理-销售协议-订单视图": {
@@ -2975,7 +2975,7 @@ const apiData = {
         },
         required: true,
       },
-    
+
       {
         field: 'name33',
         component: 'DatePicker',
@@ -3016,7 +3016,7 @@ const apiData = {
           placeholder: '请输入外部协议编号',
         },
       },
-    
+
       {
         field: 'name33',
         component: 'InputNumber',
@@ -3044,7 +3044,7 @@ const apiData = {
           pull: 6,
         },
       },
-    
+
       {
         field: 'name23',
         component: 'Input',
@@ -3056,7 +3056,7 @@ const apiData = {
           pull: 18,
         },
       },
-    
+
       {
         field: 'name33',
         component: 'InputNumber',
@@ -3077,14 +3077,14 @@ const apiData = {
         field: 'name23',
         component: 'InputNumber',
         label: '已开单重量',
-    
+
         colProps: {
           span: 6,
           offset: 6,
           pull: 6,
         },
       },
-    
+
       {
         field: 'name33',
         component: 'Select',
@@ -3111,8 +3111,8 @@ const apiData = {
           pull: 6,
         },
       },
-    
-    
+
+
       {
         field: 'name22',
         component: 'Input',
@@ -3131,8 +3131,8 @@ const apiData = {
           pull: 12,
         },
       },
-    
-    
+
+
       {
         field: 'name23',
         component: 'ApiRadioGroup',
@@ -3167,8 +3167,8 @@ const apiData = {
           pull: 6,
         },
       },
-    
-    
+
+
       {
         field: 'name22',
         component: 'Input',
@@ -3179,8 +3179,8 @@ const apiData = {
           pull: 12,
         },
       },
-    
-    
+
+
       {
         field: 'name22',
         component: 'InputTextArea',
@@ -3191,7 +3191,7 @@ const apiData = {
           pull: 12,
         },
       },
-    
+
     ]
   },
   "销售-销售管理-销售订单-订单视图": {
@@ -3274,13 +3274,89 @@ const apiData = {
     apikey: 'orderList',
     apiFolder: 'sellMange',
     apiFileName: 'takeGoods',
-    columns:'提货通知日期,提货单编号,客户,状态,审批状态,盖章审批状态,提货数量,提货重量,实货数量,实提重量,仓库,提货凭证,收货区域,直接发货,操作人,销售订单号,业务模式,来源单据类型,本方公司,重量单位,创建时间,更新时间,工程项目,打印次数'
+    columns: '提货通知日期,提货单编号,客户,状态,审批状态,盖章审批状态,提货数量,提货重量,实货数量,实提重量,仓库,提货凭证,收货区域,直接发货,操作人,销售订单号,业务模式,来源单据类型,本方公司,重量单位,创建时间,更新时间,工程项目,打印次数'
   },
   "销售-销售管理-提货通知单-商品视图": {
     apikey: 'commodityList',
     apiFolder: 'sellMange',
     apiFileName: 'takeGoods',
     columns: '提货通知日期,提货单编号,客户,状态,审批状态,盖章审批状态,商品名称,材质,规格,产地,提货数量,提货重量,实货数量,实提重量,仓库,提货凭证,收货区域,直接发货,操作人,销售订单号,业务模式,来源单据类型,本方公司,重量单位,创建时间,更新时间,工程项目,打印次数'
+  },
+  "销售-销售管理-提货通知单-配送信息": {
+    apikey: 'deliveryTableList',
+    apiFolder: 'sellMange',
+    apiFileName: 'takeGoods',
+    virtual: true,
+    columns: '仓库,商品名称,材质,规格,实际厚度,产地,计量方式,批号,单件重,提货数量,提货重量,计价单位,货位号'
+  },
+  "销售-销售管理-销售发货-订单视图": {
+    apikey: 'orderList',
+    apiFolder: 'sellMange',
+    apiFileName: 'shipment',
+    columns: '发货日期,发货单编号,客户,发货数量,发货重量,重量单位,仓库,提货凭证,操作人,销售订单号,提货通知单号,外部订单编号,业务模式,来源单据类型,来演单据编号,本方公司,发货员,创建时间,更新时间'
+  },
+  "销售-销售管理-销售发货-商品视图": {
+    apikey: 'commodityList',
+    apiFolder: 'sellMange',
+    apiFileName: 'shipment',
+    columns: '发货日期,客户,发货数量,发货重量,商品名称,材质,规格,产地,实提单价,实提金额,提货凭证,重量单位,仓库,发货单编号,操作人,提货通知单号,发货员,业务模式,本方公司'
+  },
+  "销售-销售管理-销售发货-提货商品合计": {
+    apikey: 'takeCommodityTotalList',
+    apiFolder: 'sellMange',
+    apiFileName: 'shipment',
+    columns: '商品名称,材质,规格,实际厚度,产地,计量方式,提货数量,提货重量,实提数量,实提重量,实提单价,实提金额,可提数量,可提重量,预实提差,捆包号,货位号,计价单位,单件重,批号'
+  },
+  "销售-销售管理-销售发货-凭证信息": {
+    apikey: 'receiptTableList',
+    apiFolder: 'sellMange',
+    apiFileName: 'shipment',
+    virtual: true,
+    columns: '商品名称,材质,规格,实际厚度,产地,计量方式,提货数量,提货重量,实提数量,实提重量,预实提差,捆包号,货位号,计价单位,单件重,批号'
+  },
+  "销售-销售管理-销售结算": {
+    apikey: 'settleTableList',
+    apiFolder: 'sellMange',
+    apiFileName: 'settle',
+    columns: '结算日期,结算单编号,本方公司,往来公司,业务类型,项目名称,结算重量,结算数量,明细总额 (元),调整金额 (元),结算总额 (元),订单已付 (元),结算已退补 (元),结算待退补 (元),利息合计 (元),审批状态,结算状态,结算标签,单据回收,单据回收时间,单据归档,单据归档时间,结算专员,重量单位,确认时间,外部结算单,创建时间,更新时间'
+  },
+  "销售-销售管理-销售结算-商品明细": {
+    apikey: 'settleComdTableList',
+    apiFolder: 'sellMange',
+    apiFileName: 'settle',
+    columns: '销售日期,销售订单号,外部订单编号,销售数量,实提数量,结算数量,销售重量,实提重量,结算重量,销售金额(元),结算金额(元),已付金额(元),待补退金额(元),资金方向,重量单位,重量单位'
+  },
+  "销售-销售管理-销售结算-商品明细子级": {
+    apikey: 'settleComdSubTableList',
+    apiFolder: 'sellMange',
+    apiFileName: 'settle',
+    columns: '发货日期,到货日期,发货单编号,仓库,商品名称,货物名称,材质,规格,实际厚度,产地,结算数量,结算重量,结算单价(元),结算总价(元),销售单价(元),销售预提重量,销售金额(元),实提数量,实提重量,车船号,税率,不含税金额(元),税额(元),含税金额(元),重量单位,数量单位,计价单位,是否使用发票,备注'
+  },
+  "销售-销售售后-销售退款退货": {
+    apikey: 'getTableList',
+    apiFolder: 'sellAftersell',
+    apiFileName: 'refund',
+    columns: '退货日期,退货单编号,客户,业务员,待申请金额,付款申请状态,退货数量,退货重量,应退金额,已退金额,待退金额,退货入库日期,原销售单编号,本方公司,背靠背直退,来源单据类型,来源单据编号,工程项目,操作人,创建时间,更新时间,重量单位'
+  },
+  "销售-销售售后-销售退款退货-商品明细": {
+    apikey: 'getComdTableList',
+    apiFolder: 'sellAftersell',
+    apiFileName: 'refund',
+    virtual: true,
+    columns: '商品名称,货物名称,材质,规格,实际厚度,产地,计量方式,批号,仓库名称,退货数量,退货重量,销售退货单价,销售退货不含税单价,销售退货金额,税率,捆包号,货位号,计价单位,单件重,商品备注'
+  },
+  "销售-销售售后-销售仅退款": {
+    apikey: 'getTableList',
+    apiFolder: 'sellAftersell',
+    apiFileName: 'onlyrefund',
+    columns: '退款单日期,退款单编号,客户,业务员,退款类型,待申请金额,付款申请状态,已退金额,待退金额,退款状态,退款依据类型,原销售单编号,工程项目,本方公司,操作人,创建时间,更新时间'
+  },
+  "销售-销售售后-销售仅退款-商品明细": {
+    apikey: 'getComdTableList',
+    apiFolder: 'sellAftersell',
+    apiFileName: 'onlyrefund',
+    virtual: true,
+    columns: '商品名称,货物名称,材质,规格,实际厚度,产地,税率,返利数量,返利重量,返利单价,返利金额,备注,计价单位'
   }
 }
 exports.default = apiData
