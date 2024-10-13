@@ -1,1 +1,7179 @@
-{"商品-商品管理-商品列表":{"columns":[{"label":"商品编码","width":140,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"商品类别","width":180,"prop":"demo1"},{"label":"商品名称","width":140,"prop":"demo2"},{"label":"细分名称","width":140,"prop":"demo3"},{"label":"材质","width":80,"prop":"demo4"},{"label":"规格","width":140,"prop":"demo5"},{"label":"产地","width":140,"prop":"demo6"},{"label":"工艺","width":140,"prop":"demo7"},{"label":"形状","width":80,"prop":"demo8"},{"label":"表面","width":100,"prop":"demo9"},{"label":"硬度","width":100,"prop":"demo10"},{"label":"钢印","width":80,"prop":"demo11"},{"label":"等级","width":80,"prop":"demo12"}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"启用"},{"value":0,"label":"关闭"}],"valueType":"select"},{"prop":"field4","label":"商品类别","valueType":"cascader"},{"prop":"field5","label":"创建日期","fieldProps":{"type":"daterange"},"valueType":"date-picker"},{"prop":"field6","label":"状态","fieldProps":{"teleported":false},"options":[{"value":1,"label":1},{"value":2,"label":2}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field5":"","field6":""}},"商品-商品管理-商品列表-新增":{"columns":[{"label":"商品类别","width":100,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"类别编码","prop":"demo1"},{"label":"商品名称","prop":"demo2","width":140},{"label":"细分名称","prop":"demo3"},{"label":"助记码","prop":"demo4"}],"formData":[{"prop":"field1","label":"商品编号","valueType":"cascader"},{"prop":"field2","label":"商品名称","valueType":"input"},{"prop":"field3","label":"细分名称","valueType":"input"},{"prop":"field4","label":"助记码","valueType":"input"}],"formValues":{"field1":"","field2":"","field3":"","field4":""}},"商品-商品设置-商品资料库":{"columns":[{"label":"类别编码","width":140,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"类别","width":180,"prop":"demo1"},{"label":"商品名称","width":140,"prop":"demo2"},{"label":"细分名称","width":120,"prop":"demo3"},{"label":"助记码","width":160,"prop":"demo4"},{"label":"规格格式","width":220,"prop":"demo5"},{"label":"密度值","width":120,"prop":"demo6"},{"label":"计量方式","width":100,"prop":"demo7"},{"label":"数量单位","width":100,"prop":"demo8"},{"label":"重量单位","width":140,"prop":"demo9"},{"label":"计价单位","width":140,"prop":"demo10"},{"label":"税率","width":100,"prop":"demo11"},{"label":"属性数量","width":100,"prop":"demo12"},{"label":"创建人","width":100,"prop":"demo13"},{"label":"更新人","width":100,"prop":"demo14"},{"label":"更新时间","width":140,"prop":"demo15"},{"label":"商品备注","width":100,"prop":"demo16"},{"label":"发票税务编码","width":140,"prop":"demo17"}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field4","label":"商品类别","valueType":"cascader"},{"prop":"field5","label":"商品编号","valueType":"input"}],"formValues":{"field1":"","field2":"","field4":"","field5":""}},"商品-基础与加价":{"columns":[{"label":"商品类别","width":100,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"产地","prop":"demo1","width":140},{"label":"仓库","prop":"demo2"},{"label":"基价","prop":"demo3"},{"label":"开始时间","prop":"demo4","width":140},{"label":"结束时间","prop":"demo5","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"产地","valueType":"input"},{"prop":"field3","label":"仓库","fieldProps":{"teleported":false},"options":[{"value":1,"label":"仓库1"},{"value":0,"label":"仓库2"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":""}},"库存-库存统计-库存查询":{"columns":[{"label":"类别","width":100,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"材质","prop":"demo1"},{"label":"规格","prop":"demo2","width":140},{"label":"产地","prop":"demo3","width":140},{"label":"仓库","prop":"demo4"},{"label":"库存数量","prop":"demo5"},{"label":"库存重量","prop":"demo6"},{"label":"冻结数量","prop":"demo7"},{"label":"冻结重量","prop":"demo8"},{"label":"可售数量","prop":"demo9"},{"label":"可售重量","prop":"demo10"},{"label":"累计可售重量","prop":"demo11","width":140},{"label":"入库单价","prop":"demo12"},{"label":"入库成本","prop":"demo13"},{"label":"库存均价","prop":"demo14"},{"label":"库存成本","prop":"demo15"},{"label":"货主","prop":"demo16"},{"label":"货权类型","prop":"demo17"},{"label":"重量单位","prop":"demo18","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"库存-库存统计-批次库存":{"columns":[{"label":"商品编码","width":100,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"商品类别","prop":"demo1"},{"label":"材质","prop":"demo2"},{"label":"规格","prop":"demo3","width":140},{"label":"产地","prop":"demo4","width":140},{"label":"仓库","prop":"demo5"},{"label":"计量方式","prop":"demo6"},{"label":"加工品类型","prop":"demo7","width":140},{"label":"库存数量","prop":"demo8"},{"label":"库存重量","prop":"demo9"},{"label":"冻结数量","prop":"demo10"},{"label":"冻结重量","prop":"demo11"},{"label":"可售数量","prop":"demo12"},{"label":"可售重量","prop":"demo13"},{"label":"入库单价","prop":"demo14"},{"label":"含税入库单价","prop":"demo15","width":140},{"label":"不含税入库单价","prop":"demo16","width":140},{"label":"调整入库单价","prop":"demo17","width":140},{"label":"实际入库单价","prop":"demo18","width":140},{"label":"库存成本","prop":"demo19"},{"label":"含税库存成本","prop":"demo20","width":140},{"label":"不含税库存成本","prop":"demo21","width":140},{"label":"调整库存成本","prop":"demo22","width":140},{"label":"不含税入库单价","prop":"demo23","width":140},{"label":"实际库存成本","prop":"demo24","width":140},{"label":"渠道售价","prop":"demo25"},{"label":"两票费用单价","prop":"demo26","width":140},{"label":"两票成本","prop":"demo27"},{"label":"入库单价（包含两票）","prop":"demo28","width":140},{"label":"库存成本（包含两票）","prop":"demo29","width":140},{"label":"捆包号","prop":"demo30"},{"label":"货位号","prop":"demo31"},{"label":"单据类型","prop":"demo32"},{"label":"单据编号","prop":"demo33"},{"label":"批号","prop":"demo34"},{"label":"工程项目","prop":"demo35"},{"label":"本方公司","prop":"demo36"},{"label":"所属部门","prop":"demo37"},{"label":"货源","prop":"demo38"},{"label":"供应商","prop":"demo39"},{"label":"货主","prop":"demo40"},{"label":"货权类型","prop":"demo41"},{"label":"单件重","prop":"demo42"},{"label":"税率","prop":"demo43"},{"label":"入库日期","prop":"demo44","width":140},{"label":"采购订单号","prop":"demo45","width":140},{"label":"来货车船号","prop":"demo46","width":140},{"label":"数量单位","prop":"demo47"},{"label":"重量单位","prop":"demo48","width":140},{"label":"计价单位","prop":"demo49","width":140},{"label":"批次备注","prop":"demo50"},{"label":"锁定状态","prop":"demo51","tableColumnProps":{"fixed":"right"}},{"label":"隐藏状态","prop":"demo52","tableColumnProps":{"fixed":"right"}}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"库存-库存统计-库存流水":{"columns":[{"label":"交易日期","width":140,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"单据类型","prop":"demo1"},{"label":"出入库方向","prop":"demo2","width":140},{"label":"单据编号","prop":"demo3"},{"label":"商品编码","prop":"demo4"},{"label":"商品名称","prop":"demo5","width":140},{"label":"商品类别","prop":"demo6"},{"label":"材质","prop":"demo7"},{"label":"规格","prop":"demo8","width":140},{"label":"产地","prop":"demo9","width":140},{"label":"仓库","prop":"demo10"},{"label":"计量方式","prop":"demo11"},{"label":"交易数量","prop":"demo12"},{"label":"交易重量","prop":"demo13"},{"label":"捆包号","prop":"demo14"},{"label":"工程项目","prop":"demo15"},{"label":"本方公司","prop":"demo16"},{"label":"供应商","prop":"demo17"},{"label":"客户","prop":"demo18"},{"label":"货主","prop":"demo19"},{"label":"货权类型","prop":"demo20"},{"label":"采购订单号","prop":"demo21","width":140},{"label":"销售订单号","prop":"demo22","width":140},{"label":"批号","prop":"demo23"},{"label":"数量单位","prop":"demo24"},{"label":"重量单位","prop":"demo25","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"库存-库存统计-进销存查询":{"columns":[{"label":"商品名称","width":140,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"商品类别","prop":"demo1"},{"label":"材质","prop":"demo2"},{"label":"规格","prop":"demo3","width":140},{"label":"产地","prop":"demo4","width":140},{"label":"仓库","prop":"demo5"},{"label":"期初数量","prop":"demo6"},{"label":"期初重量","prop":"demo7"},{"label":"期初库存单价","prop":"demo8","width":140},{"label":"期初库存金额","prop":"demo9","width":140},{"label":"入库数量","prop":"demo10"},{"label":"入库金额","prop":"demo11"},{"label":"入库均价","prop":"demo12"},{"label":"入库重量","prop":"demo13"},{"label":"出库数量","prop":"demo14"},{"label":"出库金额","prop":"demo15"},{"label":"出库均价","prop":"demo16"},{"label":"出库重量","prop":"demo17"},{"label":"库存调整数量","prop":"demo18","width":140},{"label":"库存调整重量","prop":"demo19","width":140},{"label":"库存调拨数量","prop":"demo20","width":140},{"label":"库存调拨重量","prop":"demo21","width":140},{"label":"加工数量","prop":"demo22"},{"label":"期末数量","prop":"demo23"},{"label":"期末库存单价","prop":"demo24","width":140},{"label":"期末库存单价","prop":"demo25","width":140},{"label":"本方公司","prop":"demo26"}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"库存-库存管理-库存调整":{"columns":[{"label":"库存调整日期","width":140,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"仓库","prop":"demo1"},{"label":"类型","prop":"demo2"},{"label":"单据编号","prop":"demo3"},{"label":"调整原因","prop":"demo4"},{"label":"调整数量","prop":"demo5"},{"label":"调整重量","prop":"demo6"},{"label":"调整成本","prop":"demo7"},{"label":"本方公司","prop":"demo8"},{"label":"货主","prop":"demo9"},{"label":"业务员","prop":"demo10"},{"label":"来源销售单号","prop":"demo11","width":140},{"label":"来源单据类型","prop":"demo12","width":140},{"label":"来源单据编号","prop":"demo13","width":140},{"label":"操作人","prop":"demo14"},{"label":"创建时间","prop":"demo15","width":140},{"label":"更新时间","prop":"demo16","width":140},{"label":"重量单位","prop":"demo17","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"库存-库存管理-库存调整-新建库存调整":{"columns":[{"label":"商品编号","prop":"demo0","tableColumnProps":{"fixed":"left"},"dataKey":"demo0","key":"demo0","title":"商品编号","fixed":"left","width":150},{"label":"商品名称","prop":"demo1","dataKey":"demo1","key":"demo1","title":"商品名称","width":140},{"label":"材质","prop":"demo2","dataKey":"demo2","key":"demo2","title":"材质","width":150},{"label":"产地","prop":"demo3","dataKey":"demo3","key":"demo3","title":"产地","width":140},{"label":"规格","prop":"demo4","dataKey":"demo4","key":"demo4","title":"规格","width":140},{"label":"实际厚度","prop":"demo5","dataKey":"demo5","key":"demo5","title":"实际厚度","width":150},{"label":"计量方式","prop":"demo6","dataKey":"demo6","key":"demo6","title":"计量方式","width":150},{"label":"调整数量","prop":"demo7","dataKey":"demo7","key":"demo7","title":"调整数量","width":150},{"label":"调整重量","prop":"demo8","dataKey":"demo8","key":"demo8","title":"调整重量","width":150},{"label":"单件重","prop":"demo9","dataKey":"demo9","key":"demo9","title":"单件重","width":150},{"label":"入库单价","prop":"demo10","dataKey":"demo10","key":"demo10","title":"入库单价","width":150},{"label":"入库成本","prop":"demo11","dataKey":"demo11","key":"demo11","title":"入库成本","width":150},{"label":"捆包号","prop":"demo12","dataKey":"demo12","key":"demo12","title":"捆包号","width":150},{"label":"货位号","prop":"demo13","dataKey":"demo13","key":"demo13","title":"货位号","width":150},{"label":"计价单位","prop":"demo14","dataKey":"demo14","key":"demo14","title":"计价单位","width":140},{"label":"重量单位","prop":"demo15","dataKey":"demo15","key":"demo15","title":"重量单位","width":140},{"label":"数量单位","prop":"demo16","dataKey":"demo16","key":"demo16","title":"数量单位","width":150},{"label":"供应商","prop":"demo17","dataKey":"demo17","key":"demo17","title":"供应商","width":150},{"label":"批号","prop":"demo18","dataKey":"demo18","key":"demo18","title":"批号","width":150},{"label":"自编号","prop":"demo19","dataKey":"demo19","key":"demo19","title":"自编号","width":150},{"label":"长度","prop":"demo20","dataKey":"demo20","key":"demo20","title":"长度","width":150},{"label":"密度值","prop":"demo21","dataKey":"demo21","key":"demo21","title":"密度值","width":150}],"formData":[],"formValues":{}},"库存-库存管理-库存调拨":{"columns":[{"label":"库存调拨日期","width":140,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"调出仓库","prop":"demo1"},{"label":"调入仓库","prop":"demo2"},{"label":"调出公司","prop":"demo3"},{"label":"调入公司","prop":"demo4"},{"label":"单据编号","prop":"demo5"},{"label":"总重量","prop":"demo6"},{"label":"总金额（元）","prop":"demo7","width":140},{"label":"调拨费用金额（元）","prop":"demo8","width":140},{"label":"业务员","prop":"demo9"},{"label":"操作人","prop":"demo10"},{"label":"创建时间","prop":"demo11","width":140},{"label":"更新时间","prop":"demo12","width":140},{"label":"重量单位","prop":"demo13","width":140}],"formData":[],"formValues":{}},"库存-库存管理-库存调拨-基本信息":{"columns":[],"formData":[{"prop":"name111","label":"调拨类型","options":[{"value":"0","label":"公司内调拨"},{"value":"1","label":"跨公司调拨"}],"valueType":"checkbox"},{"prop":"name","label":"调出公司","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name2555","label":"调出仓库","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name344","label":"调拨日期","valueType":"date-picker"},{"prop":"name33","label":"调入公司","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name222","label":"调入仓库","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name2","label":"业务员","valueType":"input"},{"prop":"name21","label":"备注","valueType":"input"}],"formValues":{"name111":"","name":"","name2555":"","name344":"","name33":"","name222":"","name2":"","name21":""}},"库存-库存管理-库存调拨-调拨提货涵":{"columns":[],"formData":[{"prop":"name111","label":"提货涵","options":[{"value":"0","label":"需要"},{"value":"1","label":"不需要"}],"valueType":"checkbox"},{"prop":"prop1","valueType":"input"},{"prop":"name","label":"提货人","valueType":"input"},{"prop":"name2555","label":"联系手机号","valueType":"input"},{"prop":"name344","label":"身份证号码","valueType":"input"},{"prop":"name33","label":"车牌号码","valueType":"input"},{"prop":"name222","label":"车队名称","valueType":"input"},{"prop":"name21","label":"留言","valueType":"input"}],"formValues":{"name111":"","prop1":"","name":"","name2555":"","name344":"","name33":"","name222":"","name21":""}},"库存-库存管理-库存调拨-调出商品明细":{"columns":[{"label":"商品编号","prop":"demo0","tableColumnProps":{"fixed":"left"},"dataKey":"demo0","key":"demo0","title":"商品编号","fixed":"left","width":150},{"label":"商品类别","prop":"demo1","dataKey":"demo1","key":"demo1","title":"商品类别","width":150},{"label":"商品名称","prop":"demo2","dataKey":"demo2","key":"demo2","title":"商品名称","width":140},{"label":"材质","prop":"demo3","dataKey":"demo3","key":"demo3","title":"材质","width":150},{"label":"规格","prop":"demo4","dataKey":"demo4","key":"demo4","title":"规格","width":140},{"label":"产地","prop":"demo5","dataKey":"demo5","key":"demo5","title":"产地","width":140},{"label":"计量方式","prop":"demo6","dataKey":"demo6","key":"demo6","title":"计量方式","width":150},{"label":"调整数量","prop":"demo7","dataKey":"demo7","key":"demo7","title":"调整数量","width":150},{"label":"调整重量","prop":"demo8","dataKey":"demo8","key":"demo8","title":"调整重量","width":150},{"label":"单件重","prop":"demo9","dataKey":"demo9","key":"demo9","title":"单件重","width":150},{"label":"捆包号","prop":"demo10","dataKey":"demo10","key":"demo10","title":"捆包号","width":150},{"label":"批号","prop":"demo11","dataKey":"demo11","key":"demo11","title":"批号","width":150},{"label":"本方公司","prop":"demo12","dataKey":"demo12","key":"demo12","title":"本方公司","width":150},{"label":"仓库","prop":"demo13","dataKey":"demo13","key":"demo13","title":"仓库","width":150},{"label":"重量单位","prop":"demo14","dataKey":"demo14","key":"demo14","title":"重量单位","width":140},{"label":"数量单位","prop":"demo15","dataKey":"demo15","key":"demo15","title":"数量单位","width":150},{"label":"计价单位","prop":"demo16","dataKey":"demo16","key":"demo16","title":"计价单位","width":140},{"label":"自编号","prop":"demo17","dataKey":"demo17","key":"demo17","title":"自编号","width":150},{"label":"长度","prop":"demo18","dataKey":"demo18","key":"demo18","title":"长度","width":150}],"formData":[],"formValues":{}},"库存-库存管理-库存调拨-调入商品明细":{"columns":[{"label":"商品编号","prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"商品类别","prop":"demo1"},{"label":"商品名称","prop":"demo2","width":140},{"label":"材质","prop":"demo3"},{"label":"规格","prop":"demo4","width":140},{"label":"产地","prop":"demo5","width":140},{"label":"计量方式","prop":"demo6"},{"label":"调整数量","prop":"demo7"},{"label":"调整重量","prop":"demo8"},{"label":"单件重","prop":"demo9"},{"label":"捆包号","prop":"demo10"},{"label":"批号","prop":"demo11"},{"label":"本方公司","prop":"demo12"},{"label":"仓库","prop":"demo13"},{"label":"重量单位","prop":"demo14","width":140},{"label":"数量单位","prop":"demo15"},{"label":"计价单位","prop":"demo16","width":140},{"label":"自编号","prop":"demo17"},{"label":"长度","prop":"demo18"}],"formData":[],"formValues":{}},"库存-库存管理-库存预警":{"columns":[{"label":"类别","width":100,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"材质","prop":"demo1"},{"label":"规格","prop":"demo2","width":140},{"label":"产地","prop":"demo3","width":140},{"label":"仓库","prop":"demo4"},{"label":"库存数量","prop":"demo5"},{"label":"库存重量","prop":"demo6"},{"label":"冻结数量","prop":"demo7"},{"label":"冻结重量","prop":"demo8"},{"label":"可售数量","prop":"demo9"},{"label":"可售重量","prop":"demo10"},{"label":"累计可售重量","prop":"demo11","width":140},{"label":"入库单价","prop":"demo12"},{"label":"入库成本","prop":"demo13"},{"label":"库存均价","prop":"demo14"},{"label":"库存成本","prop":"demo15"},{"label":"货主","prop":"demo16"},{"label":"货权类型","prop":"demo17"},{"label":"重量单位","prop":"demo18","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"库存-库存管理-仓库设置":{"columns":[{"label":"仓库名称","width":100,"prop":"demo0","tableColumnProps":{"fixed":"left"}},{"label":"仓库简称","prop":"demo1"},{"label":"是否支持加工 ","prop":"demo2","width":140},{"label":"助记码","prop":"demo3"},{"label":"仓库类型","prop":"demo4"},{"label":"所在省","prop":"demo5"},{"label":"所在市","prop":"demo6"},{"label":"创建人","prop":"demo7"},{"label":"更新人","prop":"demo8"},{"label":"更新时间","prop":"demo9","width":140},{"label":"备注","prop":"demo10"},{"label":"启用状态","prop":"demo11"}],"formData":[{"prop":"field1","label":"仓库名称","valueType":"cascader"},{"prop":"field2","label":"所属公司","valueType":"input"},{"prop":"field3","label":"状态","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"联系人","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"所在市","valueType":"input"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":""}},"销售-销售管理-销售协议-订单视图":{"columns":[{"label":"协议日期","prop":"demo0","tableColumnProps":{"fixed":"left"},"width":140},{"label":"协议编号","prop":"demo1"},{"label":"客户","prop":"demo2"},{"label":"业务员","prop":"demo3"},{"label":"协议状态","prop":"demo4"},{"label":"盖章审批状态","prop":"demo5","width":140},{"label":"协议金额","prop":"demo6"},{"label":"协议保证金额","prop":"demo7","width":140},{"label":"协议已收金额","prop":"demo8","width":140},{"label":"协议待收金额","prop":"demo9","width":140},{"label":"协议重量","prop":"demo10"},{"label":"协议剩余重量","prop":"demo11","width":140},{"label":"本方公司","prop":"demo12"},{"label":"外部协议编号","prop":"demo13","width":140},{"label":"预警状态","prop":"demo14"},{"label":"重量单位","prop":"demo15","width":140},{"label":"操作人","prop":"demo16"},{"label":"创建时间","prop":"demo17","width":140},{"label":"更新时间","prop":"demo18","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"销售-销售管理-销售协议-商品视图":{"columns":[{"label":"协议日期","prop":"demo0","tableColumnProps":{"fixed":"left"},"width":140},{"label":"协议编号","prop":"demo1"},{"label":"客户","prop":"demo2"},{"label":"业务员","prop":"demo3"},{"label":"商品名称","prop":"demo4","width":140},{"label":"材质","prop":"demo5"},{"label":"规格","width":140,"prop":"demo6"},{"label":"产地","width":140,"prop":"demo7"},{"label":"单件标重","prop":"demo8"},{"label":"计量方式","width":100,"prop":"demo9"},{"label":"商品协议重量","prop":"demo10","width":140},{"label":"商品协议数量","prop":"demo11","width":140},{"label":"商品剩余协议重量","prop":"demo12","width":140},{"label":"商品已开单重量","prop":"demo13","width":140},{"label":"协议基价","prop":"demo14"},{"label":"销售金额","prop":"demo15"},{"label":"外部协议编号","prop":"demo16","width":140},{"label":"计价单位","width":140,"prop":"demo17"},{"label":"明细备注","prop":"demo18"},{"label":"协议状态","prop":"demo19"},{"label":"盖章审批状态","prop":"demo20","width":140},{"label":"协议金额","prop":"demo21"},{"label":"协议保证金额","prop":"demo22","width":140},{"label":"协议已收金额","prop":"demo23","width":140},{"label":"协议待收金额","prop":"demo24","width":140},{"label":"协议重量","prop":"demo25"},{"label":"协议剩余重量","prop":"demo26","width":140},{"label":"本方公司","prop":"demo27"},{"label":"外部协议编号","prop":"demo28","width":140},{"label":"预警状态","prop":"demo29"},{"label":"重量单位","prop":"demo30","width":140}],"formData":[{"prop":"field1","label":"商品类别","valueType":"cascader"},{"prop":"field2","label":"商品编号","valueType":"input"},{"prop":"field3","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"},{"prop":"field4","label":"商品类别","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"field44","label":"商品编号","valueType":"input"},{"prop":"field55","label":"是否启用","fieldProps":{"teleported":false},"options":[{"value":1,"label":"是"},{"value":0,"label":"否"}],"valueType":"select"}],"formValues":{"field1":"","field2":"","field3":"","field4":"","field44":"","field55":""}},"销售-销售管理-销售协议-新增销售协议":{"columns":[{"label":"商品名称","prop":"demo0","dataKey":"demo0","key":"demo0","title":"商品名称","width":140},{"label":"材质","prop":"demo1","dataKey":"demo1","key":"demo1","title":"材质","width":150},{"label":"产地","prop":"demo2","dataKey":"demo2","key":"demo2","title":"产地","width":140},{"label":"规格","prop":"demo3","dataKey":"demo3","key":"demo3","title":"规格","width":140},{"label":"实际厚度","prop":"demo4","dataKey":"demo4","key":"demo4","title":"实际厚度","width":150},{"label":"单件重","prop":"demo5","dataKey":"demo5","key":"demo5","title":"单件重","width":150},{"label":"协议数量","prop":"demo6","dataKey":"demo6","key":"demo6","title":"协议数量","width":150},{"label":"协议重量","prop":"demo7","dataKey":"demo7","key":"demo7","title":"协议重量","width":150},{"label":"商品剩余协议重量","prop":"demo8","dataKey":"demo8","key":"demo8","title":"商品剩余协议重量","width":140},{"label":"商品已开单重量","prop":"demo9","dataKey":"demo9","key":"demo9","title":"商品已开单重量","width":140},{"label":"协议基价","prop":"demo10","dataKey":"demo10","key":"demo10","title":"协议基价","width":150},{"label":"销售金额","prop":"demo11","dataKey":"demo11","key":"demo11","title":"销售金额","width":150},{"label":"计价单位","prop":"demo12","dataKey":"demo12","key":"demo12","title":"计价单位","width":140},{"label":"备注","prop":"demo13","dataKey":"demo13","key":"demo13","title":"备注","width":150},{"label":"自编号","prop":"demo14","dataKey":"demo14","key":"demo14","title":"自编号","width":150},{"label":"长度","prop":"demo15","dataKey":"demo15","key":"demo15","title":"长度","width":150},{"label":"密度","prop":"demo16","dataKey":"demo16","key":"demo16","title":"密度","width":150},{"label":"外部物料编号","prop":"demo17","dataKey":"demo17","key":"demo17","title":"外部物料编号","width":140}],"formData":[{"prop":"name","label":"本方公司","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name2555","label":"客户","valueType":"input"},{"prop":"name344","label":"协议日期","valueType":"date-picker"},{"prop":"name33","label":"协议月份","valueType":"date-picker"},{"prop":"name22","label":"业务模式","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name23","label":"外部协议编号","valueType":"input"},{"prop":"name33","label":"协议金额","valueType":"input-number"},{"prop":"name22","label":"保证金比例（%）","valueType":"input-number"},{"prop":"name23","label":"保证金金额","valueType":"input"},{"prop":"name23","label":"协议预收款","valueType":"input"},{"prop":"name33","label":"协议重量","valueType":"input-number"},{"prop":"name22","label":"剩余协议重量","valueType":"input-number"},{"prop":"name23","label":"已开单重量","valueType":"input-number"},{"prop":"name33","label":"重量单位","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name22","label":"交货方式","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name23","label":"最晚交货日期","valueType":"date-picker"},{"prop":"name22","label":"业务员","valueType":"input"},{"prop":"name23","label":"签约地点","valueType":"input"},{"prop":"name23","label":"协议完结方式","options":[{"value":"0","label":"手动完结"},{"value":"1","label":"剩余协议重量为 0 自动完结"},{"value":"2","label":"协议到期自动完结"}],"valueType":"radio"},{"prop":"name22","label":"付款方式","fieldProps":{"teleported":false},"valueType":"select"},{"prop":"name22","label":"备注","valueType":"input"},{"prop":"name22","label":"协议条款","valueType":"inputTextArea"}],"formValues":{"name":"","name2555":"","name344":"","name33":"","name22":"","name23":""}},"销售-销售管理-销售订单-订单视图":{"columns":[{"label":"销售订单日期","prop":"demo0","width":140},{"label":"预计收款日期","prop":"demo1","width":140},{"label":"销售单编号","prop":"demo2","width":140},{"label":"客户","prop":"demo3"},{"label":"客户联系人/电话","prop":"demo4","width":140},{"label":"业务员","prop":"demo5"},{"label":"代理人","prop":"demo6"},{"label":"订单状态","prop":"demo7"},{"label":"销售数量","prop":"demo8"},{"label":"销售重量","prop":"demo9"},{"label":"实提数量","prop":"demo10"},{"label":"实提重量","prop":"demo11"},{"label":"待提数量","prop":"demo12"},{"label":"待提重量","prop":"demo13"},{"label":"销售金额","prop":"demo14"},{"label":"应收金额","prop":"demo15"},{"label":"已收金额","prop":"demo16"},{"label":"待收金额","prop":"demo17"},{"label":"收款状态","prop":"demo18"},{"label":"收款模式","prop":"demo19"},{"label":"结算数量","prop":"demo20"},{"label":"结算重量","prop":"demo21"},{"label":"结算金额","prop":"demo22"},{"label":"结算状态","prop":"demo23"},{"label":"销售协议号","prop":"demo24","width":140},{"label":"业务模式","prop":"demo25"},{"label":"财务模式","prop":"demo26"},{"label":"是否已采购","prop":"demo27","width":140},{"label":"是否已指认","prop":"demo28","width":140},{"label":"来源单据编号","prop":"demo29","width":140},{"label":"采购托盘","prop":"demo30"},{"label":"外部订单编号","prop":"demo31","width":140},{"label":"采购协议编号","prop":"demo32","width":140},{"label":"审批状态","prop":"demo33"},{"label":"盖章审批状态","prop":"demo34","width":140},{"label":"单据所属部门","prop":"demo35","width":140},{"label":"本方公司","prop":"demo36"},{"label":"订单备注","prop":"demo37"},{"label":"关联退货退款单","prop":"demo38","width":140},{"label":"关联仅退款单","prop":"demo39","width":140},{"label":"合同归档","prop":"demo40"},{"label":"重量单位","prop":"demo41","width":140},{"label":"收货地区","prop":"demo42"},{"label":"详细地址","prop":"demo43"},{"label":"是否上传附件","prop":"demo44","width":140},{"label":"操作人","prop":"demo45"},{"label":"打印下载次数","prop":"demo46","width":140},{"label":"创建时间","prop":"demo47","width":140},{"label":"更新时间","prop":"demo48","width":140}],"formData":[{"prop":"prop0","label":"客户","valueType":"input"},{"prop":"prop1","label":"销售订单号","valueType":"input"},{"prop":"prop2","label":"销售协议号","valueType":"input"},{"prop":"prop3","label":"业务模式","valueType":"select"},{"prop":"prop4","label":"销售日期","valueType":"date-picker"},{"prop":"prop5","label":"订单类型","valueType":"select"},{"prop":"prop6","label":"本方公司","valueType":"select"},{"prop":"prop7","label":"来源单据类型","valueType":"select"},{"prop":"prop8","label":"来源单据编号","valueType":"input"},{"prop":"prop9","label":"业务员","valueType":"input"},{"prop":"prop10","label":"代理人","valueType":"input"}],"formValues":{"prop0":"","prop1":"","prop2":"","prop3":"","prop4":"","prop5":"","prop6":"","prop7":"","prop8":"","prop9":"","prop10":""}},"销售-销售管理-销售订单-商品视图":{"columns":[{"label":"销售单编号","prop":"demo0","width":140},{"label":"销售订单日期","prop":"demo1","width":140},{"label":"预计收款日期","prop":"demo2","width":140},{"label":"客户","prop":"demo3"},{"label":"客户联系人/电话","prop":"demo4","width":140},{"label":"业务员","prop":"demo5"},{"label":"仓库","prop":"demo6"},{"label":"商品名称","prop":"demo7","width":140},{"label":"货物名称","prop":"demo8"},{"label":"材质","prop":"demo9"},{"label":"规格","prop":"demo10","width":140},{"label":"产地","prop":"demo11","width":140},{"label":"税率","prop":"demo12"},{"label":"销售税额","prop":"demo13"},{"label":"结算税额","prop":"demo14"},{"label":"销售数量","prop":"demo15"},{"label":"销售重量","prop":"demo16"},{"label":"货物单价","prop":"demo17"},{"label":"费用合计","prop":"demo18"},{"label":"销售单价","prop":"demo19"},{"label":"销售金额","prop":"demo20"},{"label":"整单销售金额","prop":"demo21","width":140},{"label":"整单收款状态","prop":"demo22","width":140},{"label":"收款模式","prop":"demo23"},{"label":"整单应收金额","prop":"demo24","width":140},{"label":"整单待收金额","prop":"demo25","width":140},{"label":"待提数量","prop":"demo26"},{"label":"待提重量","prop":"demo27"},{"label":"实提数量","prop":"demo28"},{"label":"实提重量","prop":"demo29"},{"label":"预实提差","prop":"demo30"},{"label":"结算数量","prop":"demo31"},{"label":"结算重量","prop":"demo32"},{"label":"结算磅差","prop":"demo33"},{"label":"结算单价","prop":"demo34"},{"label":"结算金额","prop":"demo35"},{"label":"整单结算状态","prop":"demo36","width":140},{"label":"明细备注","prop":"demo37"},{"label":"捆包号","prop":"demo38"},{"label":"货位号","prop":"demo39"},{"label":"车牌号","prop":"demo40"},{"label":"来货车船号","prop":"demo41","width":140},{"label":"审批状态","prop":"demo42"},{"label":"销售协议号","prop":"demo43","width":140},{"label":"采购协议号","prop":"demo44","width":140},{"label":"业务模式","prop":"demo45"},{"label":"财务模式","prop":"demo46"},{"label":"来源单据类型","prop":"demo47","width":140},{"label":"来源单据编号","prop":"demo48","width":140},{"label":"采购托盘","prop":"demo49"},{"label":"外部订单编号","prop":"demo50","width":140},{"label":"计价单位","prop":"demo51","width":140},{"label":"单据所属部门","prop":"demo52","width":140},{"label":"供应商","prop":"demo53"},{"label":"进价","prop":"demo54"},{"label":"进价金额","prop":"demo55"},{"label":"采购结算重量","prop":"demo56","width":140},{"label":"关联退货退款单","prop":"demo57","width":140},{"label":"关联仅退款单","prop":"demo58","width":140},{"label":"高卖单价","prop":"demo59"},{"label":"库存计价单位","prop":"demo60","width":140}],"formData":[],"formValues":{}},"销售-销售管理-销售订单-新增商品明细":{"columns":[{"label":"商品名称","prop":"demo0","dataKey":"demo0","key":"demo0","title":"商品名称","width":140},{"label":"材质","prop":"demo1","dataKey":"demo1","key":"demo1","title":"材质","width":150},{"label":"产地","prop":"demo2","dataKey":"demo2","key":"demo2","title":"产地","width":140},{"label":"规格","prop":"demo3","dataKey":"demo3","key":"demo3","title":"规格","width":140},{"label":"实际厚度","prop":"demo4","dataKey":"demo4","key":"demo4","title":"实际厚度","width":150},{"label":"货物名称","prop":"demo5","dataKey":"demo5","key":"demo5","title":"货物名称","width":150},{"label":"单件重","prop":"demo6","dataKey":"demo6","key":"demo6","title":"单件重","width":150},{"label":"销售数量","prop":"demo7","dataKey":"demo7","key":"demo7","title":"销售数量","width":150},{"label":"销售重量","prop":"demo8","dataKey":"demo8","key":"demo8","title":"销售重量","width":150},{"label":"货物单价","prop":"demo9","dataKey":"demo9","key":"demo9","title":"货物单价","width":150},{"label":"费用合计","prop":"demo10","dataKey":"demo10","key":"demo10","title":"费用合计","width":150},{"label":"销售单价","prop":"demo11","dataKey":"demo11","key":"demo11","title":"销售单价","width":150},{"label":"建议售价","prop":"demo12","dataKey":"demo12","key":"demo12","title":"建议售价","width":150},{"label":"含税单价","prop":"demo13","dataKey":"demo13","key":"demo13","title":"含税单价","width":150},{"label":"不含税单价","prop":"demo14","dataKey":"demo14","key":"demo14","title":"不含税单价","width":140},{"label":"销售金额","prop":"demo15","dataKey":"demo15","key":"demo15","title":"销售金额","width":150},{"label":"预估毛利","prop":"demo16","dataKey":"demo16","key":"demo16","title":"预估毛利","width":150},{"label":"含税金额","prop":"demo17","dataKey":"demo17","key":"demo17","title":"含税金额","width":150},{"label":"仓库","prop":"demo18","dataKey":"demo18","key":"demo18","title":"仓库","width":150},{"label":"捆包号","prop":"demo19","dataKey":"demo19","key":"demo19","title":"捆包号","width":150},{"label":"货位号","prop":"demo20","dataKey":"demo20","key":"demo20","title":"货位号","width":150},{"label":"计量方式","prop":"demo21","dataKey":"demo21","key":"demo21","title":"计量方式","width":150},{"label":"计价单位","prop":"demo22","dataKey":"demo22","key":"demo22","title":"计价单位","width":140},{"label":"不含税金额","prop":"demo23","dataKey":"demo23","key":"demo23","title":"不含税金额","width":140},{"label":"税率","prop":"demo24","dataKey":"demo24","key":"demo24","title":"税率","width":150},{"label":"销售税额","prop":"demo25","dataKey":"demo25","key":"demo25","title":"销售税额","width":150},{"label":"车牌号","prop":"demo26","dataKey":"demo26","key":"demo26","title":"车牌号","width":150},{"label":"车队","prop":"demo27","dataKey":"demo27","key":"demo27","title":"车队","width":150},{"label":"来货车船号","prop":"demo28","dataKey":"demo28","key":"demo28","title":"来货车船号","width":140},{"label":"批号","prop":"demo29","dataKey":"demo29","key":"demo29","title":"批号","width":150},{"label":"高卖单价","prop":"demo30","dataKey":"demo30","key":"demo30","title":"高卖单价","width":150},{"label":"项目单价","prop":"demo31","dataKey":"demo31","key":"demo31","title":"项目单价","width":150},{"label":"最低售价","prop":"demo32","dataKey":"demo32","key":"demo32","title":"最低售价","width":150},{"label":"商品备注","prop":"demo33","dataKey":"demo33","key":"demo33","title":"商品备注","width":150},{"label":"库存计价单位","prop":"demo34","dataKey":"demo34","key":"demo34","title":"库存计价单位","width":140}],"formData":[],"formValues":{}},"销售-销售管理-销售订单-新增商品明细-选择销售协议号":{"columns":[{"label":"协议日期","prop":"demo0","width":140},{"label":"协议编号","prop":"demo1"},{"label":"外部协议编号","prop":"demo2","width":140},{"label":"协议金额","prop":"demo3"},{"label":"协议保证金","prop":"demo4","width":140},{"label":"协议重量","prop":"demo5"},{"label":"协议剩余重量","prop":"demo6","width":140},{"label":"重量单位","prop":"demo7","width":140},{"label":"客户","prop":"demo8"},{"label":"本方公司","prop":"demo9"},{"label":"业务员","prop":"demo10"}],"formData":[],"formValues":{}},"销售-销售管理-销售订单-两票费用":{"columns":[{"label":"费用项目名称","prop":"demo0","width":140},{"label":"来往单位","prop":"demo1"},{"label":"费用量取值","prop":"demo2","width":140},{"label":"收支方向","prop":"demo3"},{"label":"费用数量","prop":"demo4"},{"label":"费用重量","prop":"demo5"},{"label":"费用单价","prop":"demo6"},{"label":"费用金额","prop":"demo7"},{"label":"车牌号","prop":"demo8"},{"label":"含税费用单价","prop":"demo9","width":140},{"label":"不含税费用单价","prop":"demo10","width":140},{"label":"含税费用金额","prop":"demo11","width":140},{"label":"税率","prop":"demo12"},{"label":"税额","prop":"demo13"},{"label":"不含税费用金额","prop":"demo14","width":140},{"label":"财务模式","prop":"demo15"},{"label":"重量单位","prop":"demo16","width":140},{"label":"数量单位","prop":"demo17"},{"label":"计价单位","prop":"demo18","width":140},{"label":"备注","prop":"demo19"},{"label":"费用日期","prop":"demo20","width":140}],"formData":[],"formValues":{}},"销售-销售管理-销售订单-两票费用编辑":{"columns":[{"label":"费用项目名称","prop":"demo0","dataKey":"demo0","key":"demo0","title":"费用项目名称","width":140},{"label":"来往单位","prop":"demo1","dataKey":"demo1","key":"demo1","title":"来往单位","width":150},{"label":"费用量取值","prop":"demo2","dataKey":"demo2","key":"demo2","title":"费用量取值","width":140},{"label":"收支方向","prop":"demo3","dataKey":"demo3","key":"demo3","title":"收支方向","width":150},{"label":"费用数量","prop":"demo4","dataKey":"demo4","key":"demo4","title":"费用数量","width":150},{"label":"费用重量","prop":"demo5","dataKey":"demo5","key":"demo5","title":"费用重量","width":150},{"label":"费用单价","prop":"demo6","dataKey":"demo6","key":"demo6","title":"费用单价","width":150},{"label":"费用金额","prop":"demo7","dataKey":"demo7","key":"demo7","title":"费用金额","width":150},{"label":"车牌号","prop":"demo8","dataKey":"demo8","key":"demo8","title":"车牌号","width":150},{"label":"含税费用单价","prop":"demo9","dataKey":"demo9","key":"demo9","title":"含税费用单价","width":140},{"label":"不含税费用单价","prop":"demo10","dataKey":"demo10","key":"demo10","title":"不含税费用单价","width":140},{"label":"含税费用金额","prop":"demo11","dataKey":"demo11","key":"demo11","title":"含税费用金额","width":140},{"label":"税率","prop":"demo12","dataKey":"demo12","key":"demo12","title":"税率","width":150},{"label":"税额","prop":"demo13","dataKey":"demo13","key":"demo13","title":"税额","width":150},{"label":"不含税费用金额","prop":"demo14","dataKey":"demo14","key":"demo14","title":"不含税费用金额","width":140},{"label":"财务模式","prop":"demo15","dataKey":"demo15","key":"demo15","title":"财务模式","width":150},{"label":"重量单位","prop":"demo16","dataKey":"demo16","key":"demo16","title":"重量单位","width":140},{"label":"数量单位","prop":"demo17","dataKey":"demo17","key":"demo17","title":"数量单位","width":150},{"label":"计价单位","prop":"demo18","dataKey":"demo18","key":"demo18","title":"计价单位","width":140},{"label":"备注","prop":"demo19","dataKey":"demo19","key":"demo19","title":"备注","width":150},{"label":"费用日期","prop":"demo20","dataKey":"demo20","key":"demo20","title":"费用日期","width":140}],"formData":[],"formValues":{}},"销售-销售管理-提货通知单-订单视图":{"columns":[{"label":"提货通知日期","prop":"demo0","width":140},{"label":"提货单编号","prop":"demo1","width":140},{"label":"客户","prop":"demo2"},{"label":"状态","prop":"demo3"},{"label":"审批状态","prop":"demo4"},{"label":"盖章审批状态","prop":"demo5","width":140},{"label":"提货数量","prop":"demo6"},{"label":"提货重量","prop":"demo7"},{"label":"实货数量","prop":"demo8"},{"label":"实提重量","prop":"demo9"},{"label":"仓库","prop":"demo10"},{"label":"提货凭证","prop":"demo11"},{"label":"收货区域","prop":"demo12"},{"label":"直接发货","prop":"demo13"},{"label":"操作人","prop":"demo14"},{"label":"销售订单号","prop":"demo15","width":140},{"label":"业务模式","prop":"demo16"},{"label":"来源单据类型","prop":"demo17","width":140},{"label":"本方公司","prop":"demo18"},{"label":"重量单位","prop":"demo19","width":140},{"label":"创建时间","prop":"demo20","width":140},{"label":"更新时间","prop":"demo21","width":140},{"label":"工程项目","prop":"demo22"},{"label":"打印次数","prop":"demo23"}],"formData":[],"formValues":{}},"销售-销售管理-提货通知单-商品视图":{"columns":[{"label":"提货通知日期","prop":"demo0","width":140},{"label":"提货单编号","prop":"demo1","width":140},{"label":"客户","prop":"demo2"},{"label":"状态","prop":"demo3"},{"label":"审批状态","prop":"demo4"},{"label":"盖章审批状态","prop":"demo5","width":140},{"label":"商品名称","prop":"demo6","width":140},{"label":"材质","prop":"demo7"},{"label":"规格","prop":"demo8","width":140},{"label":"产地","prop":"demo9","width":140},{"label":"提货数量","prop":"demo10"},{"label":"提货重量","prop":"demo11"},{"label":"实货数量","prop":"demo12"},{"label":"实提重量","prop":"demo13"},{"label":"仓库","prop":"demo14"},{"label":"提货凭证","prop":"demo15"},{"label":"收货区域","prop":"demo16"},{"label":"直接发货","prop":"demo17"},{"label":"操作人","prop":"demo18"},{"label":"销售订单号","prop":"demo19","width":140},{"label":"业务模式","prop":"demo20"},{"label":"来源单据类型","prop":"demo21","width":140},{"label":"本方公司","prop":"demo22"},{"label":"重量单位","prop":"demo23","width":140},{"label":"创建时间","prop":"demo24","width":140},{"label":"更新时间","prop":"demo25","width":140},{"label":"工程项目","prop":"demo26"},{"label":"打印次数","prop":"demo27"}],"formData":[],"formValues":{}},"销售-销售管理-提货通知单-配送信息":{"columns":[{"label":"仓库","prop":"demo0","dataKey":"demo0","key":"demo0","title":"仓库","width":150},{"label":"商品名称","prop":"demo1","dataKey":"demo1","key":"demo1","title":"商品名称","width":140},{"label":"材质","prop":"demo2","dataKey":"demo2","key":"demo2","title":"材质","width":150},{"label":"规格","prop":"demo3","dataKey":"demo3","key":"demo3","title":"规格","width":140},{"label":"实际厚度","prop":"demo4","dataKey":"demo4","key":"demo4","title":"实际厚度","width":150},{"label":"产地","prop":"demo5","dataKey":"demo5","key":"demo5","title":"产地","width":140},{"label":"计量方式","prop":"demo6","dataKey":"demo6","key":"demo6","title":"计量方式","width":150},{"label":"批号","prop":"demo7","dataKey":"demo7","key":"demo7","title":"批号","width":150},{"label":"单件重","prop":"demo8","dataKey":"demo8","key":"demo8","title":"单件重","width":150},{"label":"提货数量","prop":"demo9","dataKey":"demo9","key":"demo9","title":"提货数量","width":150},{"label":"提货重量","prop":"demo10","dataKey":"demo10","key":"demo10","title":"提货重量","width":150},{"label":"计价单位","prop":"demo11","dataKey":"demo11","key":"demo11","title":"计价单位","width":140},{"label":"货位号","prop":"demo12","dataKey":"demo12","key":"demo12","title":"货位号","width":150}],"formData":[],"formValues":{}},"销售-销售管理-销售发货-订单视图":{"columns":[{"label":"发货日期","prop":"demo0","width":140},{"label":"发货单编号","prop":"demo1","width":140},{"label":"客户","prop":"demo2"},{"label":"发货数量","prop":"demo3"},{"label":"发货重量","prop":"demo4"},{"label":"重量单位","prop":"demo5","width":140},{"label":"仓库","prop":"demo6"},{"label":"提货凭证","prop":"demo7"},{"label":"操作人","prop":"demo8"},{"label":"销售订单号","prop":"demo9","width":140},{"label":"提货通知单号","prop":"demo10","width":140},{"label":"外部订单编号","prop":"demo11","width":140},{"label":"业务模式","prop":"demo12"},{"label":"来源单据类型","prop":"demo13","width":140},{"label":"来演单据编号","prop":"demo14","width":140},{"label":"本方公司","prop":"demo15"},{"label":"发货员","prop":"demo16"},{"label":"创建时间","prop":"demo17","width":140},{"label":"更新时间","prop":"demo18","width":140}],"formData":[],"formValues":{}},"销售-销售管理-销售发货-商品视图":{"columns":[{"label":"发货日期","prop":"demo0","width":140},{"label":"客户","prop":"demo1"},{"label":"发货数量","prop":"demo2"},{"label":"发货重量","prop":"demo3"},{"label":"商品名称","prop":"demo4","width":140},{"label":"材质","prop":"demo5"},{"label":"规格","prop":"demo6","width":140},{"label":"产地","prop":"demo7","width":140},{"label":"实提单价","prop":"demo8"},{"label":"实提金额","prop":"demo9"},{"label":"提货凭证","prop":"demo10"},{"label":"重量单位","prop":"demo11","width":140},{"label":"仓库","prop":"demo12"},{"label":"发货单编号","prop":"demo13","width":140},{"label":"操作人","prop":"demo14"},{"label":"提货通知单号","prop":"demo15","width":140},{"label":"发货员","prop":"demo16"},{"label":"业务模式","prop":"demo17"},{"label":"本方公司","prop":"demo18"}],"formData":[],"formValues":{}},"销售-销售管理-销售发货-提货商品合计":{"columns":[{"label":"商品名称","prop":"demo0","width":140},{"label":"材质","prop":"demo1"},{"label":"规格","prop":"demo2","width":140},{"label":"实际厚度","prop":"demo3"},{"label":"产地","prop":"demo4","width":140},{"label":"计量方式","prop":"demo5"},{"label":"提货数量","prop":"demo6"},{"label":"提货重量","prop":"demo7"},{"label":"实提数量","prop":"demo8"},{"label":"实提重量","prop":"demo9"},{"label":"实提单价","prop":"demo10"},{"label":"实提金额","prop":"demo11"},{"label":"可提数量","prop":"demo12"},{"label":"可提重量","prop":"demo13"},{"label":"预实提差","prop":"demo14"},{"label":"捆包号","prop":"demo15"},{"label":"货位号","prop":"demo16"},{"label":"计价单位","prop":"demo17","width":140},{"label":"单件重","prop":"demo18"},{"label":"批号","prop":"demo19"}],"formData":[],"formValues":{}},"销售-销售管理-销售发货-凭证信息":{"columns":[{"label":"商品名称","prop":"demo0","dataKey":"demo0","key":"demo0","title":"商品名称","width":140},{"label":"材质","prop":"demo1","dataKey":"demo1","key":"demo1","title":"材质","width":150},{"label":"规格","prop":"demo2","dataKey":"demo2","key":"demo2","title":"规格","width":140},{"label":"实际厚度","prop":"demo3","dataKey":"demo3","key":"demo3","title":"实际厚度","width":150},{"label":"产地","prop":"demo4","dataKey":"demo4","key":"demo4","title":"产地","width":140},{"label":"计量方式","prop":"demo5","dataKey":"demo5","key":"demo5","title":"计量方式","width":150},{"label":"提货数量","prop":"demo6","dataKey":"demo6","key":"demo6","title":"提货数量","width":150},{"label":"提货重量","prop":"demo7","dataKey":"demo7","key":"demo7","title":"提货重量","width":150},{"label":"实提数量","prop":"demo8","dataKey":"demo8","key":"demo8","title":"实提数量","width":150},{"label":"实提重量","prop":"demo9","dataKey":"demo9","key":"demo9","title":"实提重量","width":150},{"label":"预实提差","prop":"demo10","dataKey":"demo10","key":"demo10","title":"预实提差","width":150},{"label":"捆包号","prop":"demo11","dataKey":"demo11","key":"demo11","title":"捆包号","width":150},{"label":"货位号","prop":"demo12","dataKey":"demo12","key":"demo12","title":"货位号","width":150},{"label":"计价单位","prop":"demo13","dataKey":"demo13","key":"demo13","title":"计价单位","width":140},{"label":"单件重","prop":"demo14","dataKey":"demo14","key":"demo14","title":"单件重","width":150},{"label":"批号","prop":"demo15","dataKey":"demo15","key":"demo15","title":"批号","width":150}],"formData":[],"formValues":{}},"销售-销售管理-销售结算":{"columns":[{"label":"结算日期","prop":"demo0","width":140},{"label":"结算单编号","prop":"demo1","width":140},{"label":"本方公司","prop":"demo2"},{"label":"往来公司","prop":"demo3"},{"label":"业务类型","prop":"demo4"},{"label":"项目名称","prop":"demo5"},{"label":"结算重量","prop":"demo6"},{"label":"结算数量","prop":"demo7"},{"label":"明细总额 (元)","prop":"demo8","width":140},{"label":"调整金额 (元)","prop":"demo9","width":140},{"label":"结算总额 (元)","prop":"demo10","width":140},{"label":"订单已付 (元)","prop":"demo11","width":140},{"label":"结算已退补 (元)","prop":"demo12","width":140},{"label":"结算待退补 (元)","prop":"demo13","width":140},{"label":"利息合计 (元)","prop":"demo14","width":140},{"label":"审批状态","prop":"demo15"},{"label":"结算状态","prop":"demo16"},{"label":"结算标签","prop":"demo17"},{"label":"单据回收","prop":"demo18"},{"label":"单据回收时间","prop":"demo19","width":140},{"label":"单据归档","prop":"demo20"},{"label":"单据归档时间","prop":"demo21","width":140},{"label":"结算专员","prop":"demo22"},{"label":"重量单位","prop":"demo23","width":140},{"label":"确认时间","prop":"demo24","width":140},{"label":"外部结算单","prop":"demo25","width":140},{"label":"创建时间","prop":"demo26","width":140},{"label":"更新时间","prop":"demo27","width":140}],"formData":[],"formValues":{}},"销售-销售管理-销售结算-商品明细":{"columns":[{"label":"销售日期","prop":"demo0","width":140},{"label":"销售订单号","prop":"demo1","width":140},{"label":"外部订单编号","prop":"demo2","width":140},{"label":"销售数量","prop":"demo3"},{"label":"实提数量","prop":"demo4"},{"label":"结算数量","prop":"demo5"},{"label":"销售重量","prop":"demo6"},{"label":"实提重量","prop":"demo7"},{"label":"结算重量","prop":"demo8"},{"label":"销售金额(元)","prop":"demo9","width":140},{"label":"结算金额(元)","prop":"demo10","width":140},{"label":"已付金额(元)","prop":"demo11","width":140},{"label":"待补退金额(元)","prop":"demo12","width":140},{"label":"资金方向","prop":"demo13"},{"label":"重量单位","prop":"demo14","width":140},{"label":"重量单位","prop":"demo15","width":140}],"formData":[],"formValues":{}},"销售-销售管理-销售结算-商品明细子级":{"columns":[{"label":"发货日期","prop":"demo0","width":140},{"label":"到货日期","prop":"demo1","width":140},{"label":"发货单编号","prop":"demo2","width":140},{"label":"仓库","prop":"demo3"},{"label":"商品名称","prop":"demo4","width":140},{"label":"货物名称","prop":"demo5"},{"label":"材质","prop":"demo6"},{"label":"规格","prop":"demo7","width":140},{"label":"实际厚度","prop":"demo8"},{"label":"产地","prop":"demo9","width":140},{"label":"结算数量","prop":"demo10"},{"label":"结算重量","prop":"demo11"},{"label":"结算单价(元)","prop":"demo12","width":140},{"label":"结算总价(元)","prop":"demo13","width":140},{"label":"销售单价(元)","prop":"demo14","width":140},{"label":"销售预提重量","prop":"demo15","width":140},{"label":"销售金额(元)","prop":"demo16","width":140},{"label":"实提数量","prop":"demo17"},{"label":"实提重量","prop":"demo18"},{"label":"车船号","prop":"demo19"},{"label":"税率","prop":"demo20"},{"label":"不含税金额(元)","prop":"demo21","width":140},{"label":"税额(元)","prop":"demo22","width":140},{"label":"含税金额(元)","prop":"demo23","width":140},{"label":"重量单位","prop":"demo24","width":140},{"label":"数量单位","prop":"demo25"},{"label":"计价单位","prop":"demo26","width":140},{"label":"是否使用发票","prop":"demo27","width":140},{"label":"备注","prop":"demo28"}],"formData":[],"formValues":{}},"销售-销售售后-销售退款退货":{"columns":[{"label":"退货日期","prop":"demo0","width":140},{"label":"退货单编号","prop":"demo1","width":140},{"label":"客户","prop":"demo2"},{"label":"业务员","prop":"demo3"},{"label":"待申请金额","prop":"demo4","width":140},{"label":"付款申请状态","prop":"demo5","width":140},{"label":"退货数量","prop":"demo6"},{"label":"退货重量","prop":"demo7"},{"label":"应退金额","prop":"demo8"},{"label":"已退金额","prop":"demo9"},{"label":"待退金额","prop":"demo10"},{"label":"退货入库日期","prop":"demo11","width":140},{"label":"原销售单编号","prop":"demo12","width":140},{"label":"本方公司","prop":"demo13"},{"label":"背靠背直退","prop":"demo14","width":140},{"label":"来源单据类型","prop":"demo15","width":140},{"label":"来源单据编号","prop":"demo16","width":140},{"label":"工程项目","prop":"demo17"},{"label":"操作人","prop":"demo18"},{"label":"创建时间","prop":"demo19","width":140},{"label":"更新时间","prop":"demo20","width":140},{"label":"重量单位","prop":"demo21","width":140}],"formData":[],"formValues":{}},"销售-销售售后-销售退款退货-商品明细":{"columns":[{"label":"商品名称","prop":"demo0","dataKey":"demo0","key":"demo0","title":"商品名称","width":140},{"label":"货物名称","prop":"demo1","dataKey":"demo1","key":"demo1","title":"货物名称","width":150},{"label":"材质","prop":"demo2","dataKey":"demo2","key":"demo2","title":"材质","width":150},{"label":"规格","prop":"demo3","dataKey":"demo3","key":"demo3","title":"规格","width":140},{"label":"实际厚度","prop":"demo4","dataKey":"demo4","key":"demo4","title":"实际厚度","width":150},{"label":"产地","prop":"demo5","dataKey":"demo5","key":"demo5","title":"产地","width":140},{"label":"计量方式","prop":"demo6","dataKey":"demo6","key":"demo6","title":"计量方式","width":150},{"label":"批号","prop":"demo7","dataKey":"demo7","key":"demo7","title":"批号","width":150},{"label":"仓库名称","prop":"demo8","dataKey":"demo8","key":"demo8","title":"仓库名称","width":150},{"label":"退货数量","prop":"demo9","dataKey":"demo9","key":"demo9","title":"退货数量","width":150},{"label":"退货重量","prop":"demo10","dataKey":"demo10","key":"demo10","title":"退货重量","width":150},{"label":"销售退货单价","prop":"demo11","dataKey":"demo11","key":"demo11","title":"销售退货单价","width":140},{"label":"销售退货不含税单价","prop":"demo12","dataKey":"demo12","key":"demo12","title":"销售退货不含税单价","width":140},{"label":"销售退货金额","prop":"demo13","dataKey":"demo13","key":"demo13","title":"销售退货金额","width":140},{"label":"税率","prop":"demo14","dataKey":"demo14","key":"demo14","title":"税率","width":150},{"label":"捆包号","prop":"demo15","dataKey":"demo15","key":"demo15","title":"捆包号","width":150},{"label":"货位号","prop":"demo16","dataKey":"demo16","key":"demo16","title":"货位号","width":150},{"label":"计价单位","prop":"demo17","dataKey":"demo17","key":"demo17","title":"计价单位","width":140},{"label":"单件重","prop":"demo18","dataKey":"demo18","key":"demo18","title":"单件重","width":150},{"label":"商品备注","prop":"demo19","dataKey":"demo19","key":"demo19","title":"商品备注","width":150}],"formData":[],"formValues":{}},"销售-销售售后-销售仅退款":{"columns":[{"label":"退款单日期","prop":"demo0","width":140},{"label":"退款单编号","prop":"demo1","width":140},{"label":"客户","prop":"demo2"},{"label":"业务员","prop":"demo3"},{"label":"退款类型","prop":"demo4"},{"label":"待申请金额","prop":"demo5","width":140},{"label":"付款申请状态","prop":"demo6","width":140},{"label":"已退金额","prop":"demo7"},{"label":"待退金额","prop":"demo8"},{"label":"退款状态","prop":"demo9"},{"label":"退款依据类型","prop":"demo10","width":140},{"label":"原销售单编号","prop":"demo11","width":140},{"label":"工程项目","prop":"demo12"},{"label":"本方公司","prop":"demo13"},{"label":"操作人","prop":"demo14"},{"label":"创建时间","prop":"demo15","width":140},{"label":"更新时间","prop":"demo16","width":140}],"formData":[],"formValues":{}},"销售-销售售后-销售仅退款-商品明细":{"columns":[{"label":"商品名称","prop":"demo0","dataKey":"demo0","key":"demo0","title":"商品名称","width":140},{"label":"货物名称","prop":"demo1","dataKey":"demo1","key":"demo1","title":"货物名称","width":150},{"label":"材质","prop":"demo2","dataKey":"demo2","key":"demo2","title":"材质","width":150},{"label":"规格","prop":"demo3","dataKey":"demo3","key":"demo3","title":"规格","width":140},{"label":"实际厚度","prop":"demo4","dataKey":"demo4","key":"demo4","title":"实际厚度","width":150},{"label":"产地","prop":"demo5","dataKey":"demo5","key":"demo5","title":"产地","width":140},{"label":"税率","prop":"demo6","dataKey":"demo6","key":"demo6","title":"税率","width":150},{"label":"返利数量","prop":"demo7","dataKey":"demo7","key":"demo7","title":"返利数量","width":150},{"label":"返利重量","prop":"demo8","dataKey":"demo8","key":"demo8","title":"返利重量","width":150},{"label":"返利单价","prop":"demo9","dataKey":"demo9","key":"demo9","title":"返利单价","width":150},{"label":"返利金额","prop":"demo10","dataKey":"demo10","key":"demo10","title":"返利金额","width":150},{"label":"备注","prop":"demo11","dataKey":"demo11","key":"demo11","title":"备注","width":150},{"label":"计价单位","prop":"demo12","dataKey":"demo12","key":"demo12","title":"计价单位","width":140}],"formData":[],"formValues":{}}}
+{
+  "商品-商品管理-商品列表": {
+    "columns": [
+      {
+        "label": "商品编码",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "商品类别",
+        "width": 180,
+        "prop": "demo1"
+      },
+      {
+        "label": "商品名称",
+        "width": 140,
+        "prop": "demo2"
+      },
+      {
+        "label": "细分名称",
+        "width": 140,
+        "prop": "demo3"
+      },
+      {
+        "label": "材质",
+        "width": 80,
+        "prop": "demo4"
+      },
+      {
+        "label": "规格",
+        "width": 140,
+        "prop": "demo5"
+      },
+      {
+        "label": "产地",
+        "width": 140,
+        "prop": "demo6"
+      },
+      {
+        "label": "工艺",
+        "width": 140,
+        "prop": "demo7"
+      },
+      {
+        "label": "形状",
+        "width": 80,
+        "prop": "demo8"
+      },
+      {
+        "label": "表面",
+        "width": 100,
+        "prop": "demo9"
+      },
+      {
+        "label": "硬度",
+        "width": 100,
+        "prop": "demo10"
+      },
+      {
+        "label": "钢印",
+        "width": 80,
+        "prop": "demo11"
+      },
+      {
+        "label": "等级",
+        "width": 80,
+        "prop": "demo12"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "启用"
+          },
+          {
+            "value": 0,
+            "label": "关闭"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field5",
+        "label": "创建日期",
+        "fieldProps": {
+          "type": "daterange"
+        },
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "field6",
+        "label": "状态",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": 1
+          },
+          {
+            "value": 2,
+            "label": 2
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field5": "",
+      "field6": ""
+    }
+  },
+  "商品-商品管理-商品列表-新增": {
+    "columns": [
+      {
+        "label": "商品类别",
+        "width": 100,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "类别编码",
+        "prop": "demo1"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "细分名称",
+        "prop": "demo3"
+      },
+      {
+        "label": "助记码",
+        "prop": "demo4"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品编号",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品名称",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "细分名称",
+        "valueType": "input"
+      },
+      {
+        "prop": "field4",
+        "label": "助记码",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": ""
+    }
+  },
+  "商品-商品设置-商品资料库": {
+    "columns": [
+      {
+        "label": "类别编码",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "类别",
+        "width": 180,
+        "prop": "demo1"
+      },
+      {
+        "label": "商品名称",
+        "width": 140,
+        "prop": "demo2"
+      },
+      {
+        "label": "细分名称",
+        "width": 120,
+        "prop": "demo3"
+      },
+      {
+        "label": "助记码",
+        "width": 160,
+        "prop": "demo4"
+      },
+      {
+        "label": "规格格式",
+        "width": 220,
+        "prop": "demo5"
+      },
+      {
+        "label": "密度值",
+        "width": 120,
+        "prop": "demo6"
+      },
+      {
+        "label": "计量方式",
+        "width": 100,
+        "prop": "demo7"
+      },
+      {
+        "label": "数量单位",
+        "width": 100,
+        "prop": "demo8"
+      },
+      {
+        "label": "重量单位",
+        "width": 140,
+        "prop": "demo9"
+      },
+      {
+        "label": "计价单位",
+        "width": 140,
+        "prop": "demo10"
+      },
+      {
+        "label": "税率",
+        "width": 100,
+        "prop": "demo11"
+      },
+      {
+        "label": "属性数量",
+        "width": 100,
+        "prop": "demo12"
+      },
+      {
+        "label": "创建人",
+        "width": 100,
+        "prop": "demo13"
+      },
+      {
+        "label": "更新人",
+        "width": 100,
+        "prop": "demo14"
+      },
+      {
+        "label": "更新时间",
+        "width": 140,
+        "prop": "demo15"
+      },
+      {
+        "label": "商品备注",
+        "width": 100,
+        "prop": "demo16"
+      },
+      {
+        "label": "发票税务编码",
+        "width": 140,
+        "prop": "demo17"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field5",
+        "label": "商品编号",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field4": "",
+      "field5": ""
+    }
+  },
+  "商品-基础与加价": {
+    "columns": [
+      {
+        "label": "商品类别",
+        "width": 100,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "产地",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo2"
+      },
+      {
+        "label": "基价",
+        "prop": "demo3"
+      },
+      {
+        "label": "开始时间",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "结束时间",
+        "prop": "demo5",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "产地",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "仓库",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "仓库1"
+          },
+          {
+            "value": 0,
+            "label": "仓库2"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": ""
+    }
+  },
+  "库存-库存统计-库存查询": {
+    "columns": [
+      {
+        "label": "类别",
+        "width": 100,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "材质",
+        "prop": "demo1"
+      },
+      {
+        "label": "规格",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo4"
+      },
+      {
+        "label": "库存数量",
+        "prop": "demo5"
+      },
+      {
+        "label": "库存重量",
+        "prop": "demo6"
+      },
+      {
+        "label": "冻结数量",
+        "prop": "demo7"
+      },
+      {
+        "label": "冻结重量",
+        "prop": "demo8"
+      },
+      {
+        "label": "可售数量",
+        "prop": "demo9"
+      },
+      {
+        "label": "可售重量",
+        "prop": "demo10"
+      },
+      {
+        "label": "累计可售重量",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "入库单价",
+        "prop": "demo12"
+      },
+      {
+        "label": "入库成本",
+        "prop": "demo13"
+      },
+      {
+        "label": "库存均价",
+        "prop": "demo14"
+      },
+      {
+        "label": "库存成本",
+        "prop": "demo15"
+      },
+      {
+        "label": "货主",
+        "prop": "demo16"
+      },
+      {
+        "label": "货权类型",
+        "prop": "demo17"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo18",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "库存-库存统计-批次库存": {
+    "columns": [
+      {
+        "label": "商品编码",
+        "width": 100,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "商品类别",
+        "prop": "demo1"
+      },
+      {
+        "label": "材质",
+        "prop": "demo2"
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo5"
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6"
+      },
+      {
+        "label": "加工品类型",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "库存数量",
+        "prop": "demo8"
+      },
+      {
+        "label": "库存重量",
+        "prop": "demo9"
+      },
+      {
+        "label": "冻结数量",
+        "prop": "demo10"
+      },
+      {
+        "label": "冻结重量",
+        "prop": "demo11"
+      },
+      {
+        "label": "可售数量",
+        "prop": "demo12"
+      },
+      {
+        "label": "可售重量",
+        "prop": "demo13"
+      },
+      {
+        "label": "入库单价",
+        "prop": "demo14"
+      },
+      {
+        "label": "含税入库单价",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "不含税入库单价",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "调整入库单价",
+        "prop": "demo17",
+        "width": 140
+      },
+      {
+        "label": "实际入库单价",
+        "prop": "demo18",
+        "width": 140
+      },
+      {
+        "label": "库存成本",
+        "prop": "demo19"
+      },
+      {
+        "label": "含税库存成本",
+        "prop": "demo20",
+        "width": 140
+      },
+      {
+        "label": "不含税库存成本",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "调整库存成本",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "不含税入库单价",
+        "prop": "demo23",
+        "width": 140
+      },
+      {
+        "label": "实际库存成本",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "渠道售价",
+        "prop": "demo25"
+      },
+      {
+        "label": "两票费用单价",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "两票成本",
+        "prop": "demo27"
+      },
+      {
+        "label": "入库单价（包含两票）",
+        "prop": "demo28",
+        "width": 140
+      },
+      {
+        "label": "库存成本（包含两票）",
+        "prop": "demo29",
+        "width": 140
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo30"
+      },
+      {
+        "label": "货位号",
+        "prop": "demo31"
+      },
+      {
+        "label": "单据类型",
+        "prop": "demo32"
+      },
+      {
+        "label": "单据编号",
+        "prop": "demo33"
+      },
+      {
+        "label": "批号",
+        "prop": "demo34"
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo35"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo36"
+      },
+      {
+        "label": "所属部门",
+        "prop": "demo37"
+      },
+      {
+        "label": "货源",
+        "prop": "demo38"
+      },
+      {
+        "label": "供应商",
+        "prop": "demo39"
+      },
+      {
+        "label": "货主",
+        "prop": "demo40"
+      },
+      {
+        "label": "货权类型",
+        "prop": "demo41"
+      },
+      {
+        "label": "单件重",
+        "prop": "demo42"
+      },
+      {
+        "label": "税率",
+        "prop": "demo43"
+      },
+      {
+        "label": "入库日期",
+        "prop": "demo44",
+        "width": 140
+      },
+      {
+        "label": "采购订单号",
+        "prop": "demo45",
+        "width": 140
+      },
+      {
+        "label": "来货车船号",
+        "prop": "demo46",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo47"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo48",
+        "width": 140
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo49",
+        "width": 140
+      },
+      {
+        "label": "批次备注",
+        "prop": "demo50"
+      },
+      {
+        "label": "锁定状态",
+        "prop": "demo51",
+        "tableColumnProps": {
+          "fixed": "right"
+        }
+      },
+      {
+        "label": "隐藏状态",
+        "prop": "demo52",
+        "tableColumnProps": {
+          "fixed": "right"
+        }
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "库存-库存统计-库存流水": {
+    "columns": [
+      {
+        "label": "交易日期",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "单据类型",
+        "prop": "demo1"
+      },
+      {
+        "label": "出入库方向",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "单据编号",
+        "prop": "demo3"
+      },
+      {
+        "label": "商品编码",
+        "prop": "demo4"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "商品类别",
+        "prop": "demo6"
+      },
+      {
+        "label": "材质",
+        "prop": "demo7"
+      },
+      {
+        "label": "规格",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo10"
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo11"
+      },
+      {
+        "label": "交易数量",
+        "prop": "demo12"
+      },
+      {
+        "label": "交易重量",
+        "prop": "demo13"
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo14"
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo15"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo16"
+      },
+      {
+        "label": "供应商",
+        "prop": "demo17"
+      },
+      {
+        "label": "客户",
+        "prop": "demo18"
+      },
+      {
+        "label": "货主",
+        "prop": "demo19"
+      },
+      {
+        "label": "货权类型",
+        "prop": "demo20"
+      },
+      {
+        "label": "采购订单号",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "销售订单号",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "批号",
+        "prop": "demo23"
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo24"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo25",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "库存-库存统计-进销存查询": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "商品类别",
+        "prop": "demo1"
+      },
+      {
+        "label": "材质",
+        "prop": "demo2"
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo5"
+      },
+      {
+        "label": "期初数量",
+        "prop": "demo6"
+      },
+      {
+        "label": "期初重量",
+        "prop": "demo7"
+      },
+      {
+        "label": "期初库存单价",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "期初库存金额",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "入库数量",
+        "prop": "demo10"
+      },
+      {
+        "label": "入库金额",
+        "prop": "demo11"
+      },
+      {
+        "label": "入库均价",
+        "prop": "demo12"
+      },
+      {
+        "label": "入库重量",
+        "prop": "demo13"
+      },
+      {
+        "label": "出库数量",
+        "prop": "demo14"
+      },
+      {
+        "label": "出库金额",
+        "prop": "demo15"
+      },
+      {
+        "label": "出库均价",
+        "prop": "demo16"
+      },
+      {
+        "label": "出库重量",
+        "prop": "demo17"
+      },
+      {
+        "label": "库存调整数量",
+        "prop": "demo18",
+        "width": 140
+      },
+      {
+        "label": "库存调整重量",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "库存调拨数量",
+        "prop": "demo20",
+        "width": 140
+      },
+      {
+        "label": "库存调拨重量",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "加工数量",
+        "prop": "demo22"
+      },
+      {
+        "label": "期末数量",
+        "prop": "demo23"
+      },
+      {
+        "label": "期末库存单价",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "期末库存单价",
+        "prop": "demo25",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo26"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "库存-库存管理-库存调整": {
+    "columns": [
+      {
+        "label": "库存调整日期",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "仓库",
+        "prop": "demo1"
+      },
+      {
+        "label": "类型",
+        "prop": "demo2"
+      },
+      {
+        "label": "单据编号",
+        "prop": "demo3"
+      },
+      {
+        "label": "调整原因",
+        "prop": "demo4"
+      },
+      {
+        "label": "调整数量",
+        "prop": "demo5"
+      },
+      {
+        "label": "调整重量",
+        "prop": "demo6"
+      },
+      {
+        "label": "调整成本",
+        "prop": "demo7"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo8"
+      },
+      {
+        "label": "货主",
+        "prop": "demo9"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo10"
+      },
+      {
+        "label": "来源销售单号",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "来源单据编号",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "操作人",
+        "prop": "demo14"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo17",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "库存-库存管理-库存调整-新建库存调整": {
+    "columns": [
+      {
+        "label": "商品编号",
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        },
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品编号",
+        "fixed": "left",
+        "width": 150
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "规格",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "调整数量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "调整数量",
+        "width": 150
+      },
+      {
+        "label": "调整重量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "调整重量",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "入库单价",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "入库单价",
+        "width": 150
+      },
+      {
+        "label": "入库成本",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "入库成本",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "货位号",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "货位号",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "重量单位",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "数量单位",
+        "width": 150
+      },
+      {
+        "label": "供应商",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "供应商",
+        "width": 150
+      },
+      {
+        "label": "批号",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "批号",
+        "width": 150
+      },
+      {
+        "label": "自编号",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "自编号",
+        "width": 150
+      },
+      {
+        "label": "长度",
+        "prop": "demo20",
+        "dataKey": "demo20",
+        "key": "demo20",
+        "title": "长度",
+        "width": 150
+      },
+      {
+        "label": "密度值",
+        "prop": "demo21",
+        "dataKey": "demo21",
+        "key": "demo21",
+        "title": "密度值",
+        "width": 150
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "库存-库存管理-库存调拨": {
+    "columns": [
+      {
+        "label": "库存调拨日期",
+        "width": 140,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "调出仓库",
+        "prop": "demo1"
+      },
+      {
+        "label": "调入仓库",
+        "prop": "demo2"
+      },
+      {
+        "label": "调出公司",
+        "prop": "demo3"
+      },
+      {
+        "label": "调入公司",
+        "prop": "demo4"
+      },
+      {
+        "label": "单据编号",
+        "prop": "demo5"
+      },
+      {
+        "label": "总重量",
+        "prop": "demo6"
+      },
+      {
+        "label": "总金额（元）",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "调拨费用金额（元）",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "业务员",
+        "prop": "demo9"
+      },
+      {
+        "label": "操作人",
+        "prop": "demo10"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo13",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "库存-库存管理-库存调拨-基本信息": {
+    "columns": [],
+    "formData": [
+      {
+        "prop": "name111",
+        "label": "调拨类型",
+        "options": [
+          {
+            "value": "0",
+            "label": "公司内调拨"
+          },
+          {
+            "value": "1",
+            "label": "跨公司调拨"
+          }
+        ],
+        "valueType": "checkbox"
+      },
+      {
+        "prop": "name",
+        "label": "调出公司",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name2555",
+        "label": "调出仓库",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name344",
+        "label": "调拨日期",
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "name33",
+        "label": "调入公司",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name222",
+        "label": "调入仓库",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name2",
+        "label": "业务员",
+        "valueType": "input"
+      },
+      {
+        "prop": "name21",
+        "label": "备注",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "name111": "",
+      "name": "",
+      "name2555": "",
+      "name344": "",
+      "name33": "",
+      "name222": "",
+      "name2": "",
+      "name21": ""
+    }
+  },
+  "库存-库存管理-库存调拨-调拨提货涵": {
+    "columns": [],
+    "formData": [
+      {
+        "prop": "name111",
+        "label": "提货涵",
+        "options": [
+          {
+            "value": "0",
+            "label": "需要"
+          },
+          {
+            "value": "1",
+            "label": "不需要"
+          }
+        ],
+        "valueType": "checkbox"
+      },
+      {
+        "prop": "prop1",
+        "valueType": "input"
+      },
+      {
+        "prop": "name",
+        "label": "提货人",
+        "valueType": "input"
+      },
+      {
+        "prop": "name2555",
+        "label": "联系手机号",
+        "valueType": "input"
+      },
+      {
+        "prop": "name344",
+        "label": "身份证号码",
+        "valueType": "input"
+      },
+      {
+        "prop": "name33",
+        "label": "车牌号码",
+        "valueType": "input"
+      },
+      {
+        "prop": "name222",
+        "label": "车队名称",
+        "valueType": "input"
+      },
+      {
+        "prop": "name21",
+        "label": "留言",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "name111": "",
+      "prop1": "",
+      "name": "",
+      "name2555": "",
+      "name344": "",
+      "name33": "",
+      "name222": "",
+      "name21": ""
+    }
+  },
+  "库存-库存管理-库存调拨-调出商品明细": {
+    "columns": [
+      {
+        "label": "商品编号",
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        },
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品编号",
+        "fixed": "left",
+        "width": 150
+      },
+      {
+        "label": "商品类别",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "商品类别",
+        "width": 150
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "规格",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "调整数量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "调整数量",
+        "width": 150
+      },
+      {
+        "label": "调整重量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "调整重量",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "批号",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "批号",
+        "width": 150
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "本方公司",
+        "width": 150
+      },
+      {
+        "label": "仓库",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "仓库",
+        "width": 150
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "重量单位",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "数量单位",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "自编号",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "自编号",
+        "width": 150
+      },
+      {
+        "label": "长度",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "长度",
+        "width": 150
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "库存-库存管理-库存调拨-调入商品明细": {
+    "columns": [
+      {
+        "label": "商品编号",
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "商品类别",
+        "prop": "demo1"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo3"
+      },
+      {
+        "label": "规格",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6"
+      },
+      {
+        "label": "调整数量",
+        "prop": "demo7"
+      },
+      {
+        "label": "调整重量",
+        "prop": "demo8"
+      },
+      {
+        "label": "单件重",
+        "prop": "demo9"
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo10"
+      },
+      {
+        "label": "批号",
+        "prop": "demo11"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo12"
+      },
+      {
+        "label": "仓库",
+        "prop": "demo13"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo15"
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "自编号",
+        "prop": "demo17"
+      },
+      {
+        "label": "长度",
+        "prop": "demo18"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "库存-库存管理-库存预警": {
+    "columns": [
+      {
+        "label": "类别",
+        "width": 100,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "材质",
+        "prop": "demo1"
+      },
+      {
+        "label": "规格",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo4"
+      },
+      {
+        "label": "库存数量",
+        "prop": "demo5"
+      },
+      {
+        "label": "库存重量",
+        "prop": "demo6"
+      },
+      {
+        "label": "冻结数量",
+        "prop": "demo7"
+      },
+      {
+        "label": "冻结重量",
+        "prop": "demo8"
+      },
+      {
+        "label": "可售数量",
+        "prop": "demo9"
+      },
+      {
+        "label": "可售重量",
+        "prop": "demo10"
+      },
+      {
+        "label": "累计可售重量",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "入库单价",
+        "prop": "demo12"
+      },
+      {
+        "label": "入库成本",
+        "prop": "demo13"
+      },
+      {
+        "label": "库存均价",
+        "prop": "demo14"
+      },
+      {
+        "label": "库存成本",
+        "prop": "demo15"
+      },
+      {
+        "label": "货主",
+        "prop": "demo16"
+      },
+      {
+        "label": "货权类型",
+        "prop": "demo17"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo18",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "库存-库存管理-仓库设置": {
+    "columns": [
+      {
+        "label": "仓库名称",
+        "width": 100,
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        }
+      },
+      {
+        "label": "仓库简称",
+        "prop": "demo1"
+      },
+      {
+        "label": "是否支持加工 ",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "助记码",
+        "prop": "demo3"
+      },
+      {
+        "label": "仓库类型",
+        "prop": "demo4"
+      },
+      {
+        "label": "所在省",
+        "prop": "demo5"
+      },
+      {
+        "label": "所在市",
+        "prop": "demo6"
+      },
+      {
+        "label": "创建人",
+        "prop": "demo7"
+      },
+      {
+        "label": "更新人",
+        "prop": "demo8"
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo10"
+      },
+      {
+        "label": "启用状态",
+        "prop": "demo11"
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "仓库名称",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "所属公司",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "状态",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "联系人",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "所在市",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": ""
+    }
+  },
+  "销售-销售管理-销售协议-订单视图": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        },
+        "width": 140
+      },
+      {
+        "label": "协议编号",
+        "prop": "demo1"
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo3"
+      },
+      {
+        "label": "协议状态",
+        "prop": "demo4"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "协议金额",
+        "prop": "demo6"
+      },
+      {
+        "label": "协议保证金额",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "协议已收金额",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "协议待收金额",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "协议重量",
+        "prop": "demo10"
+      },
+      {
+        "label": "协议剩余重量",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo12"
+      },
+      {
+        "label": "外部协议编号",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "预警状态",
+        "prop": "demo14"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "操作人",
+        "prop": "demo16"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo17",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo18",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "销售-销售管理-销售协议-商品视图": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "tableColumnProps": {
+          "fixed": "left"
+        },
+        "width": 140
+      },
+      {
+        "label": "协议编号",
+        "prop": "demo1"
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo3"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo5"
+      },
+      {
+        "label": "规格",
+        "width": 140,
+        "prop": "demo6"
+      },
+      {
+        "label": "产地",
+        "width": 140,
+        "prop": "demo7"
+      },
+      {
+        "label": "单件标重",
+        "prop": "demo8"
+      },
+      {
+        "label": "计量方式",
+        "width": 100,
+        "prop": "demo9"
+      },
+      {
+        "label": "商品协议重量",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "商品协议数量",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "商品剩余协议重量",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "商品已开单重量",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "协议基价",
+        "prop": "demo14"
+      },
+      {
+        "label": "销售金额",
+        "prop": "demo15"
+      },
+      {
+        "label": "外部协议编号",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "计价单位",
+        "width": 140,
+        "prop": "demo17"
+      },
+      {
+        "label": "明细备注",
+        "prop": "demo18"
+      },
+      {
+        "label": "协议状态",
+        "prop": "demo19"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo20",
+        "width": 140
+      },
+      {
+        "label": "协议金额",
+        "prop": "demo21"
+      },
+      {
+        "label": "协议保证金额",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "协议已收金额",
+        "prop": "demo23",
+        "width": 140
+      },
+      {
+        "label": "协议待收金额",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "协议重量",
+        "prop": "demo25"
+      },
+      {
+        "label": "协议剩余重量",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo27"
+      },
+      {
+        "label": "外部协议编号",
+        "prop": "demo28",
+        "width": 140
+      },
+      {
+        "label": "预警状态",
+        "prop": "demo29"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo30",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "field1",
+        "label": "商品类别",
+        "valueType": "cascader"
+      },
+      {
+        "prop": "field2",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field3",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      },
+      {
+        "prop": "field4",
+        "label": "商品类别",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "field44",
+        "label": "商品编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "field55",
+        "label": "是否启用",
+        "fieldProps": {
+          "teleported": false
+        },
+        "options": [
+          {
+            "value": 1,
+            "label": "是"
+          },
+          {
+            "value": 0,
+            "label": "否"
+          }
+        ],
+        "valueType": "select"
+      }
+    ],
+    "formValues": {
+      "field1": "",
+      "field2": "",
+      "field3": "",
+      "field4": "",
+      "field44": "",
+      "field55": ""
+    }
+  },
+  "销售-销售管理-销售协议-新增销售协议": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "协议数量",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "协议数量",
+        "width": 150
+      },
+      {
+        "label": "协议重量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "协议重量",
+        "width": 150
+      },
+      {
+        "label": "商品剩余协议重量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "商品剩余协议重量",
+        "width": 140
+      },
+      {
+        "label": "商品已开单重量",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "商品已开单重量",
+        "width": 140
+      },
+      {
+        "label": "协议基价",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "协议基价",
+        "width": 150
+      },
+      {
+        "label": "销售金额",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "销售金额",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "备注",
+        "width": 150
+      },
+      {
+        "label": "自编号",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "自编号",
+        "width": 150
+      },
+      {
+        "label": "长度",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "长度",
+        "width": 150
+      },
+      {
+        "label": "密度",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "密度",
+        "width": 150
+      },
+      {
+        "label": "外部物料编号",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "外部物料编号",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "name",
+        "label": "本方公司",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name2555",
+        "label": "客户",
+        "valueType": "input"
+      },
+      {
+        "prop": "name344",
+        "label": "协议日期",
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "name33",
+        "label": "协议月份",
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "name22",
+        "label": "业务模式",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name23",
+        "label": "外部协议编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "name33",
+        "label": "协议金额",
+        "valueType": "input-number"
+      },
+      {
+        "prop": "name22",
+        "label": "保证金比例（%）",
+        "valueType": "input-number"
+      },
+      {
+        "prop": "name23",
+        "label": "保证金金额",
+        "valueType": "input"
+      },
+      {
+        "prop": "name23",
+        "label": "协议预收款",
+        "valueType": "input"
+      },
+      {
+        "prop": "name33",
+        "label": "协议重量",
+        "valueType": "input-number"
+      },
+      {
+        "prop": "name22",
+        "label": "剩余协议重量",
+        "valueType": "input-number"
+      },
+      {
+        "prop": "name23",
+        "label": "已开单重量",
+        "valueType": "input-number"
+      },
+      {
+        "prop": "name33",
+        "label": "重量单位",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name22",
+        "label": "交货方式",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name23",
+        "label": "最晚交货日期",
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "name22",
+        "label": "业务员",
+        "valueType": "input"
+      },
+      {
+        "prop": "name23",
+        "label": "签约地点",
+        "valueType": "input"
+      },
+      {
+        "prop": "name23",
+        "label": "协议完结方式",
+        "options": [
+          {
+            "value": "0",
+            "label": "手动完结"
+          },
+          {
+            "value": "1",
+            "label": "剩余协议重量为 0 自动完结"
+          },
+          {
+            "value": "2",
+            "label": "协议到期自动完结"
+          }
+        ],
+        "valueType": "radio"
+      },
+      {
+        "prop": "name22",
+        "label": "付款方式",
+        "fieldProps": {
+          "teleported": false
+        },
+        "valueType": "select"
+      },
+      {
+        "prop": "name22",
+        "label": "备注",
+        "valueType": "input"
+      },
+      {
+        "prop": "name22",
+        "label": "协议条款",
+        "valueType": "inputTextArea"
+      }
+    ],
+    "formValues": {
+      "name": "",
+      "name2555": "",
+      "name344": "",
+      "name33": "",
+      "name22": "",
+      "name23": ""
+    }
+  },
+  "销售-销售管理-销售订单-订单视图": {
+    "columns": [
+      {
+        "label": "销售订单日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "预计收款日期",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "销售单编号",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo3"
+      },
+      {
+        "label": "客户联系人/电话",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "业务员",
+        "prop": "demo5"
+      },
+      {
+        "label": "代理人",
+        "prop": "demo6"
+      },
+      {
+        "label": "订单状态",
+        "prop": "demo7"
+      },
+      {
+        "label": "销售数量",
+        "prop": "demo8"
+      },
+      {
+        "label": "销售重量",
+        "prop": "demo9"
+      },
+      {
+        "label": "实提数量",
+        "prop": "demo10"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo11"
+      },
+      {
+        "label": "待提数量",
+        "prop": "demo12"
+      },
+      {
+        "label": "待提重量",
+        "prop": "demo13"
+      },
+      {
+        "label": "销售金额",
+        "prop": "demo14"
+      },
+      {
+        "label": "应收金额",
+        "prop": "demo15"
+      },
+      {
+        "label": "已收金额",
+        "prop": "demo16"
+      },
+      {
+        "label": "待收金额",
+        "prop": "demo17"
+      },
+      {
+        "label": "收款状态",
+        "prop": "demo18"
+      },
+      {
+        "label": "收款模式",
+        "prop": "demo19"
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo20"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo21"
+      },
+      {
+        "label": "结算金额",
+        "prop": "demo22"
+      },
+      {
+        "label": "结算状态",
+        "prop": "demo23"
+      },
+      {
+        "label": "销售协议号",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo25"
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo26"
+      },
+      {
+        "label": "是否已采购",
+        "prop": "demo27",
+        "width": 140
+      },
+      {
+        "label": "是否已指认",
+        "prop": "demo28",
+        "width": 140
+      },
+      {
+        "label": "来源单据编号",
+        "prop": "demo29",
+        "width": 140
+      },
+      {
+        "label": "采购托盘",
+        "prop": "demo30"
+      },
+      {
+        "label": "外部订单编号",
+        "prop": "demo31",
+        "width": 140
+      },
+      {
+        "label": "采购协议编号",
+        "prop": "demo32",
+        "width": 140
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo33"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo34",
+        "width": 140
+      },
+      {
+        "label": "单据所属部门",
+        "prop": "demo35",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo36"
+      },
+      {
+        "label": "订单备注",
+        "prop": "demo37"
+      },
+      {
+        "label": "关联退货退款单",
+        "prop": "demo38",
+        "width": 140
+      },
+      {
+        "label": "关联仅退款单",
+        "prop": "demo39",
+        "width": 140
+      },
+      {
+        "label": "合同归档",
+        "prop": "demo40"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo41",
+        "width": 140
+      },
+      {
+        "label": "收货地区",
+        "prop": "demo42"
+      },
+      {
+        "label": "详细地址",
+        "prop": "demo43"
+      },
+      {
+        "label": "是否上传附件",
+        "prop": "demo44",
+        "width": 140
+      },
+      {
+        "label": "操作人",
+        "prop": "demo45"
+      },
+      {
+        "label": "打印下载次数",
+        "prop": "demo46",
+        "width": 140
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo47",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo48",
+        "width": 140
+      }
+    ],
+    "formData": [
+      {
+        "prop": "prop0",
+        "label": "客户",
+        "valueType": "input"
+      },
+      {
+        "prop": "prop1",
+        "label": "销售订单号",
+        "valueType": "input"
+      },
+      {
+        "prop": "prop2",
+        "label": "销售协议号",
+        "valueType": "input"
+      },
+      {
+        "prop": "prop3",
+        "label": "业务模式",
+        "valueType": "select"
+      },
+      {
+        "prop": "prop4",
+        "label": "销售日期",
+        "valueType": "date-picker"
+      },
+      {
+        "prop": "prop5",
+        "label": "订单类型",
+        "valueType": "select"
+      },
+      {
+        "prop": "prop6",
+        "label": "本方公司",
+        "valueType": "select"
+      },
+      {
+        "prop": "prop7",
+        "label": "来源单据类型",
+        "valueType": "select"
+      },
+      {
+        "prop": "prop8",
+        "label": "来源单据编号",
+        "valueType": "input"
+      },
+      {
+        "prop": "prop9",
+        "label": "业务员",
+        "valueType": "input"
+      },
+      {
+        "prop": "prop10",
+        "label": "代理人",
+        "valueType": "input"
+      }
+    ],
+    "formValues": {
+      "prop0": "",
+      "prop1": "",
+      "prop2": "",
+      "prop3": "",
+      "prop4": "",
+      "prop5": "",
+      "prop6": "",
+      "prop7": "",
+      "prop8": "",
+      "prop9": "",
+      "prop10": ""
+    }
+  },
+  "销售-销售管理-销售订单-商品视图": {
+    "columns": [
+      {
+        "label": "销售单编号",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "销售订单日期",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "预计收款日期",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo3"
+      },
+      {
+        "label": "客户联系人/电话",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "业务员",
+        "prop": "demo5"
+      },
+      {
+        "label": "仓库",
+        "prop": "demo6"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "货物名称",
+        "prop": "demo8"
+      },
+      {
+        "label": "材质",
+        "prop": "demo9"
+      },
+      {
+        "label": "规格",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo12"
+      },
+      {
+        "label": "销售税额",
+        "prop": "demo13"
+      },
+      {
+        "label": "结算税额",
+        "prop": "demo14"
+      },
+      {
+        "label": "销售数量",
+        "prop": "demo15"
+      },
+      {
+        "label": "销售重量",
+        "prop": "demo16"
+      },
+      {
+        "label": "货物单价",
+        "prop": "demo17"
+      },
+      {
+        "label": "费用合计",
+        "prop": "demo18"
+      },
+      {
+        "label": "销售单价",
+        "prop": "demo19"
+      },
+      {
+        "label": "销售金额",
+        "prop": "demo20"
+      },
+      {
+        "label": "整单销售金额",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "整单收款状态",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "收款模式",
+        "prop": "demo23"
+      },
+      {
+        "label": "整单应收金额",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "整单待收金额",
+        "prop": "demo25",
+        "width": 140
+      },
+      {
+        "label": "待提数量",
+        "prop": "demo26"
+      },
+      {
+        "label": "待提重量",
+        "prop": "demo27"
+      },
+      {
+        "label": "实提数量",
+        "prop": "demo28"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo29"
+      },
+      {
+        "label": "预实提差",
+        "prop": "demo30"
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo31"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo32"
+      },
+      {
+        "label": "结算磅差",
+        "prop": "demo33"
+      },
+      {
+        "label": "结算单价",
+        "prop": "demo34"
+      },
+      {
+        "label": "结算金额",
+        "prop": "demo35"
+      },
+      {
+        "label": "整单结算状态",
+        "prop": "demo36",
+        "width": 140
+      },
+      {
+        "label": "明细备注",
+        "prop": "demo37"
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo38"
+      },
+      {
+        "label": "货位号",
+        "prop": "demo39"
+      },
+      {
+        "label": "车牌号",
+        "prop": "demo40"
+      },
+      {
+        "label": "来货车船号",
+        "prop": "demo41",
+        "width": 140
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo42"
+      },
+      {
+        "label": "销售协议号",
+        "prop": "demo43",
+        "width": 140
+      },
+      {
+        "label": "采购协议号",
+        "prop": "demo44",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo45"
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo46"
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo47",
+        "width": 140
+      },
+      {
+        "label": "来源单据编号",
+        "prop": "demo48",
+        "width": 140
+      },
+      {
+        "label": "采购托盘",
+        "prop": "demo49"
+      },
+      {
+        "label": "外部订单编号",
+        "prop": "demo50",
+        "width": 140
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo51",
+        "width": 140
+      },
+      {
+        "label": "单据所属部门",
+        "prop": "demo52",
+        "width": 140
+      },
+      {
+        "label": "供应商",
+        "prop": "demo53"
+      },
+      {
+        "label": "进价",
+        "prop": "demo54"
+      },
+      {
+        "label": "进价金额",
+        "prop": "demo55"
+      },
+      {
+        "label": "采购结算重量",
+        "prop": "demo56",
+        "width": 140
+      },
+      {
+        "label": "关联退货退款单",
+        "prop": "demo57",
+        "width": 140
+      },
+      {
+        "label": "关联仅退款单",
+        "prop": "demo58",
+        "width": 140
+      },
+      {
+        "label": "高卖单价",
+        "prop": "demo59"
+      },
+      {
+        "label": "库存计价单位",
+        "prop": "demo60",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售订单-新增商品明细": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "货物名称",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "货物名称",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "销售数量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "销售数量",
+        "width": 150
+      },
+      {
+        "label": "销售重量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "销售重量",
+        "width": 150
+      },
+      {
+        "label": "货物单价",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "货物单价",
+        "width": 150
+      },
+      {
+        "label": "费用合计",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "费用合计",
+        "width": 150
+      },
+      {
+        "label": "销售单价",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "销售单价",
+        "width": 150
+      },
+      {
+        "label": "建议售价",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "建议售价",
+        "width": 150
+      },
+      {
+        "label": "含税单价",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "含税单价",
+        "width": 150
+      },
+      {
+        "label": "不含税单价",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "不含税单价",
+        "width": 140
+      },
+      {
+        "label": "销售金额",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "销售金额",
+        "width": 150
+      },
+      {
+        "label": "预估毛利",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "预估毛利",
+        "width": 150
+      },
+      {
+        "label": "含税金额",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "含税金额",
+        "width": 150
+      },
+      {
+        "label": "仓库",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "仓库",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "货位号",
+        "prop": "demo20",
+        "dataKey": "demo20",
+        "key": "demo20",
+        "title": "货位号",
+        "width": 150
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo21",
+        "dataKey": "demo21",
+        "key": "demo21",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo22",
+        "dataKey": "demo22",
+        "key": "demo22",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "不含税金额",
+        "prop": "demo23",
+        "dataKey": "demo23",
+        "key": "demo23",
+        "title": "不含税金额",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo24",
+        "dataKey": "demo24",
+        "key": "demo24",
+        "title": "税率",
+        "width": 150
+      },
+      {
+        "label": "销售税额",
+        "prop": "demo25",
+        "dataKey": "demo25",
+        "key": "demo25",
+        "title": "销售税额",
+        "width": 150
+      },
+      {
+        "label": "车牌号",
+        "prop": "demo26",
+        "dataKey": "demo26",
+        "key": "demo26",
+        "title": "车牌号",
+        "width": 150
+      },
+      {
+        "label": "车队",
+        "prop": "demo27",
+        "dataKey": "demo27",
+        "key": "demo27",
+        "title": "车队",
+        "width": 150
+      },
+      {
+        "label": "来货车船号",
+        "prop": "demo28",
+        "dataKey": "demo28",
+        "key": "demo28",
+        "title": "来货车船号",
+        "width": 140
+      },
+      {
+        "label": "批号",
+        "prop": "demo29",
+        "dataKey": "demo29",
+        "key": "demo29",
+        "title": "批号",
+        "width": 150
+      },
+      {
+        "label": "高卖单价",
+        "prop": "demo30",
+        "dataKey": "demo30",
+        "key": "demo30",
+        "title": "高卖单价",
+        "width": 150
+      },
+      {
+        "label": "项目单价",
+        "prop": "demo31",
+        "dataKey": "demo31",
+        "key": "demo31",
+        "title": "项目单价",
+        "width": 150
+      },
+      {
+        "label": "最低售价",
+        "prop": "demo32",
+        "dataKey": "demo32",
+        "key": "demo32",
+        "title": "最低售价",
+        "width": 150
+      },
+      {
+        "label": "商品备注",
+        "prop": "demo33",
+        "dataKey": "demo33",
+        "key": "demo33",
+        "title": "商品备注",
+        "width": 150
+      },
+      {
+        "label": "库存计价单位",
+        "prop": "demo34",
+        "dataKey": "demo34",
+        "key": "demo34",
+        "title": "库存计价单位",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售订单-新增商品明细-选择销售协议号": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "协议编号",
+        "prop": "demo1"
+      },
+      {
+        "label": "外部协议编号",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "协议金额",
+        "prop": "demo3"
+      },
+      {
+        "label": "协议保证金",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "协议重量",
+        "prop": "demo5"
+      },
+      {
+        "label": "协议剩余重量",
+        "prop": "demo6",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo8"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo9"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo10"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售订单-两票费用": {
+    "columns": [
+      {
+        "label": "费用项目名称",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "来往单位",
+        "prop": "demo1"
+      },
+      {
+        "label": "费用量取值",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "收支方向",
+        "prop": "demo3"
+      },
+      {
+        "label": "费用数量",
+        "prop": "demo4"
+      },
+      {
+        "label": "费用重量",
+        "prop": "demo5"
+      },
+      {
+        "label": "费用单价",
+        "prop": "demo6"
+      },
+      {
+        "label": "费用金额",
+        "prop": "demo7"
+      },
+      {
+        "label": "车牌号",
+        "prop": "demo8"
+      },
+      {
+        "label": "含税费用单价",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "不含税费用单价",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "含税费用金额",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo12"
+      },
+      {
+        "label": "税额",
+        "prop": "demo13"
+      },
+      {
+        "label": "不含税费用金额",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo15"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo17"
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo18",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo19"
+      },
+      {
+        "label": "费用日期",
+        "prop": "demo20",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售订单-两票费用编辑": {
+    "columns": [
+      {
+        "label": "费用项目名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "费用项目名称",
+        "width": 140
+      },
+      {
+        "label": "来往单位",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "来往单位",
+        "width": 150
+      },
+      {
+        "label": "费用量取值",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "费用量取值",
+        "width": 140
+      },
+      {
+        "label": "收支方向",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "收支方向",
+        "width": 150
+      },
+      {
+        "label": "费用数量",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "费用数量",
+        "width": 150
+      },
+      {
+        "label": "费用重量",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "费用重量",
+        "width": 150
+      },
+      {
+        "label": "费用单价",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "费用单价",
+        "width": 150
+      },
+      {
+        "label": "费用金额",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "费用金额",
+        "width": 150
+      },
+      {
+        "label": "车牌号",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "车牌号",
+        "width": 150
+      },
+      {
+        "label": "含税费用单价",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "含税费用单价",
+        "width": 140
+      },
+      {
+        "label": "不含税费用单价",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "不含税费用单价",
+        "width": 140
+      },
+      {
+        "label": "含税费用金额",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "含税费用金额",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "税率",
+        "width": 150
+      },
+      {
+        "label": "税额",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "税额",
+        "width": 150
+      },
+      {
+        "label": "不含税费用金额",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "不含税费用金额",
+        "width": 140
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "财务模式",
+        "width": 150
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "重量单位",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "数量单位",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "备注",
+        "width": 150
+      },
+      {
+        "label": "费用日期",
+        "prop": "demo20",
+        "dataKey": "demo20",
+        "key": "demo20",
+        "title": "费用日期",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-提货通知单-订单视图": {
+    "columns": [
+      {
+        "label": "提货通知日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "提货单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "状态",
+        "prop": "demo3"
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo4"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "提货数量",
+        "prop": "demo6"
+      },
+      {
+        "label": "提货重量",
+        "prop": "demo7"
+      },
+      {
+        "label": "实货数量",
+        "prop": "demo8"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo9"
+      },
+      {
+        "label": "仓库",
+        "prop": "demo10"
+      },
+      {
+        "label": "提货凭证",
+        "prop": "demo11"
+      },
+      {
+        "label": "收货区域",
+        "prop": "demo12"
+      },
+      {
+        "label": "直接发货",
+        "prop": "demo13"
+      },
+      {
+        "label": "操作人",
+        "prop": "demo14"
+      },
+      {
+        "label": "销售订单号",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo16"
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo17",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo18"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo20",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo22"
+      },
+      {
+        "label": "打印次数",
+        "prop": "demo23"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-提货通知单-商品视图": {
+    "columns": [
+      {
+        "label": "提货通知日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "提货单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "状态",
+        "prop": "demo3"
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo4"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo6",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo7"
+      },
+      {
+        "label": "规格",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "提货数量",
+        "prop": "demo10"
+      },
+      {
+        "label": "提货重量",
+        "prop": "demo11"
+      },
+      {
+        "label": "实货数量",
+        "prop": "demo12"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo13"
+      },
+      {
+        "label": "仓库",
+        "prop": "demo14"
+      },
+      {
+        "label": "提货凭证",
+        "prop": "demo15"
+      },
+      {
+        "label": "收货区域",
+        "prop": "demo16"
+      },
+      {
+        "label": "直接发货",
+        "prop": "demo17"
+      },
+      {
+        "label": "操作人",
+        "prop": "demo18"
+      },
+      {
+        "label": "销售订单号",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo20"
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo22"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo23",
+        "width": 140
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo25",
+        "width": 140
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo26"
+      },
+      {
+        "label": "打印次数",
+        "prop": "demo27"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-提货通知单-配送信息": {
+    "columns": [
+      {
+        "label": "仓库",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "仓库",
+        "width": 150
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "批号",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "批号",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "提货数量",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "提货数量",
+        "width": 150
+      },
+      {
+        "label": "提货重量",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "提货重量",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "货位号",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "货位号",
+        "width": 150
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售发货-订单视图": {
+    "columns": [
+      {
+        "label": "发货日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "发货单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "发货数量",
+        "prop": "demo3"
+      },
+      {
+        "label": "发货重量",
+        "prop": "demo4"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo6"
+      },
+      {
+        "label": "提货凭证",
+        "prop": "demo7"
+      },
+      {
+        "label": "操作人",
+        "prop": "demo8"
+      },
+      {
+        "label": "销售订单号",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "提货通知单号",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "外部订单编号",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo12"
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "来演单据编号",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo15"
+      },
+      {
+        "label": "发货员",
+        "prop": "demo16"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo17",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo18",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售发货-商品视图": {
+    "columns": [
+      {
+        "label": "发货日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo1"
+      },
+      {
+        "label": "发货数量",
+        "prop": "demo2"
+      },
+      {
+        "label": "发货重量",
+        "prop": "demo3"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo5"
+      },
+      {
+        "label": "规格",
+        "prop": "demo6",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "实提单价",
+        "prop": "demo8"
+      },
+      {
+        "label": "实提金额",
+        "prop": "demo9"
+      },
+      {
+        "label": "提货凭证",
+        "prop": "demo10"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo12"
+      },
+      {
+        "label": "发货单编号",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "操作人",
+        "prop": "demo14"
+      },
+      {
+        "label": "提货通知单号",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "发货员",
+        "prop": "demo16"
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo17"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo18"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售发货-提货商品合计": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo1"
+      },
+      {
+        "label": "规格",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo3"
+      },
+      {
+        "label": "产地",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo5"
+      },
+      {
+        "label": "提货数量",
+        "prop": "demo6"
+      },
+      {
+        "label": "提货重量",
+        "prop": "demo7"
+      },
+      {
+        "label": "实提数量",
+        "prop": "demo8"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo9"
+      },
+      {
+        "label": "实提单价",
+        "prop": "demo10"
+      },
+      {
+        "label": "实提金额",
+        "prop": "demo11"
+      },
+      {
+        "label": "可提数量",
+        "prop": "demo12"
+      },
+      {
+        "label": "可提重量",
+        "prop": "demo13"
+      },
+      {
+        "label": "预实提差",
+        "prop": "demo14"
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo15"
+      },
+      {
+        "label": "货位号",
+        "prop": "demo16"
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo17",
+        "width": 140
+      },
+      {
+        "label": "单件重",
+        "prop": "demo18"
+      },
+      {
+        "label": "批号",
+        "prop": "demo19"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售发货-凭证信息": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "规格",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "提货数量",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "提货数量",
+        "width": 150
+      },
+      {
+        "label": "提货重量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "提货重量",
+        "width": 150
+      },
+      {
+        "label": "实提数量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "实提数量",
+        "width": 150
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "实提重量",
+        "width": 150
+      },
+      {
+        "label": "预实提差",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "预实提差",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "货位号",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "货位号",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "单件重",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "批号",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "批号",
+        "width": 150
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售结算": {
+    "columns": [
+      {
+        "label": "结算日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "结算单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo2"
+      },
+      {
+        "label": "往来公司",
+        "prop": "demo3"
+      },
+      {
+        "label": "业务类型",
+        "prop": "demo4"
+      },
+      {
+        "label": "项目名称",
+        "prop": "demo5"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo6"
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo7"
+      },
+      {
+        "label": "明细总额 (元)",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "调整金额 (元)",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "结算总额 (元)",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "订单已付 (元)",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "结算已退补 (元)",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "结算待退补 (元)",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "利息合计 (元)",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo15"
+      },
+      {
+        "label": "结算状态",
+        "prop": "demo16"
+      },
+      {
+        "label": "结算标签",
+        "prop": "demo17"
+      },
+      {
+        "label": "单据回收",
+        "prop": "demo18"
+      },
+      {
+        "label": "单据回收时间",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "单据归档",
+        "prop": "demo20"
+      },
+      {
+        "label": "单据归档时间",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "结算专员",
+        "prop": "demo22"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo23",
+        "width": 140
+      },
+      {
+        "label": "确认时间",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "外部结算单",
+        "prop": "demo25",
+        "width": 140
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo27",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售结算-商品明细": {
+    "columns": [
+      {
+        "label": "销售日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "销售订单号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "外部订单编号",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "销售数量",
+        "prop": "demo3"
+      },
+      {
+        "label": "实提数量",
+        "prop": "demo4"
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo5"
+      },
+      {
+        "label": "销售重量",
+        "prop": "demo6"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo7"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo8"
+      },
+      {
+        "label": "销售金额(元)",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "结算金额(元)",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "已付金额(元)",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "待补退金额(元)",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "资金方向",
+        "prop": "demo13"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo15",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售管理-销售结算-商品明细子级": {
+    "columns": [
+      {
+        "label": "发货日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "到货日期",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "发货单编号",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "仓库",
+        "prop": "demo3"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "货物名称",
+        "prop": "demo5"
+      },
+      {
+        "label": "材质",
+        "prop": "demo6"
+      },
+      {
+        "label": "规格",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo8"
+      },
+      {
+        "label": "产地",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo10"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo11"
+      },
+      {
+        "label": "结算单价(元)",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "结算总价(元)",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "销售单价(元)",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "销售预提重量",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "销售金额(元)",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "实提数量",
+        "prop": "demo17"
+      },
+      {
+        "label": "实提重量",
+        "prop": "demo18"
+      },
+      {
+        "label": "车船号",
+        "prop": "demo19"
+      },
+      {
+        "label": "税率",
+        "prop": "demo20"
+      },
+      {
+        "label": "不含税金额(元)",
+        "prop": "demo21",
+        "width": 140
+      },
+      {
+        "label": "税额(元)",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "含税金额(元)",
+        "prop": "demo23",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo25"
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "是否使用发票",
+        "prop": "demo27",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo28"
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售售后-销售退款退货": {
+    "columns": [
+      {
+        "label": "退货日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "退货单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo3"
+      },
+      {
+        "label": "待申请金额",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "付款申请状态",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "退货数量",
+        "prop": "demo6"
+      },
+      {
+        "label": "退货重量",
+        "prop": "demo7"
+      },
+      {
+        "label": "应退金额",
+        "prop": "demo8"
+      },
+      {
+        "label": "已退金额",
+        "prop": "demo9"
+      },
+      {
+        "label": "待退金额",
+        "prop": "demo10"
+      },
+      {
+        "label": "退货入库日期",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "原销售单编号",
+        "prop": "demo12",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo13"
+      },
+      {
+        "label": "背靠背直退",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "来源单据编号",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo17"
+      },
+      {
+        "label": "操作人",
+        "prop": "demo18"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo20",
+        "width": 140
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo21",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售售后-销售退款退货-商品明细": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "货物名称",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "货物名称",
+        "width": 150
+      },
+      {
+        "label": "材质",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "批号",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "批号",
+        "width": 150
+      },
+      {
+        "label": "仓库名称",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "仓库名称",
+        "width": 150
+      },
+      {
+        "label": "退货数量",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "退货数量",
+        "width": 150
+      },
+      {
+        "label": "退货重量",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "退货重量",
+        "width": 150
+      },
+      {
+        "label": "销售退货单价",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "销售退货单价",
+        "width": 140
+      },
+      {
+        "label": "销售退货不含税单价",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "销售退货不含税单价",
+        "width": 140
+      },
+      {
+        "label": "销售退货金额",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "销售退货金额",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "税率",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "货位号",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "货位号",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "单件重",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "商品备注",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "商品备注",
+        "width": 150
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售售后-销售仅退款": {
+    "columns": [
+      {
+        "label": "退款单日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "退款单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "客户",
+        "prop": "demo2"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo3"
+      },
+      {
+        "label": "退款类型",
+        "prop": "demo4"
+      },
+      {
+        "label": "待申请金额",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "付款申请状态",
+        "prop": "demo6",
+        "width": 140
+      },
+      {
+        "label": "已退金额",
+        "prop": "demo7"
+      },
+      {
+        "label": "待退金额",
+        "prop": "demo8"
+      },
+      {
+        "label": "退款状态",
+        "prop": "demo9"
+      },
+      {
+        "label": "退款依据类型",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "原销售单编号",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo12"
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo13"
+      },
+      {
+        "label": "操作人",
+        "prop": "demo14"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo16",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "销售-销售售后-销售仅退款-商品明细": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "货物名称",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "货物名称",
+        "width": 150
+      },
+      {
+        "label": "材质",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "税率",
+        "width": 150
+      },
+      {
+        "label": "返利数量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "返利数量",
+        "width": 150
+      },
+      {
+        "label": "返利重量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "返利重量",
+        "width": 150
+      },
+      {
+        "label": "返利单价",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "返利单价",
+        "width": 150
+      },
+      {
+        "label": "返利金额",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "返利金额",
+        "width": 150
+      },
+      {
+        "label": "备注",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "备注",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "计价单位",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购协议-协议视图": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "采购协议编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "供应商",
+        "prop": "demo2"
+      },
+      {
+        "label": "外部协议编号",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "协议状态",
+        "prop": "demo4"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "协议金额",
+        "prop": "demo6"
+      },
+      {
+        "label": "协议保证金额",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "协议已付金额",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "协议待付金额",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "协议重量",
+        "prop": "demo10"
+      },
+      {
+        "label": "协议剩余重量",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "采购托盘",
+        "prop": "demo12"
+      },
+      {
+        "label": "货源",
+        "prop": "demo13"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo15"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo16"
+      },
+      {
+        "label": "单据所属部门",
+        "prop": "demo17",
+        "width": 140
+      },
+      {
+        "label": "操作人",
+        "prop": "demo18"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo20",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购协议-商品视图": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "采购协议编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "供应商",
+        "prop": "demo2"
+      },
+      {
+        "label": "外部协议编号",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "协议状态",
+        "prop": "demo4"
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo6"
+      },
+      {
+        "label": "规格",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo9"
+      },
+      {
+        "label": "入库仓库",
+        "prop": "demo10"
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo11"
+      },
+      {
+        "label": "单件重",
+        "prop": "demo12"
+      },
+      {
+        "label": "商品协议重量",
+        "prop": "demo13",
+        "width": 140
+      },
+      {
+        "label": "商品剩余协议重量",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "商品已开单重量",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "协议基价",
+        "prop": "demo16"
+      },
+      {
+        "label": "采购金额",
+        "prop": "demo17"
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo18",
+        "width": 140
+      },
+      {
+        "label": "明细备注",
+        "prop": "demo19"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo20",
+        "width": 140
+      },
+      {
+        "label": "协议金额",
+        "prop": "demo21"
+      },
+      {
+        "label": "协议保证金额",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "协议已付金额",
+        "prop": "demo23",
+        "width": 140
+      },
+      {
+        "label": "协议待付金额",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "协议重量",
+        "prop": "demo25"
+      },
+      {
+        "label": "协议剩余重量",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "采购托盘",
+        "prop": "demo27"
+      },
+      {
+        "label": "货源",
+        "prop": "demo28"
+      },
+      {
+        "label": "协议重量单位",
+        "prop": "demo29",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo30"
+      },
+      {
+        "label": "业务员",
+        "prop": "demo31"
+      },
+      {
+        "label": "单据所属部门",
+        "prop": "demo32",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购协议-商品明细": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "入库仓库",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "入库仓库",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "商品协议数量",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "商品协议数量",
+        "width": 140
+      },
+      {
+        "label": "商品协议重量",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "商品协议重量",
+        "width": 140
+      },
+      {
+        "label": "商品剩余数量",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "商品剩余数量",
+        "width": 140
+      },
+      {
+        "label": "商品剩余重量",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "商品剩余重量",
+        "width": 140
+      },
+      {
+        "label": "商品已开单数量",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "商品已开单数量",
+        "width": 140
+      },
+      {
+        "label": "商品已开单重量",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "商品已开单重量",
+        "width": 140
+      },
+      {
+        "label": "商品协议基价",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "商品协议基价",
+        "width": 140
+      },
+      {
+        "label": "采购金额",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "采购金额",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "税率（%）",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "税率（%）",
+        "width": 140
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "备注",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "备注",
+        "width": 150
+      },
+      {
+        "label": "自编号",
+        "prop": "demo20",
+        "dataKey": "demo20",
+        "key": "demo20",
+        "title": "自编号",
+        "width": 150
+      },
+      {
+        "label": "长度",
+        "prop": "demo21",
+        "dataKey": "demo21",
+        "key": "demo21",
+        "title": "长度",
+        "width": 150
+      },
+      {
+        "label": "密度",
+        "prop": "demo22",
+        "dataKey": "demo22",
+        "key": "demo22",
+        "title": "密度",
+        "width": 150
+      },
+      {
+        "label": "外部物料编号",
+        "prop": "demo23",
+        "dataKey": "demo23",
+        "key": "demo23",
+        "title": "外部物料编号",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购订单-协议视图": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "采购订单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "业务员",
+        "prop": "demo2"
+      },
+      {
+        "label": "供应商",
+        "prop": "demo3"
+      },
+      {
+        "label": "供应商联系人 / 电话",
+        "prop": "demo4",
+        "width": 140
+      },
+      {
+        "label": "订单状态",
+        "prop": "demo5"
+      },
+      {
+        "label": "最晚定价日期",
+        "prop": "demo6",
+        "width": 140
+      },
+      {
+        "label": "最晚结算日期",
+        "prop": "demo7",
+        "width": 140
+      },
+      {
+        "label": "采购数量",
+        "prop": "demo8"
+      },
+      {
+        "label": "采购重量",
+        "prop": "demo9"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "采购金额",
+        "prop": "demo11"
+      },
+      {
+        "label": "应付金额",
+        "prop": "demo12"
+      },
+      {
+        "label": "已付金额",
+        "prop": "demo13"
+      },
+      {
+        "label": "付款状态",
+        "prop": "demo14"
+      },
+      {
+        "label": "付款模式",
+        "prop": "demo15"
+      },
+      {
+        "label": "入库数量",
+        "prop": "demo16"
+      },
+      {
+        "label": "入库重量",
+        "prop": "demo17"
+      },
+      {
+        "label": "待入库数量",
+        "prop": "demo18",
+        "width": 140
+      },
+      {
+        "label": "待入库重量",
+        "prop": "demo19",
+        "width": 140
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo20"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo21"
+      },
+      {
+        "label": "结算金额",
+        "prop": "demo22"
+      },
+      {
+        "label": "结算状态",
+        "prop": "demo23"
+      },
+      {
+        "label": "待付金额",
+        "prop": "demo24"
+      },
+      {
+        "label": "待申请金额",
+        "prop": "demo25",
+        "width": 140
+      },
+      {
+        "label": "付款申请状态",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "采购协议号",
+        "prop": "demo27",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo28"
+      },
+      {
+        "label": "订单指认状态",
+        "prop": "demo29",
+        "width": 140
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo30"
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo31",
+        "width": 140
+      },
+      {
+        "label": "来源单据编号",
+        "prop": "demo32",
+        "width": 140
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo33"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo34",
+        "width": 140
+      },
+      {
+        "label": "外部订单编号",
+        "prop": "demo35",
+        "width": 140
+      },
+      {
+        "label": "采购托盘",
+        "prop": "demo36"
+      },
+      {
+        "label": "货源",
+        "prop": "demo37"
+      },
+      {
+        "label": "单据所属部门",
+        "prop": "demo38",
+        "width": 140
+      },
+      {
+        "label": "本方公司",
+        "prop": "demo39"
+      },
+      {
+        "label": "订单备注",
+        "prop": "demo40"
+      },
+      {
+        "label": "关联退货退款单",
+        "prop": "demo41",
+        "width": 140
+      },
+      {
+        "label": "关联仅退款单",
+        "prop": "demo42",
+        "width": 140
+      },
+      {
+        "label": "合同归档",
+        "prop": "demo43"
+      },
+      {
+        "label": "预计付款日期",
+        "prop": "demo44",
+        "width": 140
+      },
+      {
+        "label": "操作人",
+        "prop": "demo45"
+      },
+      {
+        "label": "创建时间",
+        "prop": "demo46",
+        "width": 140
+      },
+      {
+        "label": "更新时间",
+        "prop": "demo47",
+        "width": 140
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo48"
+      },
+      {
+        "label": "融资金额",
+        "prop": "demo49"
+      },
+      {
+        "label": "融资项目",
+        "prop": "demo50"
+      },
+      {
+        "label": "是否上传附件",
+        "prop": "demo51",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购订单-商品视图": {
+    "columns": [
+      {
+        "label": "协议日期",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "采购订单编号",
+        "prop": "demo1",
+        "width": 140
+      },
+      {
+        "label": "供应商",
+        "prop": "demo2"
+      },
+      {
+        "label": "供应商联系人 / 电话",
+        "prop": "demo3",
+        "width": 140
+      },
+      {
+        "label": "业务员",
+        "prop": "demo4"
+      },
+      {
+        "label": "订单明细编号",
+        "prop": "demo5",
+        "width": 140
+      },
+      {
+        "label": "商品名称",
+        "prop": "demo6",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo7"
+      },
+      {
+        "label": "规格",
+        "prop": "demo8",
+        "width": 140
+      },
+      {
+        "label": "产地",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "入库仓库",
+        "prop": "demo10"
+      },
+      {
+        "label": "税率",
+        "prop": "demo11"
+      },
+      {
+        "label": "税额",
+        "prop": "demo12"
+      },
+      {
+        "label": "结算税额",
+        "prop": "demo13"
+      },
+      {
+        "label": "最晚定价日期",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "最晚结算日期",
+        "prop": "demo15",
+        "width": 140
+      },
+      {
+        "label": "采购数量",
+        "prop": "demo16"
+      },
+      {
+        "label": "采购重量",
+        "prop": "demo17"
+      },
+      {
+        "label": "货物单价",
+        "prop": "demo18"
+      },
+      {
+        "label": "费用合计",
+        "prop": "demo19"
+      },
+      {
+        "label": "采购单价",
+        "prop": "demo20"
+      },
+      {
+        "label": "采购金额",
+        "prop": "demo21"
+      },
+      {
+        "label": "整单付款状态",
+        "prop": "demo22",
+        "width": 140
+      },
+      {
+        "label": "付款模式",
+        "prop": "demo23"
+      },
+      {
+        "label": "整单应付金额",
+        "prop": "demo24",
+        "width": 140
+      },
+      {
+        "label": "整单已付金额",
+        "prop": "demo25",
+        "width": 140
+      },
+      {
+        "label": "整单待付金额",
+        "prop": "demo26",
+        "width": 140
+      },
+      {
+        "label": "待入库数量",
+        "prop": "demo27",
+        "width": 140
+      },
+      {
+        "label": "待入库重量",
+        "prop": "demo28",
+        "width": 140
+      },
+      {
+        "label": "入库数量",
+        "prop": "demo29"
+      },
+      {
+        "label": "入库重量",
+        "prop": "demo30"
+      },
+      {
+        "label": "采购收货状态",
+        "prop": "demo31",
+        "width": 140
+      },
+      {
+        "label": "结算数量",
+        "prop": "demo32"
+      },
+      {
+        "label": "结算重量",
+        "prop": "demo33"
+      },
+      {
+        "label": "结算磅差",
+        "prop": "demo34"
+      },
+      {
+        "label": "结算单价",
+        "prop": "demo35"
+      },
+      {
+        "label": "结算金额",
+        "prop": "demo36"
+      },
+      {
+        "label": "整单结算状态",
+        "prop": "demo37",
+        "width": 140
+      },
+      {
+        "label": "明细备注",
+        "prop": "demo38"
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo39"
+      },
+      {
+        "label": "货位号",
+        "prop": "demo40"
+      },
+      {
+        "label": "审批状态",
+        "prop": "demo41"
+      },
+      {
+        "label": "盖章审批状态",
+        "prop": "demo42",
+        "width": 140
+      },
+      {
+        "label": "采购协议号",
+        "prop": "demo43",
+        "width": 140
+      },
+      {
+        "label": "业务模式",
+        "prop": "demo44"
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo45"
+      },
+      {
+        "label": "来源单据类型",
+        "prop": "demo46",
+        "width": 140
+      },
+      {
+        "label": "来源单据编号",
+        "prop": "demo47",
+        "width": 140
+      },
+      {
+        "label": "外部单据编号",
+        "prop": "demo48",
+        "width": 140
+      },
+      {
+        "label": "是否托盘",
+        "prop": "demo49"
+      },
+      {
+        "label": "货源",
+        "prop": "demo50"
+      },
+      {
+        "label": "关联退货退款单",
+        "prop": "demo51",
+        "width": 140
+      },
+      {
+        "label": "关联仅退款单",
+        "prop": "demo52",
+        "width": 140
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo53",
+        "width": 140
+      },
+      {
+        "label": "工程项目",
+        "prop": "demo54"
+      },
+      {
+        "label": "融资状态",
+        "prop": "demo55"
+      },
+      {
+        "label": "融资金额",
+        "prop": "demo56"
+      },
+      {
+        "label": "融资项目",
+        "prop": "demo57"
+      },
+      {
+        "label": "单据所属部门",
+        "prop": "demo58",
+        "width": 140
+      },
+      {
+        "label": "出货车牌号",
+        "prop": "demo59",
+        "width": 140
+      },
+      {
+        "label": "来货车船号",
+        "prop": "demo60",
+        "width": 140
+      },
+      {
+        "label": "来货车队",
+        "prop": "demo61"
+      },
+      {
+        "label": "是否上传附件",
+        "prop": "demo62",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购订单-商品明细": {
+    "columns": [
+      {
+        "label": "商品名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "商品名称",
+        "width": 140
+      },
+      {
+        "label": "材质",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "材质",
+        "width": 150
+      },
+      {
+        "label": "产地",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "产地",
+        "width": 140
+      },
+      {
+        "label": "规格",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "规格",
+        "width": 140
+      },
+      {
+        "label": "实际厚度",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "实际厚度",
+        "width": 150
+      },
+      {
+        "label": "单件重",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "单件重",
+        "width": 150
+      },
+      {
+        "label": "采购数量",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "采购数量",
+        "width": 150
+      },
+      {
+        "label": "采购重量",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "采购重量",
+        "width": 150
+      },
+      {
+        "label": "货物单价",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "货物单价",
+        "width": 150
+      },
+      {
+        "label": "采购单价",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "采购单价",
+        "width": 150
+      },
+      {
+        "label": "采购金额",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "采购金额",
+        "width": 150
+      },
+      {
+        "label": "仓库",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "仓库",
+        "width": 150
+      },
+      {
+        "label": "捆包号",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "捆包号",
+        "width": 150
+      },
+      {
+        "label": "货位号",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "货位号",
+        "width": 150
+      },
+      {
+        "label": "入库数量",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "入库数量",
+        "width": 150
+      },
+      {
+        "label": "入库重量",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "入库重量",
+        "width": 150
+      },
+      {
+        "label": "计量方式",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "计量方式",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "税率",
+        "width": 150
+      },
+      {
+        "label": "来货车船号",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "来货车船号",
+        "width": 140
+      },
+      {
+        "label": "出货车牌号",
+        "prop": "demo20",
+        "dataKey": "demo20",
+        "key": "demo20",
+        "title": "出货车牌号",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购订单-两票费用": {
+    "columns": [
+      {
+        "label": "费用项目名称",
+        "prop": "demo0",
+        "width": 140
+      },
+      {
+        "label": "来往单位",
+        "prop": "demo1"
+      },
+      {
+        "label": "费用量取值",
+        "prop": "demo2",
+        "width": 140
+      },
+      {
+        "label": "收支方向",
+        "prop": "demo3"
+      },
+      {
+        "label": "费用数量",
+        "prop": "demo4"
+      },
+      {
+        "label": "费用重量",
+        "prop": "demo5"
+      },
+      {
+        "label": "费用单价",
+        "prop": "demo6"
+      },
+      {
+        "label": "费用金额",
+        "prop": "demo7"
+      },
+      {
+        "label": "车牌号",
+        "prop": "demo8"
+      },
+      {
+        "label": "含税费用单价",
+        "prop": "demo9",
+        "width": 140
+      },
+      {
+        "label": "不含税费用单价",
+        "prop": "demo10",
+        "width": 140
+      },
+      {
+        "label": "含税费用金额",
+        "prop": "demo11",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo12"
+      },
+      {
+        "label": "税额",
+        "prop": "demo13"
+      },
+      {
+        "label": "不含税费用金额",
+        "prop": "demo14",
+        "width": 140
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo15"
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo16",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo17"
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo18",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo19"
+      },
+      {
+        "label": "费用日期",
+        "prop": "demo20",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  },
+  "采购-采购管理-采购订单-两票费用编辑": {
+    "columns": [
+      {
+        "label": "费用项目名称",
+        "prop": "demo0",
+        "dataKey": "demo0",
+        "key": "demo0",
+        "title": "费用项目名称",
+        "width": 140
+      },
+      {
+        "label": "来往单位",
+        "prop": "demo1",
+        "dataKey": "demo1",
+        "key": "demo1",
+        "title": "来往单位",
+        "width": 150
+      },
+      {
+        "label": "费用量取值",
+        "prop": "demo2",
+        "dataKey": "demo2",
+        "key": "demo2",
+        "title": "费用量取值",
+        "width": 140
+      },
+      {
+        "label": "收支方向",
+        "prop": "demo3",
+        "dataKey": "demo3",
+        "key": "demo3",
+        "title": "收支方向",
+        "width": 150
+      },
+      {
+        "label": "费用数量",
+        "prop": "demo4",
+        "dataKey": "demo4",
+        "key": "demo4",
+        "title": "费用数量",
+        "width": 150
+      },
+      {
+        "label": "费用重量",
+        "prop": "demo5",
+        "dataKey": "demo5",
+        "key": "demo5",
+        "title": "费用重量",
+        "width": 150
+      },
+      {
+        "label": "费用单价",
+        "prop": "demo6",
+        "dataKey": "demo6",
+        "key": "demo6",
+        "title": "费用单价",
+        "width": 150
+      },
+      {
+        "label": "费用金额",
+        "prop": "demo7",
+        "dataKey": "demo7",
+        "key": "demo7",
+        "title": "费用金额",
+        "width": 150
+      },
+      {
+        "label": "车牌号",
+        "prop": "demo8",
+        "dataKey": "demo8",
+        "key": "demo8",
+        "title": "车牌号",
+        "width": 150
+      },
+      {
+        "label": "含税费用单价",
+        "prop": "demo9",
+        "dataKey": "demo9",
+        "key": "demo9",
+        "title": "含税费用单价",
+        "width": 140
+      },
+      {
+        "label": "不含税费用单价",
+        "prop": "demo10",
+        "dataKey": "demo10",
+        "key": "demo10",
+        "title": "不含税费用单价",
+        "width": 140
+      },
+      {
+        "label": "含税费用金额",
+        "prop": "demo11",
+        "dataKey": "demo11",
+        "key": "demo11",
+        "title": "含税费用金额",
+        "width": 140
+      },
+      {
+        "label": "税率",
+        "prop": "demo12",
+        "dataKey": "demo12",
+        "key": "demo12",
+        "title": "税率",
+        "width": 150
+      },
+      {
+        "label": "税额",
+        "prop": "demo13",
+        "dataKey": "demo13",
+        "key": "demo13",
+        "title": "税额",
+        "width": 150
+      },
+      {
+        "label": "不含税费用金额",
+        "prop": "demo14",
+        "dataKey": "demo14",
+        "key": "demo14",
+        "title": "不含税费用金额",
+        "width": 140
+      },
+      {
+        "label": "财务模式",
+        "prop": "demo15",
+        "dataKey": "demo15",
+        "key": "demo15",
+        "title": "财务模式",
+        "width": 150
+      },
+      {
+        "label": "重量单位",
+        "prop": "demo16",
+        "dataKey": "demo16",
+        "key": "demo16",
+        "title": "重量单位",
+        "width": 140
+      },
+      {
+        "label": "数量单位",
+        "prop": "demo17",
+        "dataKey": "demo17",
+        "key": "demo17",
+        "title": "数量单位",
+        "width": 150
+      },
+      {
+        "label": "计价单位",
+        "prop": "demo18",
+        "dataKey": "demo18",
+        "key": "demo18",
+        "title": "计价单位",
+        "width": 140
+      },
+      {
+        "label": "备注",
+        "prop": "demo19",
+        "dataKey": "demo19",
+        "key": "demo19",
+        "title": "备注",
+        "width": 150
+      },
+      {
+        "label": "费用日期",
+        "prop": "demo20",
+        "dataKey": "demo20",
+        "key": "demo20",
+        "title": "费用日期",
+        "width": 140
+      }
+    ],
+    "formData": [],
+    "formValues": {}
+  }
+}
